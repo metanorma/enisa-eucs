@@ -1,0 +1,256 @@
+
+
+[[sec_2]]
+== SUBJECT MATTER AND SCOPE
+
+.Foreword for Reviewers
+____
+
+<<sec_2;to!sec_23>> follow the same structure. Each one of them provides
+content related to one of the points raised in Article 54(1). There
+are 22 such points, numbered (a) to (v), so there are 22 chapters.
+
+Every chapter contains the following sections:
+
+* An excerpt from Article 54 defining the topic to be addressed in
+the chapter.
+
+* A proposed text, which is the proposed content for the scheme. This
+content defines scheme rules and requirements, and makes extensive
+use of "shall" to express a requirement, and "may" to express an option.
+
+* A rationale, starting when available by relevant excerpts from the
+EU Cybersecurity Act, and providing additional information, reasons
+for making the choices in the proposed text, and any other additional
+information deemed necessary.
+
+When reviewing these chapters, the proposed text is the essential
+part for the review, but comments are also welcome on the rationale,
+in particular to indicate a potential lack of justification of a given
+point.
+
+As a rule of thumb, the chapters that do not include a dedicated foreword
+are typically chapters that are (1) derived from earlier work, typically
+principles decided early in the spring, or (2) adapted from the EUCC
+scheme, with some initial review by a few AHWG members. In other cases,
+the foreword will provide additional information.
+____
+
+.ARTICLE 54 REFERENCE
+____
+Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:
+
+[loweralpha]
+. the subject matter and scope of the certification scheme, including
+the type or categories of ICT products, ICT services and ICT processes
+covered;
+
+The rest of Article 54 also provides useful information:
+
+[start=2]
+. The specified requirements of the European cybersecurity certification
+scheme shall be consistent with any applicable legal requirements,
+in particular requirements emanating from harmonised Union law.
+
+. Where a specific Union legal act so provides, a certificate or an
+EU statement of conformity issued under a European cybersecurity certification
+scheme may be used to demonstrate the presumption of conformity with
+requirements of that legal act.
+
+. In the absence of harmonised Union law, Member State law may also
+provide that a European cybersecurity certification scheme may be
+used for establishing the presumption of conformity with legal requirements.
+____
+
+The European cybersecurity certification scheme for cloud services,
+hereinafter referred to as the EUCS scheme, shall allow for the cybersecurity
+certification of cloud services according to the criteria and methods
+defined in <<sec_8>> below.
+
+The EUCS scheme may cover any type of ICT service, provided that:
+
+* The ICT service implements one or more capabilities offered via
+cloud computing invoked using a defined interface <<ISO17788>>.
+
+* The ICT service aims at reaching the assurance level corresponding
+to one of the three levels 'basic', 'substantial' and 'high' of the
+EUCSA as defined in the EUCS scheme
+
+ICT services matching these criteria will from now be referred to
+as "cloud services". The EUCS scheme may apply to all cloud services,
+following some principles:
+
+* The EUCS scheme distinguishes between different categories of cloud
+services by relying on the cloud capabilities types (infrastructure,
+platform, application);
+
+* The EUCS scheme aims at establishing the conformity of cloud services
+to a set of requirements corresponding to one of the assurance levels
+defined in the EUCS scheme;
+
+* The EUCS scheme aims at making geographical and legal information
+about the cloud services available and understandable to all users
+of the scheme to allow to use them as needed.
+
+* The EUCS scheme acknowledges that the responsibility for the security
+of a cloud service is split between the Cloud Service Provider (CSP)
+and the Cloud Service Customer (CSC), and aims at verifying that this
+split of responsibility is explicitly and publicly documented by the
+CSP.
+
+* The EUCS scheme aims at providing sufficient information for making
+informed security decisions on cloud services to prospects and customers
+with adequate cybersecurity knowledge, allowing them to fully understand
+and implement the documentation that defines their responsibility.
+
+Finally, in the evaluation of a cloud service, the EUCS scheme shall
+support and encourage the reuse of conclusions and evidence from already
+audited or certified ICT products, ICT processes, and ICT services,
+in particular those cloud services that have been certified with the
+EUCS scheme:
+
+* The scheme includes an assessment of the dependencies, in which
+the assurance information available from subservice organizations
+is considered and compared to the requirements of the scheme, in particular
+regarding the required level of assurance (see <<annex_b>>).
+
+* When a certified composite cloud service relies on a base cloud
+service certified with the EUCS scheme, the EUCS scheme shall aim
+at verifying that the recommendations defined in the base cloud service
+are adequately applied by the composite cloud service, and included
+into the recommendations defined for that composite cloud service
+(see <<sec_24.4>>).
+
+The EUCS scheme also covers additional elements as foreseen by Article
+54 of the CSA, under the conditions defined by <<sec_24>>:
+
+* The definition of Security Profiles;
+
+* The handling of force majeure cases;
+
+* Rules for the protection of information related to cybersecurity
+certification;
+
+.RATIONALE
+____
+
+Additional information In the request to prepare the scheme, the Commission
+asks ENISA to "... prepare a candidate European cybersecurity certification
+scheme for cloud services." In addition, the request is justified
+by the need to "stimulate cloud uptake in Europe" as "cloud computing
+is an underlying technology for any development in technological fields."
+____
+
+The core definitions come from ISO/IEC17888. The definition of cloud
+computing and cloud service as provided in ISO/IEC17888 suit well
+the objectives of the EUCS scheme, which aims at being a horizontal
+scheme for a wide range of cloud services. The definition of a cloud
+service is very generic, as long as it is based on cloud computing,
+which is defined in ISO/IEC17888 with all the classical properties
+(scalability, elasticity, shareable resources, self-service and on-demand).
+
+The notion of capability and capability type is central and also defined
+in ISO/IEC 17788:
+
+____
+
+3.2.4 *cloud capabilities type*: Classification of the functionality
+provided by a cloud service (3.2.8) to the cloud service customer
+(3.2.11), based on resources used.
+
+NOTE: The cloud capabilities types are application capabilities type
+(3.2.1), infrastructure capabilities type (3.2.25) and platform capabilities
+type (3.2.31).
+
+3.2.1 *application capabilities type*: Cloud capabilities type (3.2.4)
+in which the cloud service customer (3.2.11) can use the cloud service
+provider's (3.2.15) applications.
+
+3.2.25 *infrastructure capabilities type*: Cloud capabilities type
+(3.2.4) in which the cloud service customer (3.2.11) can provision
+and use processing, storage or networking resources.
+
+3.2.31 *platform capabilities type*: Cloud capabilities type (3.2.4)
+in which the cloud service customer (3.2.11) can deploy, manage and
+run customer-created or customer-acquired applications using one or
+more programming languages and one or more execution environments
+supported by the cloud service provider (3.2.15).
+____
+
+Capabilities provide a more precise framework than the classical categories
+(IaaS, PaaS, SaaS, XXaaS, etc.), allowing a cloud service to precisely
+define the capabilities that it provides to its customers (e.g., a
+SaaS service may simply provide application capabilities on top of
+an already certified infrastructure and platform, or it may provide
+infrastructure, platform and application capabilities if the CSP uses
+a cloud computing system built from the ground up.
+
+There are other ways to categorize cloud services, such as the deployment
+models. ISO/IEC 17788 defines four deployment models, depending on
+the control and sharing of physical or virtual resources: community
+cloud, private cloud, public cloud, and hybrid cloud.
+
+For the purpose of the EUCS scheme, we did not identify any specific
+need to focus on deployment models in addition to cloud capabilities
+types to categorize cloud services. Nevertheless, although deployment
+models are not mentioned in the scheme, it does not mean that deployment
+models can be fully ignored in the evaluation of a cloud service,
+as the evidence to be provided may differ for some controls or requirements.
+
+About scoping, the most important characteristic of the EUCS scheme
+is that it is intended to be a horizontal scheme, applying the same
+criteria to all cloud services, with three levels of assurance. These
+criteria apply to the design and implementation of the cloud service,
+including its security features and the essential processes used throughout
+its lifecycle, in particular for development, deployment and operation.
+
+The EUCS scheme includes a security profile mechanism that allows
+industries or verticals to define dedicated requirements, but individual
+cloud service providers are not allowed to remove from or add to the
+security requirements defined in the EUCS scheme.
+
+In addition, the EUCS scheme does not aim at verifying the compliance
+of a cloud service to any regulation beyond the EUCSA, and in particular
+it does not aim at verifying compliance with GDPR footnote:[Regulation
+(EU) 2016/679 of the European Parliament and of the Council of 27
+April 2016 on the protection of natural persons with regard to the
+processing of personal data and on the free movement of such data,
+and repealing Directive 95/46/EC (General Data Protection Regulation)].
+Such compliance will have to be verified using a dedicated certification
+scheme, and results obtained in the EUCS scheme may be reused in such
+schemes.
+
+Finally, the EUCS scheme is a technical tool designed to provide information
+to customers and allow them to make informed decisions. As such, the
+EUCS scheme does not enforce any restrictions on geographical location
+of data or processing, or on applicable laws; however, it requires
+the CSP to be transparent about this information, and to make it publicly
+available and understandable as part of the information provided with
+the certificate.
+
+The EUCS scheme recognizes that cloud services are based on complex
+systems, and that many CSPs will use subservices provided by subservices
+organizations. Beyond typical security controls on the control and
+monitoring of suppliers and service providers, the assessment methods
+therefore include at all levels an assessment of the assurance documentation
+provided by subservice providers with regards to the requirements
+of the EUCS scheme.
+
+The EUCS scheme also defines requirements for composition. When a
+cloud service uses a subservice that has been previously certified
+in the EUCS scheme, it should be easy to reuse the results from that
+certification. The requirements related to composition defined in
+the EUCS scheme apply to both the base cloud service and to the dependent
+cloud service.
+
+Another important aspect of certification is related to the split
+of responsibility between the CSP and the CSC (Customer). The fulfilment
+of the requirements by the CSP's cloud services is evaluated under
+the assumption that the CSC follows the recommendations provided by
+the CSP in the cloud service's documentation.
+
+In terms of certification, when a cloud service A relies on another
+certified cloud service B, it needs to follow the security recommendations
+provided by cloud service B, or when necessary, to "forward" the recommendations
+to its own end users.

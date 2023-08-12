@@ -1,0 +1,171 @@
+
+
+
+[[sec_9]]
+== NECESSARY INFORMATION FOR CERTIFICATION
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(h) where applicable, the information which is necessary for certification
+and which is to be supplied or otherwise be made available to the
+conformity assessment bodies by an applicant;
+____
+
+When a CSP wishes to get a cloud service certified in the EUCS scheme,
+or to maintain the certification of an already certified cloud service,
+the CSP shall submit an application document, following the template
+defined in <<annex_f>>, completed with all required information, which
+depends in part on the reason that triggered the conformity assessment.
+
+During the evaluation, the CSP shall submit all the information needed
+to demonstrate that the implementation of their cloud service meets
+the security requirements defined in <<annex_a>> for the targeted
+assurance level, including but not limited to:
+
+* policies and procedures defined at the organization level and that
+apply to the design and operation of the cloud services under evaluation;
+
+* policies and procedures that are specific to the design and operation
+of the cloud services under evaluation;
+
+* documentation related to the cloud services under evaluation, including
+design documentation, and if required, test documentation, implementation
+details;
+
+* if required, records that can be used as evidence that the above-mentioned
+policies and procedures are being followed;
+
+* if subservice organizations are used, records and documents that
+can provide assurance that the subservice organizations satisfy the
+requirements of the scheme that they are responsible for;
+
+* where explicitly stated, specific documents and records required
+by the CAB to assess the fulfilment of requirements pertaining to
+specific security controls.
+
+The information to be provided also depends on the assurance level
+required for the certification, as defined in <<sec_5>>. The information
+shall be provided following the assessment processes defined in <<annex_b>>,
+<<annex_c>> and <<annex_d>>.
+
+In the context of the conformity assessment, the CSP shall grant the
+CAB:
+
+* access to all information, such as records and documentation, including
+service level agreements, of which management is aware that is relevant
+to the cloud service;
+
+* access to additional information that the CAB may request from management
+for the purpose of the evaluation;
+
+* unrestricted access to personnel within the Service Organization
+from whom the CAB determines it may be necessary to obtain evidence
+relevant to the evaluation;
+
+All records and documentation supporting the conformity assessment
+shall be appropriately archived by the CSP and/or the CAB, as defined
+in <<sec_15>> and <<sec_18>>.
+
+As part of a new certification, it shall be possible to reuse evaluation
+results from another ICT certification or assessment. The applicant
+may therefore make available to the CAB previous evaluation results
+to be re-used as evidence. The CAB shall reuse such results for its
+tasks only when the provided evidence conforms to the requirements
+for such evidence, the evidence has been evaluated following a methodology
+recognized by the scheme, and the authenticity of the evidence can
+be confirmed.
+
+In addition, the CSP shall submit to the CAB the link to the supplementary
+cybersecurity information required by Article 55 of the EUCSA, in
+accordance to the rules defined in <<sec_23>>.
+
+Security requirements are defined in <<annex_a>> related to the availability
+and content of this supplementary information, to be fulfilled by
+certified cloud services at all assurance levels
+
+Additional information may be required when the conformity assessment
+is performed as a consequence of the vulnerability management process
+defined in <<sec_14>>, or of the nonconformity management process
+defined in <<sec_13>>, to ensure that the vulnerability or nonconformity
+has been properly handled.
+
+An important part of the information provided by the CSP is the description
+of its cloud service, which shall follow the principles below:
+
+* The description shall provide the information that is likely to
+be relevant from a CAB's perspective to understand the cloud service
+and associated controls to meet the applicable EUCS requirements as
+defined in <<annex_a>>. Other aspects of the cloud service do not
+need to be covered in the provided information.
+
+* If the CSP uses subservice organizations in the provision of the
+cloud service, the description shall indicate that complementary subservice
+organization controls that are suitably designed and operating effectively
+are necessary, along with the CSP's own controls, to meet certain
+of the EUCS requirements. The information shall include a presentation
+of applicable EUCS requirements, with the CSP's controls, the types
+of complementary subservice organization controls assumed in the design
+of the CSP's controls, and pointers to assurance documentation where
+evidence can be found that the subservice organization satisfies these
+complementary subservice organization controls with an level assurance
+suitable for the targeted level of assurance. The assurance documentation
+referred to in that presentation shall be included in the information
+provided to the CAB.
+
+* The description shall indicate that Complementary Customer Controls
+that are suitably designed and are operating effectively are necessary,
+along with the CSP's controls, to meet some of the applicable EUCS
+requirements. The description shall present the applicable EUCS requirements,
+the CSP's controls and the Complementary Customer Controls assumed
+in the design of the CSP's controls.
+
+General rules regarding the protection of the information provided
+by an applicant shall comply with the requirements established under
+<<sec_24>>.
+
+=== RATIONALE
+
+The information to be provided by the CSP is mostly guided by the
+requirements defined in the security controls in <<annex_a>>. The
+present chapter only defines the main principles, which grants the
+CAB both necessary and limited access to:
+
+* all pertinent documents, including policies and procedures, as well
+as records, logs, and other documents that can attest that the procedures
+and policies are being applied appropriately;
+
+* interactions with employees, including individual interviews and
+group meetings, to gather information on the application of procedures,
+or to provide explanations pertaining to the definition and implementation
+of security controls;
+
+* interactions with the CSP systems, in particular to verify that
+technical security controls are properly implemented, which may either
+be performed directly by an auditor, or performed by a CSP employee
+in front of an auditor.
+
+There may be some restrictions in the availability of the information,
+in particular related to the confidential nature of the information,
+so some information may only be available to the CAB for a limited
+time, and only on the premises of the CSP. Such limitations should
+be considered in the contractual agreement between the CAB and the
+CSP, to ensure that they are acceptable to the CAB and that possible
+additional costs are covered by the CSP.
+
+In addition to the information related to the requirements, the CSP
+needs to provide other information to the CAB for evaluation:
+
+* the supplementary cybersecurity information required by Article
+55 of the EUCSA;
+
+* any relevant information pertaining to a vulnerability or nonconformity
+that has triggered the conformity assessment.
+
+This provision has been added in the case where the CAB would need
+specific information related to an issue or to the supplementary cybersecurity
+information that has not been explicitly planned in the security controls'
+requirements.
+

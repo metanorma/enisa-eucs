@@ -1,0 +1,91 @@
+
+
+[[sec_6]]
+== SELF-ASSESSMENT
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(e) an indication of whether conformity self-assessment is permitted
+under the scheme;
+____
+
+EU statements of conformity shall not be issued by CSPs in the EUCS
+scheme.
+
+.RATIONALE
+____
+
+*Additional input*
+
+In addition, Article 53, provides further information on conformity
+self-assessment, and in particular:
+
+1. A European cybersecurity certification scheme may allow for the
+conformity self-assessment under the sole responsibility of the manufacturer
+or provider of ICT products, ICT services or ICT processes. Conformity
+self-assessment shall be permitted only in relation to ICT products,
+ICT services and ICT processes that present a low risk corresponding
+to assurance level 'basic'.
+
+2. The manufacturer or provider of ICT products, ICT services or ICT
+processes may issue an EU statement of conformity stating that the
+fulfilment of the requirements set out in the scheme has been demonstrated.
+By issuing such a statement, the manufacturer or provider of ICT products,
+ICT services or ICT processes shall assume responsibility for the
+compliance of the ICT product, ICT service or ICT process with the
+requirements set out in that scheme.
+
+Recitals also provide additional information:
+
+(78) European cybersecurity certification schemes could provide for
+a conformity assessment to be carried out under the sole responsibility
+of the manufacturer or provider of ICT products, ICT services or ICT
+processes ('conformity self-assessment'). In such cases, it should
+be sufficient that the manufacturer or provider of ICT products, ICT
+services or ICT processes itself carry out all of the checks to ensure
+that the ICT products, ICT services or ICT processes conform with
+the European cybersecurity certification scheme. Conformity self-assessment
+should be considered to be appropriate for low complexity ICT products,
+ICT services or ICT processes that present a low risk to the public,
+such as simple design and production mechanisms. Moreover, conformity
+self-assessment should be permitted for ICT products, ICT services
+or ICT processes only where they correspond to assurance level 'basic'.
+
+
+(79) European cybersecurity certification schemes could allow for
+both conformity self-assessments and certifications of ICT products,
+ICT services or ICT processes. In such a case, the scheme should provide
+for clear and understandable means for consumers or other users to
+differentiate between ICT products, ICT services or ICT processes
+with regard to which the manufacturer or provider of ICT products,
+ICT services or ICT processes is responsible for the assessment, and
+ICT products, ICT services or ICT processes that are certified by
+a third party.
+____
+
+The issuance of EU statements of conformity by cloud service providers
+could only have been allowed for all cloud services that present a
+low risk (Article 53(1)), i.e., to a subset of the cloud services
+that could be certified at level Basic.
+
+The ad hoc Working Group consistently expressed that self-assessment
+was not suitable for cloud services, even at level Basic and even
+on a strictly defined subset of services. In addition, there are many
+elements in the scheme, including the definition of the security objectives
+and requirements, that are entirely new. Rather than allowing CSPs
+to interpret these security requirements, it is preferable to only
+allow accredited CABs to use the scheme, making it easier to bring
+the various elements of the scheme to a higher level of maturity in
+a consistent way, and to control their usage in the meantime through
+guidance and guidelines for CABs.
+
+Although divergent opinions have been expressed, in particular in
+the surveys performed over the summer, we have decided to not allow
+the issuance of EU statements of conformity in the initial version
+of this scheme, as there are enough challenges to be met in that first
+version.
+
+This decision may be reconsidered in future releases of the scheme.

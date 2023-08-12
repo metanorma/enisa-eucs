@@ -1,0 +1,108 @@
+
+
+
+[[sec_10]]
+== MARKS AND LABELS
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(i) where the scheme provides for marks or labels, the conditions
+under which such marks or labels may be used;
+____
+
+The European Cybersecurity Certification Framework may provide for
+a label and associated mark.
+
+When available, such a label shall be specifically implemented for
+this scheme, in order to allow its application on each certificate,
+certified cloud service and related documentation. The labels used
+on the cloud service and related documentation shall contain exactly
+the same information as the label included on the certificate, and
+follow all the guidelines provided with the label and associated mark
+defined for the European Cybersecurity Certification Framework.
+
+A label and associated mark shall only be used when the certificate
+is awarded and until its expiration, and in association with the certified
+cloud service: the non-respect of this condition shall be considered
+as an irregularity, as defined by <<sec_11>>.
+
+Without prejudice to the rules for monitoring compliance as described
+under <<sec_11>>, depending on the circumstances, the nature and impact
+of the non-respect, wrong use, misuse, abuse of the mark and or label
+may have other legal implications in the field of IP right protection,
+possible criminal allegations (e.g. fraud, deceit), market surveillance
+regulations related to consumer protection (e.g. misleading and or
+unlawful comparative advertising of cloud services). These legal implications
+are outside the scope of this EUCS scheme.
+
+=== RATIONALE
+
+A label and associated mark, established for the European Cybersecurity
+Certification Framework and specifically implemented for this scheme,
+will allow to:
+
+* highlight that the cloud service has been certified in the European
+Union and to provide immediate information regarding the certificate
+by referring to the framework (ECCF), the evaluation scheme and the
+assurance level;
+
+* make the certification easily recognizable as both the label and
+the associated mark may be used in the cloud service's web site and
+printed on technical documents and on leaflets used for marketing
+purposes;
+
+* provide a direct link (in the form of a QR code) to the ENISA website
+(as per Article 50) - where all the information regarding the certificate
+are disclosed, including the current status of the certificate.
+
+[[fig1]]
+.Demo label for the EUCS scheme
+image::figure1.png[]
+
+The "demo label", shows the basic information that the label associated
+with the scheme may contain:
+
+* logo of the ECCF (to be registered, regulated and protected by the
+entity in charge of the enforcement of the labelling framework);
+
+* logo of the EUCS (to be registered, regulated and protected by the
+entity in charge of the enforcement of the labelling framework);
+
+* QR code pointing to the web portal of ENISA - as per the Article
+50 of the CSA &#8211; and to the page where the effective status of
+the certificate of the cloud service and the information regarding
+its lifecycle can be retrieved;
+
+* CSA assurance level (with the introduction of a specific colour
+identifying each level);
+
+* specific EUCS assurance level;
+
+* the sentence "Certified in the European Union", together with the
+flag of the EU.
+
+The introduction of the QR code will imply, as defined by <<sec_20>>,
+a procedure for the release of the QR code.
+
+The demo label only contains summary information. In particular, it
+does not contain any reference to a date or to an issuing CAB. The
+use of the label therefore needs to be be strictly controlled to ensure
+that:
+
+* The label is only used in direct relationship with a certified cloud
+service;
+
+* The label is only used when the corresponding certificate is valid
+(i.e. after issuance, before withdrawal or expiration);
+
+* The assurance levels and logos mentioned on the label are the appropriate
+ones for the particular cloud service; and
+
+* The label is only used with the QR-code obtained through the procedure
+defined in <<sec_20>>, which points to ENISA's Web site.
+
+Compliance monitoring is in charge of ensuring that CSPs comply to
+these requirements.

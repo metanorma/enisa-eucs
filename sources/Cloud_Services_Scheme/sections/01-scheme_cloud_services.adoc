@@ -1,0 +1,317 @@
+
+[[sec_1]]
+== A SCHEME FOR CLOUD SERVICES
+
+.Foreword for Reviewers
+____
+This present version of the European Union Cybersecurity Certification
+Scheme for Cloud Services (EUCS) is a draft version, to be used as
+basis for an External Review.
+
+The objective of this review is to validate the principles and general
+organization of the proposed scheme, and to gather feedback on the
+proposed wording of the sections and annexes.
+
+A foreword like this one is included at the beginning of Chapters
+and Annexes for which a specific comment is required. In particular,
+the foreword will mention the level of maturity of the section or
+annex, and in some cases issues that remain under discussion.
+
+The terminology is not final only defines essential words, and it
+is complemented by the terminology defined in <<annex_i>>.
+____
+
+[[sec_1.1]]
+=== INTRODUCTION
+
+Following the request from the European Commission in accordance with
+Article 48.2 of the Cybersecurity Act footnote:[REGULATION (EU) 2019/881
+OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 17 April 2019 on
+ENISA (the European Union Agency for Cybersecurity) and on information
+and communications technology cybersecurity certification and repealing
+Regulation (EU) No 526/2013 (Cybersecurity Act).] (hereinafter referred
+to as EUCSA as indicated in the glossary), ENISA has set up an Ad
+Hoc Working Group (AHWG) to support the preparation of a candidate
+EU cybersecurity certification scheme on cloud services.
+
+Based on the outcomes from this AHWG, launched on March 5th, 2020
+and composed of twenty (20) selected members representing industry
+(e.g., cloud service providers, cloud service customers, conformity
+assessment bodies), as well as around twelve (12) participants from
+accreditation bodies and EU Member States, regular exchanges with
+the ECCG and after an internal review, ENISA has consolidated the
+following candidate scheme.
+
+The candidate EUCS scheme (European Cybersecurity Certification Scheme
+for Cloud Services), looks into the certification of the cybersecurity
+of cloud services. The scheme draws from many different sources, the
+first one being the report of the CSP-CERT Working Group, which was
+delivered in 2019 and provided a basic framework on which the candidate
+scheme has been developed.
+
+EUCS supports the three assurance levels in the EUCSA: 'basic', 'substantial'
+and 'high'. The security requirements on cloud services and on their
+assessment increase with levels in several dimensions: scope, rigour
+and depth. The requirements at level 'high' are demanding and close
+to the state-of-the-art, whereas the requirements at level 'basic'
+define a minimum acceptable baseline for cloud cybersecurity. That
+baseline is nevertheless comprehensive, as it covers all major aspects
+of cloud security. Cloud service providers of any size can use it
+to demonstrate that they have set up a framework for guaranteeing
+some security of their customers. The 'substantial' level, in between,
+will serve to protect business, and may be the level of choice for
+many applicants and their users.
+
+The candidate scheme targets a specific category of ICT services,
+so it is naturally based on the ISO/IEC 17065 standard in terms of
+applicable requirements to CABs performing certification. There are
+two main standards suitable for the assessment of the cybersecurity
+of cloud services, respectively based on the ISO27000 series of standards
+and on the International Auditing Standards. The scheme defines an
+assessment approach that is compatible with both approaches, allowing
+cloud service providers to easily integrate the scheme into their
+current certification and assurance strategy.
+
+The candidate scheme also defines a simplified assessment methodology
+for the EUCSA assurance level 'basic'. The methodology is based on
+a self-assessment performed by the cloud service provider, whose results
+are then audited by a conformity assessment body. The candidate scheme
+does not however allow cloud service providers to issue EU statements
+of conformity.
+
+The security requirements defined in the scheme draw significantly
+from the German C5 scheme, but they also draw some inspiration from
+the French SecNumCloud scheme, from the proposals in the CSP-CERT
+report, and from principles in other schemes used in Europe.
+
+Finally, the EUCS scheme is not a standalone scheme; it is part of
+the European cybersecurity certification framework. Although it is
+very different from the first scheme in the framework, EUCC, which
+focuses on ICT products, there are commonalities, for instance around
+the organization of compliance monitoring and peer assessments. The
+EUCS scheme leverages some principles that were first defined in the
+EUCC scheme, and follows the same general presentation, with 22 chapters
+that provide answers to the requirements stated in Article 54.1 of
+the EUCSA, followed by annexes that define in greater details the
+content of the scheme.
+
+Guidance will also be key to support the adoption of the scheme by
+providing harmonised interpretation or refinement of requirements
+established into the candidate EUCS scheme, and the text indicates
+explicitly where guidance will be most required.
+
+[[sec_1.2]]
+=== GLOSSARY
+
+The first sections outline the most important terminology drawn from
+existing standards, including ISO/IEC 17788, ISO/IEC 27000 and ISO/IEC
+17000.
+
+[[sec_1.2.1]]
+==== From ISO/IEC 17788
+
+We will reuse the following terminology from ISO/IEC 17788:
+
+[cols="3",options="unnumbered"]
+|===
+h| Term h| Abbreviations h| Definition
+
+| Application capabilities type
+|
+| Cloud capabilities type in which the cloud service customer can
+use the cloud service provider's applications
+
+| Cloud capabilities type
+|
+| Classification of the functionality provided by a *cloud service*
+to the *cloud service customer*, based on resources used.
+
+| Cloud computing
+|
+| Paradigm for enabling network access to a scalable and elastic pool
+of shareable physical or virtual resources with self-service provisioning
+and administration on-demand.
+
+| Cloud service
+|
+| One or more capabilities offered via *cloud computing* invoked using
+a defined interface.
+
+| Cloud service customer
+| CSC
+| *_Party_* which is in a business relationship for the purpose of
+using *cloud services*.
+
+| Cloud service customer data
+| 
+| Class of data objects under the control, by legal or other reasons,
+of the *cloud service customer* that were input to the *cloud service*,
+or resulted from exercising the capabilities of the *cloud service*
+by or on behalf of the *cloud service customer* via the published
+interface of the *cloud service*.
+
+NOTE: An example of legal controls is copyright.
+
+NOTE: It may be that the cloud service contains or operates on data
+that is not cloud service customer data; this might be data made available
+by the cloud service providers, or obtained from another source, or
+it might be publicly available data. However, any output data produced
+by the actions of the cloud service customer using the capabilities
+of the cloud service on this data is likely to be cloud service customer
+data, following the general principles of copyright, unless there
+are specific provisions in the cloud service agreement to the contrary.
+
+| Cloud service derived data
+|
+| Class of data objects under *cloud service provider* control that
+are derived as a result of interaction with the *cloud service* by
+the *cloud service customer*.
+
+NOTE: Cloud service derived data includes log data containing records
+of who used the service, at what times, which functions, types of
+data involved and so on. It can also include information about the
+numbers of authorized users and their identities. It can also include
+any configuration or customization data, where the cloud service has
+such configuration and customization capabilities.
+
+| Cloud service provider
+| CSP
+| *_Party_* which makes *cloud services* available
+
+| Cloud service provider data
+|
+| Class of data objects, specific to the operation of the *cloud service*,
+under the control of the *cloud service provider*
+
+NOTE: Cloud service provider data includes but is not limited to resource
+configuration and utilization information, cloud service specific
+virtual machine, storage and network resource allocations, overall
+data centre configuration and utilization, physical and virtual resource
+failure rates, operational costs and so on.
+
+| Cloud service user
+| User
+| Natural person, or entity acting on their behalf, associated with
+a *cloud service customer* that uses cloud services.
+
+NOTE: Examples of such entities include devices and applications.
+
+| Infrastructure capabilities type
+|
+| *Cloud capabilities type* in which the *cloud service customer*
+can provision and use processing, storage or networking resources
+
+| multi-tenancy
+|
+| Allocation of physical or virtual resources such that multiple *tenants*
+and their computations and data are isolated from and inaccessible
+to one another.
+
+| on-demand self-service
+|
+| Feature where a *cloud service customer* can provision computing
+capabilities, as needed, automatically or with minimal interaction
+with the *cloud service provider*.
+
+| Platform capabilities type
+|
+| *Cloud capabilities type* in which the *cloud service customer*
+can deploy, manage and run customer-created or customer-acquired applications
+using one or more programming languages and one or more execution
+environments supported by the *cloud service provider*.
+
+| tenant
+|
+| One or more *cloud service users* sharing access to a set of physical
+and virtual resources.
+
+|===
+
+We will in general not use the terminology from 17788 that is not
+included in the table above. More specifically, the following terminology
+should be avoided in the definition of the scheme:
+
+[cols="2",options="unnumbered"]
+|===
+h| Term h| Rationale
+| __XX__aaS
+| These "as a Service" correspond to the cloud service categories,
+which are too specific. *Cloud capabilities types* should be used
+instead in the scheme. In particular, IaaS, PaaS and SaaS should not
+be used.
+
+| Cloud service category
+| Cloud service categories are too specific and should not be used
+in the scheme, except when used in their specific meaning.
+
+| Cloud service partner
+| We have not identified a specific need for using the notion of cloud
+service partner, so it is recommended not to use it in the document.
+|===
+
+[[sec_1.2.2]]
+==== Specific terminology
+
+The following glossary defines some of the most commonly used terms
+and abbreviations in this document.
+
+[cols="1,^,1",options="unnumbered,header"]
+|===
+| Term | Abbreviation | Definition
+
+| Ad hoc working group
+| AHWG
+| The working group that supports ENISA in the definition of the certification
+scheme on cloud services
+
+| Conformance Assessment Body
+| CAB
+| An entity in charge of the certification of products, services,
+and processes, typically according to ISO17065.
+
+|
+| CSP-CERT
+| The Working Group on Certification for Cloud Service Providers,
+who produced a report in 2019 that provides a starting point for the
+development of the certification schemes for cloud services.
+
+| European Cybersecurity Certification group
+| ECCG
+| A group composed of representatives of national cybersecurity certification
+authorities or other relevant national authorities (EUCSA, Article
+62)
+
+|
+| EUCC
+| The candidate European cybersecurity certification scheme to serve
+as a successor to the existing SOG-IS
+
+|
+| EUCS
+| The present candidate European cybersecurity certification scheme
+for cloud services
+
+| Cybersecurity Act
+| EUCSA
+| Regulation (EU) 2019/881 of the European Parliament and of the Council
+of 17 April 2019 on ENISA (the European Union Agency for Cybersecurity)
+and on information and communications technology cybersecurity certification
+and repealing Regulation (EU) No 526/2013
+
+| National Cybersecurity Certification Authority
+| NCCA
+| A national authority in every EU Member State that is in charge
+of the oversight of the certification framework in its country, and
+also in charge of issuing certificates at 'high' level in its own
+country.
+
+| Stakeholder Cybersecurity Certification Group
+| SCCG
+| Advisory group composed of members selected from among recognised
+experts representing the relevant stakeholders
+
+|===
+
+A far more complete terminology of certification and cloud-related
+terms is included in <<annex_i>>, which is used throughout this draft
+document

@@ -1,0 +1,89 @@
+
+
+[[sec_7]]
+== SPECIFIC REQUIREMENTS APPLICABLE TO A CAB
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(f) where applicable, specific or additional requirements to which
+conformity assessment bodies are subject in order to guarantee their
+technical competence to evaluate the cybersecurity requirements;
+____
+
+All CABs performing assessments in the context of the EUCS scheme
+will need to be accredited for <<ISO17065>>, complemented by the requirements
+defined for the EUCS scheme (see <<annex_e>>). The requirements will
+define several profiles corresponding to the various roles in the
+conformity assessments, in order to allow CABs that only perform a
+subset of the of the conformity assessment activities, in particular
+those that only perform evaluation activities.
+
+The technical competence requirements associated to accreditation
+are sufficient to perform conformity assessments at levels Basic and
+Substantial. However, advanced competences are required in order to
+perform a conformity assessment at level High. As a consequence, conformity
+assessment bodies shall be authorised by the national cybersecurity
+certification authority to carry out in the context of an evaluation
+at level High conformity assessment tasks related to highly technical
+topics including:
+
+* Penetration testing, including the design and performance of penetration
+tests and the analysis of penetration testing activities performed
+by a CSP or its contractors.
+
+* Analysis of development activities, and in particular the review
+of the design and implementation of security measures by the CSP.
+
+Further details are provided in <<annex_e>>.
+
+.RATIONALE
+____
+
+*Additional information from the EUCSA*
+
+Article 60 covers Conformity assessment bodies:
+
+1. The conformity assessment bodies shall be accredited by national
+accreditation bodies appointed pursuant to Regulation (EC) No 765/2008.
+Such accreditation shall be issued only where the conformity assessment
+body meets the requirements set out in the Annex to this Regulation.
+
+3. Where European cybersecurity certification schemes set out specific
+or additional requirements pursuant to point (f) of Article 54(1),
+only conformity assessment bodies that meet those requirements shall
+be authorised by the national cybersecurity certification authority
+to carry out tasks under such schemes.
+
+Article 58, about National Cybersecurity Certification Authorities,
+also covers that topic:
+
+7. National cybersecurity certification authorities shall:
+
+(c) without prejudice to Article 60(3), actively assist and support
+the national accreditation bodies in the monitoring and supervision
+of the activities of conformity assessment bodies, for the purposes
+of this Regulation;
+
+(e) where applicable, authorise conformity assessment bodies in accordance
+with Article 60(3) and restrict, suspend or withdraw existing authorisation
+where conformity assessment bodies infringe the requirements of this
+Regulation;
+
+The Annex to the Cybersecurity Act (Requirements to be met by Conformity
+Assessment Bodies) provides detailed information on the conditions
+to be met by all CABs. However, it does not include any reference
+to point (f) of Article 54 (1), so we don't reproduce it here.
+____
+
+The competence required for CABs are rather generic, since most of
+the controls are related to the processes used by the CSP. Nevertheless,
+some controls require competences, in particular at the highest levels
+of assurance.
+
+Pen testing and analysis of development activities are provided as
+examples, since those activities do require specific competencies,
+but the "including" formulation does not preclude the addition of
+further activities.

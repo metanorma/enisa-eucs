@@ -1,0 +1,278 @@
+
+
+[[sec_12]]
+== CERTIFICATE MANAGEMENT
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(k) where applicable, the conditions for issuing, maintaining, continuing
+and renewing the European cybersecurity certificates, as well as the
+conditions for extending or reducing the scope of certification;
+
+Article 56 on Cybersecurity Certification also covers this issue:
+
+9. A European cybersecurity certificate shall be issued for the period
+provided for in the European cybersecurity certification scheme and
+may be renewed, provided that the relevant requirements continue to
+be met.
+____
+
+[[fig2]]
+.Processes related to the issuance and maintenance of a certificate
+image::figure2.png[]
+
+The reference standard for these activities is ISO/IEC 17065 and in
+particular, its Clause 7.10, where 'changes affecting a certificate'
+are discussed.
+
+=== Conditions for issuing a certificate
+
+A CAB shall only issue a certificate when:
+
+* the applicant has committed to all obligations that need to be fulfilled
+under this scheme to obtain the certificate;
+
+* the evaluation of the cloud service is successful and in line with
+the evaluation requirements set in this scheme in <<annex_b>>, <<annex_c>>
+for the requested assurance level; and
+
+* the review of the evaluation results is successful and in line with
+the requirements of ISO/IEC 17065 and with the requirements set in
+this scheme in <<annex_b>> for the required assurance level.
+
+The review shall be performed independently of the evaluation, and
+it shall cover all reports provided during the evaluation to ensure
+that the conclusions are consistent with the evidence adduced and
+that the accepted evaluation criteria and evaluation methods have
+been correctly applied.
+
+The certificate shall be related to the version of the supplementary
+cybersecurity information produced by the vendor as specified in Article
+55 of the CSA.
+
+The CAB shall establish a period of validity for the certificate that
+shall not exceed the maximum period defined in <<sec_19>>.
+
+=== Conditions for maintaining a certificate
+
+During the validity period of the certificate, periodic reassessments
+are required to ensure that the CSP continues to fulfil the requirements
+set in this scheme. Such periodic reassessments shall not be separated
+by more than one year. This period may be reduced by the CAB if there
+are specific attention points that require an earlier reassessment.
+
+Maintenance activities shall be initiated upon the following conditions:
+
+* when the cloud service has been selected through the sampling rule
+installed for the general monitoring of certified cloud service, as
+defined by <<sec_11>> and <<annex_g>>;
+
+* following a confirmed nonconformity with security requirements,
+under the conditions defined in <<sec_13>>;
+
+* following an identified non-compliance with the accreditation requirements
+of the CAB, the CSA provisions, or the scheme requirements, that affects
+the certification.
+
+Maintenance activities may be initiated on the request of the owner
+of the certificate upon one of the following conditions:
+
+* a periodic reassessment is due to be performed;
+
+* a renewal assessment is required to extend the validity period of
+the certificate;
+
+* a change of the certified cloud service requires an update of the
+content of the certificate of the information published in compliance
+to Article 55(1);
+
+* a significant change occurs in the certified cloud service or in
+the design and implementation of the security measures that fulfil
+the requirements of this scheme.
+
+Depending on the nature of the previous conditions, and in accordance
+with the requirements established in <<sec_11>>, <<sec_13>> and <<sec_14>>,
+the maintenance activities shall be triggered at the discretion of
+the CSP, the CAB, or the NCCA. The National Accreditation Body may
+also trigger maintenance activities where a complaint has been issued.
+
+When the maintenance activities are initiated by the CSP, the request
+to the CAB shall be accompanied with an Impact Analysis report (IAR),
+in accordance with <<annex_g>>.
+
+In all other cases when the maintenance activities are initiated by
+any other party (CAB, NCCA, and any stakeholder acting as a sponsor
+of the associated maintenance activities), the request shall be supported
+by a maintenance rationale containing a description of the potential
+or actual non-conformity or the identified non-compliance stated and
+its potential impact on the certificate.
+
+Based on the IAR or the maintenance rationale and on the requirements
+defined in this scheme for re-assessment or renewal, the CAB shall
+validate whether some evaluation tasks are deemed necessary before
+its review and decision, and validate accordingly the scope of and
+the workload associated to these tasks. The CAB shall also validate
+the result of the necessary evaluation tasks once completed.
+
+Typical conformity assessment activities are defined in <<annex_g>>:
+
+* Periodic conformity assessment, including a partial re-assessment
+of the cloud service, to be performed at regular intervals, during
+the validity period of the certificate, as defined in <<sec_19>>.
+
+* Renewal conformity assessment, including a full re-assessment of
+the cloud service, to be performed before the expiration date of the
+certificate.
+
+* Restoration conformity assessment, following a request from a CSP
+to consider changes in the certified cloud services, or following
+a request from a CAB or from the NCCA related to a nonconformity (<<sec_13>>)
+or to a new vulnerability (<<sec_14>>).
+
+The CSP shall support footnote:[Where necessary, support shall imply
+financial support to described activities.] the CAB for the conformity
+assessment activities deemed necessary, unless otherwise specified
+in <<sec_13>>.
+
+Upon review and decision of the CAB, the maintenance activities shall
+result in one the following decisions:
+
+* continuing the certificate, corresponding to keeping the existing
+certificate alive, without change;
+
+* updating the certificate to reflect some changes in the certified
+cloud service, including an extension of its scope;
+
+* renewing the certificate with a new validity period and optionally
+some updates, corresponding to re-issuing the same certificate with
+a new validity period;
+
+* withdrawing the certificate, and issuing a certificate with either
+a reduced assurance level, or a reduced scope of the certificate to
+still meet the current assurance level, potentially with a new validity
+period;
+
+* suspending the certificate pending remedial action by the CSP;
+
+* withdrawing the certificate.
+
+Decisions shall be accompanied with a Maintenance Report issued by
+the CAB, in accordance with <<annex_g>>, and uniquely linked to the
+certificate; it shall motivate the decision and, where applicable,
+indicate any necessary change to the initial certificate.
+
+In the case no maintenance has been requested for a certificate that
+has reached its expiration date, in the case no maintenance has been
+requested when a periodic assessment is due, or more generally in
+the case a maintenance shall be initiated and no action was taken
+by any of the responsible parties in due time the certificate shall
+be suspended and the CSP notified of the non-compliance. If the CSP
+does not perform the maintenance in due time (as defined in <<sec_13>>),
+then the certificate shall be withdrawn.
+
+All withdrawn certificates shall be subject to archiving. Archiving
+shall consist of still providing access to the certificate and associated
+information, with the clear indication of its withdrawal, for instance
+that its expiration date has passed.
+
+The following table shall be considered by the CAB to support the
+appropriate decision on most frequent possible cases.
+
+[[table4]]
+.Nominal decisions associated with the maintenance of certificates
+[cols="2",options="header"]
+|===
+| Cases | Nominal decisions
+
+| The maintenance evaluation activities have been performed and reviewed,
+and have determined that the cloud service still fulfils the requirements
+without significant changes in the service
+| Continue the certificate until the next periodic assessment or until
+its expiration date
+
+| The maintenance evaluation activities have been performed and reviewed,
+and have determined that the cloud service still fulfils the requirements
+and the changes impact the security of users without any reduction
+in the scope of certification or assurance level
+| Update the certificate with the new information and continue the
+certificate until the next periodic assessment or until its expiration
+date
+
+| A renewal conformity assessment has been performed and reviewed,
+and have determined that the cloud service still fulfils the requirements,
+possibly with changes that impact the security of users without any
+reduction in the scope of certification or assurance level
+| Renew the certificate with a new expiration date and if required
+with the new information
+
+| The maintenance evaluation activities have been performed and reviewed,
+and have determined that the cloud service only fulfils the requirements
+after reducing the scope of certification or reducing the assurance
+level
+| Withdraw the certificate and issue a new certificate with the reduced
+scope or assurance level, possibly with a different expiration date
+
+| The maintenance evaluation activities have been performed and reviewed,
+have determined that the cloud service does not fulfil the requirements
+anymore, and action from the CSP is possible to maintain the certificate
+at the same assurance level and scope, though not immediately,or improper
+use of the certificate is not solved by suitable retractions and appropriate
+corrective actions by the CSP.
+| Suspend the certificate pending remedial action from the CSP
+
+| The maintenance evaluation activities have been performed and reviewed,
+and have determined that the cloud service does not fulfil the requirements
+anymore
+| Withdraw the certificate
+
+| The periodic assessment has not been performed in due time
+| Suspend the certificate pending remedial action from the CSP
+
+| Remediation action has not been performed in due time after suspension
+| Withdraw the certificate
+
+|===
+
+A certificate shall only remain in the 'suspended' status for a maximum
+duration of 3 months that may only be extended with the explicit and
+motivated approval of the NCCA. In case no action is taken by the
+vendor in due time the status of certificate shall be changed into
+'withdrawn' by the CAB.
+
+Any change of the status of a certificate shall be disclosed without
+undue delay according to the requirements of <<sec_20>>.
+
+=== RATIONALE
+
+Requirements have been established considering the requirements associated
+with ISO/IEC 17065, and ISO/IEC 17067, Conformity assessment - Fundamentals
+of product certification and guidelines for product certification
+schemes.
+
+The full life cycle of a certificate, starting from its issuance with
+a defined validity period till its due or potential expiration (by
+validity period or preliminary to this due to a selection under the
+sampling rules for the general monitoring of certificates, a potential
+or actual non-conformity with security requirements, or an identified
+non-compliance with the accreditation requirements of the CAB, the
+EUCSA provisions, or the scheme requirements) has been considered.
+
+One fundamental condition for issuing a certificate for the cloud
+service is successful evaluation, based on the present scheme. Other
+conditions stem from relevant provisions of the EUCSA, such as necessary
+authorizations for CAB based on Article 60.3 of the EUCSA which are
+external to the certification in its technical meaning, and may, if
+not fulfilled after certification, be considered as non-conformance
+cases.
+
+All other certification activities are related to the phase after
+the certificate is issued, where 'a change affecting certification'
+occurs as mentioned in ISO/IEC 17065. These activities are described
+as 'maintenance'. In that case, the CAB is obliged to act in response
+to a given trigger.
+
+Wording from ISO/IEC 17065 describing all relevant activities related
+to the certificate which has been issued applies (see Clause 7.10).

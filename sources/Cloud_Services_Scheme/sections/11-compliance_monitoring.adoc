@@ -1,0 +1,330 @@
+
+
+[[sec_11]]
+== COMPLIANCE MONITORING
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(j) rules for monitoring compliance of ICT products, ICT services
+and ICT processes with the requirements of the European cybersecurity
+certificates or the EU statements of conformity, including mechanisms
+to demonstrate continued compliance with the specified cybersecurity
+requirements;
+____
+
+Without prejudice to NCCA activities defined under Articles 58.7 and
+58.8 of the EUCSA, monitoring compliance of cloud services that have
+been issued European cybersecurity certificates shall demonstrate
+their continued compliance with the specified cybersecurity requirements.
+
+In particular, this monitoring shall allow where possible to avoid
+and where needed to detect the following general cases of non-compliance:
+
+* a non-compliance in the application by a CSP of the rules and obligations
+related to a certificate issued on their cloud services;
+
+* a non-compliance in the conditions under which the certification
+takes place and that are not related to the individual cloud service;
+
+* a nonconformity of a certified cloud service with the EUCS security
+requirements, which includes and is not limited to:
+** a change in the cloud service itself leading to a change of the
+cloud service's security posture;
+** a significant security incident that has affected the certified
+cloud service or has resulted in a data breach or loss of sensitive
+information;
+** a change in the threat environment after the issuance of the certificate,
+which has an adverse impact on the security of the certified cloud
+service;
+** a vulnerability identified and related to the certified cloud service,
+that has an adverse impact on the security of the certified cloud
+service.
+
+The general monitoring of the certified cloud services shall be based
+on sampling, using generic criteria such as cloud service capabilities,
+assurance level, CSP, CAB and any relevant information brought to
+the knowledge of the NCCA (e.g., complaints, security events). The
+NCCAs on their respective territories and in cooperation with other
+relevant market surveillance authorities, shall sample annually a
+minimum of 5% of the cloud services which have been the subject of
+a successful conformity assessment in the context of the EUCS scheme
+in the previous year and at least one cloud service per annum.
+
+The NCCA shall involve in the monitoring the CAB that has issued the
+certificate, and if necessary, its subcontractors. The monitoring
+shall consist in the re-assessment of the cloud service, together
+&#8211; when necessary &#8211; with an audit to confirm or disprove
+the above-mentioned relevant information brought to the knowledge
+of the NCCA. The re-assessments and audits procedures are defined
+in <<annex_g>>.
+
+Where a cloud service is selected the CSP shall be informed of the
+selection reasons.
+
+Re-assessments and audits shall be financially supported by the CSP.
+
+In addition to this general monitoring, the activities described hereinafter
+shall be undertaken.
+
+The following deviations and irregularities shall be considered as
+potential non-compliance elements in the application by a CSP of the
+rules and obligations related to a certificate issued on their cloud
+service:
+
+* any deviation from the requirements applicable to the information
+supplied or made available to a CAB, and that might be discovered
+after the emission of a certificate, such as:
+** a version of the information delivered that does not correspond
+to the version of the cloud service when it was certified;
+** self-established evidence that was not in-line with the reality
+of the cloud service;
+
+* any deviation from the requirements regarding the certificate content
+and the supplementary information as required by <<sec_9>>, <<sec_17>>,
+<<sec_18>>, and <<sec_23>>, including and not limited to:
+** deviation from referencing the proper cloud service identifiers;
+** misalignment of the description of the cloud service scope footnote:[e.g.,
+failure to describe some of the underlying capabilities that the service
+relies on.];
+** deviation from constraints of the certificate including those of
+<<sec_12>> footnote:[e.g., advertising a certified cloud service after
+the product certificate has expired.];
+** deviations from the conditions of use of the scheme's marks and
+labels as defined in <<sec_10>>;
+** undue modifications or alterations of the certificate document
+as defined in <<sec_17>>;
+** omission to declare alteration of supplementary information as
+defined by <<sec_18>>;
+
+* any deviation from the requirements on the certificate holder's
+obligations towards maintaining the certificate validity, such as:
+** failure to apply mandatory maintenance activities;
+** failure to implement and enforce mandatory processes as requested
+by the Terms and Conditions of a certificate and of the label;
+** deviations from the certified cloud service scope, including obligations
+from Article 56.8 of the EUCSA, including: undeclared modifications
+of the cloud service, its development and operating processes, the
+list of its dependencies footnote:[e.g., the introduction of new libraries
+or tools that may adversely impact security], or the list of utilized
+tools footnote:[e.g., a change in the tools in the development chain].
+
+Such non-compliance in the application by a CSP of the requirements
+related to a certificate issued on their cloud service shall be monitored
+by:
+
+. requiring any applicant to a certificate to commit to the CAB to
+a number of obligations, including but not limited to:
+** to transmit information to the CAB deemed reliable and that would
+not risk falsifying their judgment;
+** not to declare a cloud service as certified while the evaluation
+is still undergoing;
+** to declare a cloud service as certified only for the scope specified
+in the certificate;
+** to stop immediately the use of any advertisement mentioning the
+certification in the event of suspension or withdrawal of the certification;
+** to make sure that the cloud service operated with references to
+the issued certificate is the one which was the object of certification
+footnote:[At any time, the operated service must be the result of
+applying the processes described during the certification process
+to the service as it was certified.];
+** to commit to scrupulously respecting the rules of use of the label
+established for the scheme; and
+** to notify the CAB about significant changes in the certified cloud
+service, including but limited to changes of subservice organizations,
+changes in the supplementary information or in any documentation element
+that is provided with the certificate.
+
+. using the following available dispositive to track the non-respect
+of the previous obligations:
+** the activities of market surveillance established under Article
+58.7.(a) of the CSA, with a report to the CAB who issued the certificate;
+** the quality measures in place within the CAB, and the possibility
+to establish and handle complaints;
+
+. an assessment of the gravity of the irregularity by the CAB;
+
+. using the possibility of the dialog between the CAB and the CSP
+to try and solve minor issues, and of the provisions of <<sec_13>>
+where necessary.
+
+The NCCA shall be informed of the results of these activities.
+
+In addition to the activities of market surveillance, the NCCA may
+establish rules for a periodic dialog between the issuers of certificates
+and the certificates owners, as to formally check and report the respect
+of previously stated obligations.
+
+ENISA may provide for harmonisation into the EUCS scheme guidance
+on the commitments that may be part of an application request, with
+an indication of the associated gravity.
+
+The following deviations shall be considered as potential issues related
+to non-compliance in the conditions under which the certification
+takes place and that are not related to the individual cloud service:
+
+* failure to meet obligations regarding handling complaints towards
+maintaining the certificate validity, including:
+** obligations for auditing the scheme compliance of the CAB, its
+subcontractors and the certificate holders related to certificate
+use as implicitly required by Article 58.8.(b) of the EUCSA;
+** obligations for supervising and enforcing CAB's and certificate
+holder's scheme compliance as implicitly required by Art. 58.7.(a)
+of the EUCSA;
+** obligations for complaint handling as implicitly required by Art.
+58.7.(f);
+
+* deviations from evaluation requirements:
+** unjustified deviations from the evaluation methodology and applicable
+supporting documents described under <<sec_8>>;
+** deviations from expected evaluation competence, as described under
+<<sec_7>>.
+
+Such non-compliance in the conditions under which the certification
+takes place and that are not related to an individual cloud service
+shall:
+
+. be avoided where possible through:
+** the audits permitted through Article 58.8.(b) and (c) of the EUCSA;
+** the permanent monitoring of the CAB by their Accreditation bodies
+and of the CAB's subcontractors by the CAB and their Accreditation
+bodies, as requested by <<sec_7;and!sec_22>>;
+
+. be detected through:
+** the quality process of the CAB, including the report to the NCCA
+of the identified issue, and the requirement associated to their accreditation
+to handle complaints.
+
+The following shall be considered as potential issues of non-conformity
+of a certified cloud service with its security requirements:
+
+* a change in the cloud service itself leading to a change of the
+cloud service's security posture;
+
+* a significant security incident that has affected the certified
+cloud service or has resulted in a data breach or loss of sensitive
+information;
+
+* a change in the threat environment which has an adverse impact on
+the security of the certified cloud service;
+
+* a vulnerability identified and related to the certified cloud service,
+that has an adverse impact on the security of the certified cloud
+service.
+
+Such non-conformity of a certified cloud service with its security
+requirements shall be monitored under the following responsibilities:
+
+. CSPs shall:
+** inform the CAB of major changes in the certified cloud service
+or in its Information Security Management System that may have an
+impact on the statements included in the related certificate;
+** monitor any vulnerability that would be relevant to their cloud
+service, either published by or received from end users and security
+researchers as defined in Article 55.1.(c), or discovered by the CSP,
+and submit an impact analysis where necessary to their CAB;
+** monitor the known dependencies and vulnerabilities identified by
+any other source that may apply to the certified cloud service, and
+submit an impact analysis where necessary to their CAB;
+** inform the CAB of any security incident that they notify to regulatory
+authorities;
+** work in cooperation with the CAB and where necessary with the NCCA
+to support their monitoring activities;
+** such activities may be assessed within the certification process
+of the cloud service, through the controls defined in the Incident
+Management category;
+
+. CABs shall;
+** monitor any vulnerability from any source that would be relevant
+to their scope of evaluation and certification;
+** monitor the handling of incidents reported by CSPs; and
+** report to their NCCA any detected vulnerability affecting the conformity
+of a certified cloud service to the requirements related to the certification.
+
+Where deemed necessary by the CAB or at the discretion of the NCCA,
+a series of evaluation tasks may be requested to be performed with
+the support footnote:[Where necessary, support shall imply financial
+support to described activities.] of the CSP as to confirm the impact
+of a non-conformity.
+
+These activities related to monitoring compliance shall be part of
+the annual summary report of a NCCA.
+
+.RATIONALE
+____
+
+Additional information from the EUCSA Article 58, on NCCAs, includes:
+
+7. National cybersecurity certification authorities shall:
+
+(a) supervise and enforce rules included in European cybersecurity
+certification schemes pursuant to point (j) of Article 54(1) for the
+monitoring of the compliance of ICT products, ICT services and ICT
+processes with the requirements of the European cybersecurity certificates
+that have been issued in their respective territories, in cooperation
+with other relevant market surveillance authorities;
+
+Article 59, on Peer reviews, includes:
+
+3. Peer review shall assess:
+
+(b) the procedures for supervising and enforcing the rules for monitoring
+the compliance of ICT products, ICT services and ICT processes with
+European cybersecurity certificates pursuant to point (a) of Article
+58(7);
+____
+
+The requirements have been established considering:
+
+* potential irregularities (as of Article 56.8 of the EUCSA): An irregularity
+affecting a cloud service's conformity arises from the description
+of the service as stated in the certificate, or in the implementation
+of the controls described during the conformity assessment. Though
+such irregularities are addressed as a cloud service's non-compliance
+post-certification, they may arise any time;
+
+* potential gaps into the technical competencies of a CAB;
+
+* potential vulnerabilities and modifications of a cloud service or
+of its environment.
+
+Associated non-compliance issues have been identified and counter-measures
+for the prevention and detection thereof established.
+
+This process benefits of the provisions of the EUCSA:
+
+* market surveillance installed by Article 58.7.(a);
+
+* obligation on auditing the scheme compliance of CABs and certificate
+holders mandated by Article 58.8.(b);
+
+* the right to contest certificates (Article 63.1), and the need to
+the responsible bodies or authorities to handle complaints regarding
+the validity of a certificate (Article 63.2), and therefore service
+compliance as required by Article 54.1.(j);
+
+* the power of a NCCA &#8211; through the power of Article 58.8.(b)
+&#8211; to launch an audit of the certificate holder and issuer for
+any purpose related to their compliance to the European Cybersecurity
+Certification Framework.
+
+As for the CSP's task to monitor the known dependencies and vulnerabilities:
+The Terms and Conditions of the certificate require that a CSP monitors
+the threat landscape and notifies the CAB about any vulnerability
+in their certified cloud service. A CAB or one of their accredited
+subcontractors may propose CSPs such a service.
+
+As for the CSP's requirement to report to their CABs security incidents
+that they report to other regulatory authorities: the objective is
+to ensure that the CAB gets notified of significant incidents without
+adding a significant burden for CSPs during a crisis. So, no new criteria
+are here added.
+
+Where necessary, the conditions to support new evaluation activities
+have been indicated, as they might have a financial impact.
+
+Finally, the implementation of compliance monitoring by NCCAs may
+be the subject of peer review between NCCAs, as defined in Article
+59; however, the peer review process is
