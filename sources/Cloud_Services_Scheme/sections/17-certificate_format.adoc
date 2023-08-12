@@ -1,0 +1,22 @@
+
+[[sec_17]]
+== CERTIFICATE FORMAT
+
+.Foreword for Reviewers
+____
+This chapter is still work in progress.
+____
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(p) the content and the format of the European cybersecurity certificates
+and the EU statements of conformity to be issued;
+____
+
+=== RATIONALE
+
+A proposal for the Certification Report format is included in <<annex_f>>.
+A proposed format for the certificate itself will be added later.

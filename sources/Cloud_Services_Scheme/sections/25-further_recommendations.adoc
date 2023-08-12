@@ -1,0 +1,179 @@
+
+
+[[sec_25]]
+== FURTHER RECOMMENDATIONS
+
+.Foreword for Reviewers
+____
+The recommendations in this chapter are not intended to be included
+in the scheme. They are related to the lifecycle of the scheme, specifically
+measures to be considered between the formal adoption of the scheme
+and the emission of the first certificates, and measures related to
+the maintenance of the scheme.
+
+They nevertheless represent important topics that will need to be
+addressed in order for the scheme to be successful. The scheme adoption
+topic, in particular, will be of paramount importance for this new
+scheme, and requires our full attention.
+____
+
+[[sec_25.1]]
+=== SCHEME ADOPTION
+
+[[sec_25.1.1]]
+==== Problem statement
+
+[[sec_25.1.1.1]]
+===== EUCSA Reference
+
+Article 57 1. Without prejudice to paragraph 3 of this Article, national
+cybersecurity certification schemes, and the related procedures for
+the ICT products, ICT services and ICT processes that are covered
+by a European cybersecurity certification scheme shall cease to produce
+effects from the date established in the implementing act adopted
+pursuant to Article 49(7). National cybersecurity certification schemes
+and the related procedures for the ICT products, ICT services and
+ICT processes that are not covered by a European cybersecurity certification
+scheme shall continue to exist.
+
+[[sec_25.1.1.2]]
+===== Additional information
+
+The transition period is here considered as the period between the
+date of adoption of the implementing act adopted pursuant to Article
+49(7), and the date established into this implementing act when national
+schemes shall cease to produce effect.
+
+[[sec_25.1.2]]
+==== Recommendation
+
+The EUCS scheme is the first scheme for cloud services at an international
+level, It will replace at least partly a few existing national schemes,
+but it is mostly a new scheme that needs to be set up gradually across
+the European Union.
+
+===== Prerequisites for scheme adoption
+
+In order for relevant bodies in a Member State to start issuing certificates
+at the Basic and Substantial levels, the following should happen:
+
+* existing and new CABs get accredited to ISO/IEC 17065, and their
+internal and external evaluation facilities get accredited to relevant
+standards;
+
+* the NCCA notifies accredited CABs to the EC;
+
+* CSPs need to get acquainted with the various components of the scheme
+and update their processes to conform to its requirements;
+
+* CABs need to work with the NCCA to set up monitoring activities;
+and
+
+* the NCCA sets up the market surveillance process.
+
+In order for the relevant bodies in a Member State to start issuing
+certificates at level High, the following should also happen:
+
+* the NCCA establishes how High certificates will be issued and take
+the relevant action (get its CAB-NCCA accredited, and/or designate
+a CAB for general delegation, and/or organize a prior approval process
+of certificates); and
+
+* existing and new CABs, including their internal or external evaluation
+facilities get authorized by the NCCA before notification to the EC;
+
+In addition, before relevant bodies in any Member State can start
+issuing certificates, the following should happen at European level:
+
+* a maintenance organization is put in place for the EUCS scheme,
+to further develop the scheme and to support any interpretation and
+harmonisation question related to the adoption of the new scheme.
+
+The AHWG recommends an adoption period of one (1) year between the
+adoption of the scheme and the issuance of the first certificate as
+being technically acceptable.
+
+===== Scheme adoption and transition period
+
+ENISA may establish associated rules for adopting the scheme as to
+support the conditions for the scheme to operate. These rules shall
+be established in cooperation with the ECCG.
+
+For Member States who operate a national scheme for which a transition
+to the EUCS scheme is required, the transition also needs to be organized
+to ensure that, after a period of time, only EUCS certificates can
+be issued, The transition period should allow for:
+
+* termination of current certification projects under the existing
+schemes, or their easy conversion into EUCS projects;
+
+* smooth transfer of certificates that require maintenance in the
+long run, therefore under for the EUCS scheme, or reuse for composite
+evaluations and certifications under the EUCS scheme.
+
+The guiding principles for the transitions are as follows:
+
+* Certificates can be issued by the National scheme at most until
+the end of the transition period.
+
+* Certificates issued by the National scheme remain valid until the
+end of their validity period, which cannot be extended.
+
+* The transition to the European scheme is accelerated by defining
+rules about the reuse of evidence and evaluation results previously
+used toward the issuance of a National certificate
+
+These rules will be complemented with relevant guidance at the beginning
+of the transition period, in particular regarding the potential reuse
+of certificates, evaluation results, and evidence from the national
+schemes. Such certificates, evaluation results and evidence issued
+on a given cloud service may be used during the conformity assessment
+of the same cloud service, or during the conformity assessment of
+another cloud service for which that cloud service is a subservice.
+
+The AHWG recommends a transition period of one (1) year after the
+issuance of the first certificates as being technically acceptable.
+
+[[sec_25.2]]
+=== SCHEME MAINTENANCE
+
+[[sec_25.2.1]]
+==== Problem statement
+
+[[sec_25.2.1.1]]
+===== EUCSA Reference
+
+Article 62.4 &#8211; The ECCG shall have the following tasks:
+
+[start=5]
+. to adopt opinions addressed to the Commission relating to the maintenance
+and review of existing European cybersecurity certifications schemes.
+
+[[sec_25.2.2]]
+==== Recommendation
+
+The AHWG recommends the following for the maintenance of the EUCS
+scheme.
+
+The ECCG should mandate groups of experts involving NCCAs, CABs and
+associated auditors, CSPs and CSCs to:
+
+* improve the security controls and associated requirements;
+
+* improve the assessment methodology and associated documents;
+
+* provide guidance to CABs and CSPs about the prerequisites and operation
+of the scheme.
+
+The expert groups should focus on methodology harmonization of evaluation
+activities, analysis of new technologies and vulnerability classes,
+and propose new or revised supporting documents.
+
+As an alternative, some of the annexes to the scheme, and in particular
+<<annex_a>>, may be considered for submission to a European Standards
+Developing Organization (SDO) as a basis for a future European standard,
+to be referenced in future versions of the EUCS scheme.
+
+The ECCG should define adequate terms of reference for these expert
+groups. ENISA should publish the list of mandated expert groups and
+their associated mandates.

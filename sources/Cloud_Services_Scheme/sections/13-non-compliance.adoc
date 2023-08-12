@@ -1,0 +1,233 @@
+
+
+[[sec_13]]
+== NON-COMPLIANCE
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(l) rules concerning the consequences for ICT products, ICT services
+and ICT processes that have been certified or for which an EU statement
+of conformity has been issued, but which do not comply with the requirements
+of the scheme;.
+____
+
+<<sec_11>>, Rules for monitoring compliance, defines several categories
+of non-compliance instances that may be uncovered through monitoring
+activities. When such non-compliance instances are uncovered, the
+consequences for the various stakeholders, including the CSP, the
+CAB and its subcontractors, and the NCCA, are as follows.
+
+For confirmed deviations or irregularities associated to non-compliance
+by a CSP to the requirements related to a certificate issued on their
+cloud service, the following consequences shall occur in the general
+case:
+
+* the CAB who has issued the certificate shall request the CSP for
+assertions and amendments to restore compliance, to be provided within
+the time frame of 14 days for certificates at the assurance level
+'high', or 30 days for certificates at the assurance levels 'basic'
+or 'substantial';
+
+* continued non-compliance past the allowed time frame shall trigger
+a suspension of the certificate for the cloud service, a suspension
+of all certification activities by the CAB on behalf of the CSP for
+other services, with information about the suspension by the CAB to
+the NCCA.
+
+In the particular case of a confirmed deviation from the requirements
+of the certificate holder's obligations towards maintaining the certificate
+validity, or towards informing the appropriate authorities or bodies
+of any subsequently detected vulnerabilities, as requested by Article
+56.8 of the CSA, the following consequences shall occur:
+
+* an immediate suspension of the certificate, with information about
+the suspension by the CAB to the NCCA.
+
+For a cloud service certified at assurance level High, in the case
+of a confirmed deviation from the requirements of the certificate
+holder's obligation of informing the appropriate authorities or bodies
+of any subsequently detected major nonconformity to the requirements
+of the scheme through continuous monitoring, the following consequences
+shall occur
+
+* an immediate suspension of the certificate, with information about
+the suspension by the CAB to the NCCA.
+
+The notification of the owner of a certificate of the suspension of
+the certificate shall mark the beginning of a suspension period of
+14 days for certificates at the assurance level High, or 30 days for
+certificates at the assurance levels Basic or Substantial. During
+this period:
+
+* the impact of the non-compliance on the certified cloud service
+shall be estimated with the necessary support footnote:[Where necessary,
+support shall imply financial support to described activities.] of
+the CSP;
+
+* when the non-compliance is verified to impact a certificate, this
+shall be treated as a non-conformity of the certified cloud service,
+the CAB who has issued the certificate shall request the CSP for assertions
+and amendments to restore compliance;
+
+* the CSP shall accept or refuse the handling of the verified nonconformity
+and the associated maintenance activities, as defined in <<sec_12>>;
+
+* when the handling is refused, the certificate shall be withdrawn;
+
+* when the handling is accepted, the CSP shall proceed to the necessary
+changes to the cloud service
+
+* when the defined period is not sufficient for the above described
+task, the issuer of the certificate, upon receiving a duly justified
+request, may extend the grace period, no more than three times the
+above described duration;
+
+* when necessary (e.g. lack of availability of the CAB), the CAB may
+decide to further extend the suspension period up to a maximum of
+90 days;
+
+* if at the end of the suspension period, the handling of the verified
+non-conformity and the associate maintenance activities have not been
+completed, then the certificate shall be withdrawn.
+
+ENISA shall be informed for publication on its website, and provided
+with all the information to be published:
+
+* at the suspension of the certificate;
+
+* at any extension of the suspension period;
+
+* at the end of the suspension of the certificate;
+
+* at the withdrawal of the certificate.
+
+In the case of a suspension or of the extension of a suspension, the
+information provided to be published to ENISA shall include at least
+the end date of the suspension period, the reason for the suspension,
+and recommendations for the users of the certificates.
+
+The NCCA shall be informed at any extension of a suspension period.
+
+For a confirmed non-compliance in the conditions under which the certification
+takes place and that are not related to the individual cloud service,
+the concerned CAB shall proceed, under the control of the NCCA, to
+the following:
+
+* the identification, with the support of relevant teams and subcontractors,
+of potentially impacted certified cloud services;
+
+* where deemed necessary by the CAB, or at the discretion of the NCCA,
+the request for a series of conformity assessment activities to be
+performed on one or more cloud services by either the CAB or subcontractor
+who performed the audit or any other CAN or subcontractor that would
+be in a better technical position to perform these activities, leading
+to updated assurance reports;
+
+* the review by the CAB of the updated assurance reports, and where
+necessary, the re-issuance of certificates in accordance with the
+requirements of <<sec_12>>, or the notification to the CSPs of the
+impacts of the non-compliance on their certificates.
+
+These activities shall occur within the maximum period of 14 days
+for certificates at assurance level High or 30 days for certificates
+at assurance levels Basic and Substantial, which may only be extended
+after approval by the NCCA.
+
+When a CAB or the NCCA mandates new evaluation activities to be performed,
+these activities and the related review and issuance activities shall
+be supported footnote:[Where necessary, support shall imply financial
+support to described activities.] by the CAB that proved to be non-compliant
+footnote:[Or by a subcontractor of the CAB if that subcontractor proved
+to be non-compliant in breach of its contractual obligations.].
+
+Where impacts are confirmed to affect a certificate, they shall be
+treated as a nonconformity of the certified cloud service, following
+the above-defined rules.
+
+.RATIONALE
+____
+
+*Additional information from the EUCSA*
+
+Recitals provide additional information:
+
+(65) National cybersecurity certification authorities should in particular
+monitor and enforce the obligations of manufacturers or providers
+of ICT products, ICT services or ICT processes established in its
+respective territory in relation to the EU statement of conformity,
+should assist the national accreditation bodies in the monitoring
+and supervision of the activities of conformity assessment bodies
+by providing them with expertise and relevant information, should
+authorise conformity assessment bodies to carry out their tasks where
+such bodies meet additional requirements set out in a European cybersecurity
+certification scheme, and should monitor relevant developments in
+the field of cybersecurity certification. National cybersecurity certification
+authorities should also handle complaints lodged by natural or legal
+persons in relation to European cybersecurity certificates issued
+by those authorities or in relation to European cybersecurity certificates
+issued by conformity assessment bodies, where such certificates indicate
+assurance level 'high', should investigate, to the extent appropriate,
+the subject matter of the complaint and should inform the complainant
+of the progress and the outcome of the investigation within a reasonable
+period. Moreover, national cybersecurity certification authorities
+should cooperate with other national cybersecurity certification authorities
+or other public authorities, including by the sharing of information
+on the possible non-compliance of ICT products, ICT services and ICT
+processes with the requirements of this Regulation or with specific
+European cybersecurity certification schemes. The Commission should
+facilitate that sharing of information by making available a general
+electronic information support system, for example the Information
+and Communication System on Market Surveillance (ICSMS) and the Rapid
+Alert System for dangerous non-food products (RAPEX), already used
+by market surveillance authorities pursuant to Regulation (EC) No
+765/2008.
+____
+
+This is a rather simple set of rules:
+
+* The main ruleset is about non-conformity in the cloud service (and
+its operation). The way in which it is discovered is not mentioned
+here, most likely through monitoring or complaints.
+** In that ruleset, the CSP has an opportunity to fix the issue without
+any visible consequence (no suspension, no withdrawal).
+** If they fail to do this timely, then a suspension occurs.
+** There is one exception, when a CSP fails in its continued assurance
+and maintenance duties; then, the suspension occurs directly. This
+is intended to highlight the responsibility of the CSP to continue
+working on security after the issuance of the certificate; also, it
+highlights the fact that, at that stage, the CAB only gets involved
+(with an opportunity to perform evaluation activities) if the CSP
+reports issues as planned.
+
+* The second ruleset is about what happens when a suspension occurs
+(directly or after failure to act swiftly when a non-conformity is
+discovered.
+** Another delay starts running, this time with notification of the
+NCCA, and with publicity through ENISA's Web site (including automated
+notification of customers who have registered for updates on the certificate
+with ENISA).
+** If need be, the delay can be extended, when duly justified. The
+NCCA is notified of extensions, and my signal at some point that "enough
+is enough".
+** When the delay expires, withdrawal occurs; withdrawal may also
+occur if the CSP refuses to implement corrective actions.
+
+* The third ruleset is about what happens when a CAB fails to do their
+work properly.
+** All certificates issued by that CAB have to be reviewed. That review
+may involve some work.
+** If that review shows that certificates are impacted, then some
+evaluation work may need to be redone, as well as the corresponding
+review work, and if needed, the modification of the certificate.
+** CSPs are notified when their certificates are impacted, but they
+are no held directly responsible of the work that needs to be redone.
+However, if a non-conformity is identified in their cloud service
+during that review, then this non-conformity needs to be handled following
+the first ruleset (and the second if needed).
+
+In all cases, the entity responsible for the non-conformity is responsible
+for supporting the additional work, including, but not limited to,
+additional costs.

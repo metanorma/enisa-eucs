@@ -1,0 +1,153 @@
+
+
+[[sec_14]]
+== NEW VULNERABILITIES
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(m) rules concerning how previously undetected cybersecurity vulnerabilities
+in ICT products, ICT services and ICT processes are to be reported
+and dealt with;
+____
+
+=== Vulnerability handling
+
+CSPs shall use the general steps of ISO/IEC 30111 for vulnerability
+handling: preparation, receipt, verification, remediation development,
+release, post release, with the following specific application rules
+for the EUCS scheme. These rules are defined in the present chapter,
+as well as in the definition of the security controls related to incident
+management, in <<annex_a>>.
+
+==== PREPARATION
+
+CSPs shall develop methods for receiving vulnerability information
+and make them public in accordance with Article 55.1.c) of the CSA.
+
+==== RECEIPT
+
+In the following cases where:
+
+* the CSP of the certified cloud service receives vulnerability information
+according to Article 55.1.(c) of the EUCSA;
+
+* there is a new publicly disclosed vulnerability on the referenced
+online repositories according to Article 55.1.(d) of the EUCSA;
+
+* the CSP finds out a related vulnerability to its certified cloud
+service in any other way,
+The CSP shall start handling the vulnerability according to its defined
+policies and procedures. If the vulnerability analysis determines
+that the risk for the cloud service related to the vulnerability is
+major footnote:[According to the CSP's own vulnerability assessment
+scale, which shall be defined as part of its vulnerability handling
+policy, as required in <<annex_a>>, and shall consider the potential
+impact and the likelihood of exploitation of the vulnerability in
+the context of the cloud service.], then the CSP shall report without
+delay to the CAB that issued the certificate a description of the
+vulnerability, together with a description of its impact.
+
+The time between the CSP learns about the vulnerability and the notification
+of the CAB shall not exceed five (5) working days. Failure to notify
+the CAB of a vulnerability with major impact or to do so within five
+(5) working days shall be considered as a non-compliance to the rules
+of the scheme, as defined in <<sec_13>>.
+
+At the time the CSP notifies the CAB, the analysis of the vulnerability
+may not be finalized. In such a case, the CSP shall provide to the
+CAB a delay for the delivery of the full analysis, which shall not
+exceed ninety (90) days after the CSP became aware of the vulnerability.
+
+The information may contain details about the possible exploit(s)
+of the vulnerability: in that case, it shall carry the appropriate
+TLP classification as to ensure the relevant protection, in accordance
+with the standard rules defined in link:https://www.first.org/tlp/[],
+or with alternative classification and mechanisms previously agreed
+between the CSP and the CAB.
+
+==== VERIFICATION AND REMEDIATION DEVELOPMENT
+
+In addition to the security controls defined in <<annex_a>>, the CSP's
+processes shall include the following steps:
+
+* In its analysis of the vulnerability with major impact, the CSP
+shall propose (1) whether or not the certificate should be suspended
+until a remediation is released, and (2) whether or not a restoration
+conformity assessment should be performed on the cloud service after
+remediation. The CAB shall agree on the proposed actions or make alternative
+proposals within five (5) working days. When both parties deem necessary
+or are unable to agree on such decisions, they may inform the NCCA
+and ask for its advice.
+
+* If a maintenance conformity assessment has been deemed necessary,
+it shall be performed before lifting a potential suspension of the
+certificate.
+
+==== RELEASE AND POST-RELEASE
+
+There are no specific rules related to these phases, beyond the requirements
+defined in <<annex_a>>.
+
+=== Vulnerability disclosure
+
+CSPs may use the following standard as for the general rules related
+to vulnerability disclosure:
+
+* ISO/IEC 29147 Information technology &#8211; Security techniques
+&#8211; Vulnerability disclosure.
+
+During the vulnerability analysis, the cloud service may apply an
+embargo period, meaning that the possible vulnerability is not further
+disclosed. This period shall not last longer than three (3) months.
+The NCCA may, however, consider extending this period when a justified
+request is received, in particular when it is confirmed that time
+must be given to downstream vendors integrating the cloud service
+for analysing the impact of the vulnerability (both from a technical
+and certification point of view).
+
+In addition to the general disclosure rules above, once a strategy
+to correct the issue has been defined by the CSP with the approval
+of the CAB, information related to the confirmed vulnerability shall
+be disclosed to the NCCA, in accordance with Article 56.8) of the
+CSA.
+
+The information shall not contain details about the possible exploit
+of the vulnerability. It shall contain the necessary elements for
+the NCCA to understand the impact of the vulnerability, the changes
+to be brought to the cloud service, and where applicable, information
+by the CAB on the broader applicability of the vulnerability to other
+certified cloud services.
+
+The NCCA shall in accordance with Article 58 7 h) share this information
+with the other NCCAs, which may also decide to further analyse the
+problem or, after informing the CSP about the information exchange,
+ask the related CABs to analyse whether further certified cloud services
+are affected. This information exchange shall be done in confidentiality,
+including application of encryption and need-to-know principle.
+
+When a correction has been brought to the certified cloud service,
+the CSP shall establish the necessary CVE with the support of the
+NCCA and related national CSIRT, and proceed to its publication on
+the relevant list, in accordance with the requirements of Article
+55 of the CSA. ENISA shall be informed of the changes of status of
+the related certificates.
+
+NCCAs may develop their capacity to act as "coordinators" as defined
+in ISO/IEC 29147, and alternatively, designate their national CSIRT
+to play this role. In that case, the CSIRT shall have access to the
+necessary details related to the vulnerabilities and to the certificated
+cloud services.
+
+=== RATIONALE
+
+The current description has been strongly inspired from the EUCC,
+with a few significant simplifications. In particular, there is no
+mention of an attack potential in the analysis of a vulnerability.
+
+This requirement has been replaced by a decision about the suspension
+and the need to perform another conformity assessment (which is only
+expected when an incident is linked to a dysfunction in the application
+of processes).

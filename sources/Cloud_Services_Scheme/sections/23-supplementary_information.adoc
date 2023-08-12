@@ -1,0 +1,94 @@
+
+
+
+[[sec_23]]
+== SUPPLEMENTARY INFORMATION
+
+.ARTICLE 54 REFERENCE
+____
+*A European cybersecurity certification scheme shall include at least
+the following elements*
+
+(v) format and procedures to be followed by manufacturers or providers
+of ICT products, ICT services or ICT processes in supplying and updating
+the supplementary cybersecurity information in accordance with Article
+55.
+____
+
+All Supplementary cybersecurity information defined in Article 55
+of the EUCSA shall be provided during conformity assessment by CSPs
+to the CAB in the course of the conformity assessment.
+
+In particular, in accordance with the requirements of <<sec_17>>,
+a link to the website and relevant pages where that information is
+made available shall be provided to be integrated into the certificate.
+Once all other requirements for certification have been fulfilled,
+the issuing body shall request the CSP to provide the URL (link) so
+that this can be processed before the certificate can be uploaded
+to the ENISA Website for certification.
+
+CSPs shall make Supplementary cybersecurity information in accordance
+with Article 55 of the EUCSA publicly available on their websites.
+
+The information shall be available in electronic form and in English
+language and shall remain available at least until the expiration
+or withdrawal of the corresponding European cybersecurity certificate.
+It shall be updated in accordance with the requirements of <<sec_12>>.
+
+In addition, "guidance and recommendations footnote:[Within the shared
+responsibility model, these recommendations only cover the part for
+which the CSC is responsible. Recommendations for activities under
+the responsibility of the CSP do not need to be made publicly available.]
+to assist end users with the secure configuration, installation, deployment,
+operation and maintenance of the cloud services", as defined by Article
+55.1.(a), shall be updated as required to reflect the evolution of
+the cloud service, in accordance with the requirements of <<sec_12>>.
+
+.RATIONALE
+____
+*Additional input from the EUCSA*
+
+Article 55 defines the Supplementary cybersecurity information for
+certified ICT products, ICT services and ICT processes:
+
+. The manufacturer or provider of certified ICT products, ICT services
+or ICT processes or of ICT products, ICT services and ICT processes
+for which an EU statement of conformity has been issued shall make
+publicly available the following supplementary cybersecurity information:
+.. guidance and recommendations to assist end users with the secure
+configuration, installation, deployment, operation and maintenance
+of the ICT products or ICT services;
+.. the period during which security support will be offered to end
+users, in particular as regards the availability of cybersecurity
+related updates; 
+.. contact information of the manufacturer or provider and accepted
+methods for receiving vulnerability information from end users and
+security researchers;
+.. a reference to online repositories listing publicly disclosed vulnerabilities
+related to the ICT product, ICT service or ICT process and to any
+relevant cybersecurity advisories.
+
+. The information referred to in paragraph 1 shall be available in
+electronic form and shall remain available and be updated as necessary
+at least until the expiry of the corresponding European cybersecurity
+certificate or EU statement of conformity.
+____
+
+In addition to the public availability of the information, as requested
+by Article 55, the need for having access to all or part of it during
+certification may be requested, such as to test that the information
+complies with the requirements of the scheme. The CSP should have
+the URL up and running before the certificate is issued or updated,
+and provisioned with the information provided for the conformity assessment.
+This specific need to review part of Supplementary cybersecurity information
+during the conformity assessment phase shall however only occur where
+the relevant Chapters of this scheme establish a requirement to do
+so.
+
+For an easy and harmonised access of users of certificates to the
+webpages where the information will be accessible on the Websites
+of CSPs, the associated link will have to be provided in the certificate.
+
+The conditions to deliver the Supplementary cybersecurity information
+should be part of a more detailed disclosure policy that ENISA will
+establish in accordance with the requirements of <<sec_20>>.

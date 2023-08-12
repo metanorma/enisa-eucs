@@ -1,0 +1,44 @@
+
+
+[[sec_19]]
+== CERTIFICATE VALIDITY
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(r) maximum period of validity of European cybersecurity certificates
+issued under the scheme;
+____
+
+The maximum period of validity of the certificates shall be three
+(3) years. In order to maintain the validity of the certificate for
+its full period of validity, the CSP shall follow the processes defined
+in in <<sec_12>>, and the certified cloud service shall be subject
+to a periodic conformity assessment or to a renewal conformity assessment
+at most one (1) year after the previous initial, periodic, or renewal
+conformity assessment.
+
+Under certain conditions, and following the processes defined in <<sec_12>>,
+a CAB may continue a certificate with an extended validity period
+beyond the initial three (3) years.
+
+=== RATIONALE
+
+According to the large variety of cloud services that can be certified
+under this scheme, to their and evolution (often with frequent updates),
+to the various levels of assurance that can be achieved and the associated
+effort to generate assurance that the scheme's requirements are fulfilled,
+an average maximum of three (3) years was selected for the general
+case.
+
+Since this is a maximum, it remains possible to issue a certificate
+for a shorter period of time, in particular if the CAB believes that
+issuing a certificate for three (3) years would lead to potential
+risks.
+
+The chapter also defines the 1-year limit between periodic assessments.
+This limit applies to all levels, but the nature of the activities
+to be performed depends on the level.
+

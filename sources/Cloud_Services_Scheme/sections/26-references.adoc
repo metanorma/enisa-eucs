@@ -1,0 +1,205 @@
+
+[[sec_26]]
+== Bibliography
+
+=== STANDARDS AND TECHNICAL SPECIFICATIONS
+
+[bibliography]
+==== ISO Standards
+
+* [[[ISO_Supplement,ISO/IEC Directives, Part 1]]], ISO/IEC Directives,
+Part 1 -- Consolidated ISO Supplement -- Procedures specific to ISO
+(in particular, Annex SL)
+
+* [[[ISO_Guide_73_2009,ISO Guide 73:2009]]], ISO Guide 73:2009, Risk
+management -- Vocabulary
+
+* [[[ISO9000,ISO 9000:2015]]], ISO 9000:2015, Quality management systems
+-- Fundamentals and vocabulary
+
+* [[[ISO15408-3,ISO/IEC 15408-3:2008]]], ISO/IEC 15408-3:2008, Information
+technology -- Security techniques -- Evaluation criteria for IT security
+-- Part 3: Security assurance components
+
+* [[[ISO17000,ISO/IEC 17000:2020]]], ISO/IEC 17000:2020, Conformity
+assessment -- Vocabulary and general principles.
+
+* [[[ISO17021,ISO/IEC 17021-1:2015]]], ISO/IEC 17021-1:2015, Conformity
+assessment -- Requirements for bodies providing audit and certification
+of management systems -- Part 1: Requirements
+
+* [[[ISO17025,ISO/IEC 17025:2017]]], ISO/IEC 17025:2017, General requirements
+for the competence of testing and calibration laboratories
+
+* [[[ISO17029,ISO/IEC 17029:2019]]], ISO/IEC 17029:2019, Conformity
+assessment -- General principles and requirements for validation and
+verification bodies
+
+* [[[ISO17065,ISO17065]]], ISO/IEC 17065:2012. Conformity assessment
+-- Requirements for bodies certifying products, processes and services
+
+* [[[ISO17067,ISO17067]]], ISO/IEC 17067:2013, Conformity assessment
+-- Fundamentals of product certification and guidelines for product
+certification schemes
+
+* [[[ISO17788,ISO/IEC 17788:2014]]], ISO/IEC 17788:2014, Information
+technology &#8211; Cloud computing &#8211; Overview and vocabulary.
+
+* [[[ISO19011,ISO 19011:2018]]], ISO 19011:2018, Guidelines for auditing
+management systems
+
+* [[[ISO20000-10,ISO/IEC 20000-10:2019]]], ISO/IEC 20000-10:2019,
+Information technology &#8211; Service management &#8211; Part 10:
+Concepts and vocabulary
+
+* [[[ISO24765,ISO/IEC/IEEE 24765:2017]]], ISO/IEC/IEEE 24765:2017,
+Systems and software engineering -- Vocabulary
+
+* [[[ISO27000,ISO/IEC 27000:2018]]], ISO/IEC 27000:2018, Information
+technology &#8211; Security techniques &#8211; Information security
+management systems &#8211; Overview and vocabulary.
+
+* [[[ISO27001,ISO/IEC 27001:2013]]], ISO/IEC 27001:2013, Information
+technology -- Security techniques -- Information security management
+systems -- Requirements
+
+* [[[ISO27002,ISO/IEC 27002:2013]]], ISO/IEC 27002:2013, Information
+technology -- Security techniques -- Code of practice for information
+security controls
+
+* [[[ISO27005,ISO/IEC 27005:2018]]], ISO/IEC 27005:2018, Information
+technology -- Security techniques -- Information security risk management
+
+* [[[ISO27006,ISO/IEC 27006:2015]]], ISO/IEC 27006:2015, Information
+technology -- Security techniques -- Requirements for bodies providing
+audit and certification of information security management systems
+
+* [[[ISO27007,ISO/IEC 27007:2020]]], ISO/IEC 27007:2020, Information
+security, cybersecurity and privacy protection -- Guidelines for information
+security management systems auditing
+
+* [[[ISO27017,ISO/IEC 27017:2015]]], ISO/IEC 27017:2015. Information
+technology -- Security techniques -- Code of practice for information
+security controls based on ISO/IEC 27002 for cloud services
+
+* [[[ISO27032,ISO/IEC 27032:2012(en)]]], ISO/IEC 27032:2012(en) Information
+technology -- Security techniques -- Guidelines for cybersecurity
+
+* [[[ISO29147,ISO/IEC 29147:2018]]], ISO/IEC 29147:2018, Information
+technology -- Security techniques -- Vulnerability disclosure
+
+* [[[ISO30111,ISO/IEC 30111:2019]]], ISO/IEC 30111:2019, Information
+technology -- Security techniques -- Vulnerability handling processes
+
+* [[[ISO9000_2000,ISO 9000:2000]]]
+
+* [[[ISO55000,ISO 55000]]]
+
+* [[[ISO15408,ISO 15408]]]
+
+* [[[ISO15489_1_2016,ISO 15489-1:2016]]]
+
+[bibliography]
+==== International auditing standards
+
+* [[[IAASB_Handbook,IAASB Handbook]]], 2018 Handbook of international
+quality control, auditing, review, other assurance, and related service
+announcements, 2018. ISBN 978-1-60815-389-3. Available from https://www.iaasb.org/publications/2018-handbook-international-quality-control-auditing-review-other-assurance-and-related-services-26
+
+* [[[ISAE3000,ISAE 3000]]], International Standard on Assurance Engagements
+(ISAE) 3000 Revised, Assurance engagements other than audits or reviews
+of historical financial information, 2013. In [IAASB Handbook] Vol.
+2, pp. 123-206
+
+* [[[ISAE3402,ISAE 3402]]], International Standard on Assurance Engagements
+(ISAE) 3402 Assurance reports on controls at a service organization,
+in [IAASB Handbook], Vol. 2, pp. 217-264
+
+* [[[ISQC1,ISQC1]]], International Standard on Quality Control (ISQC),
+Quality control for firms that perform audits and reviews of financial
+statements and other assurance and related services engagements. In
+[IAASB Handbook], Vol 1, pp. 41-75
+
+* [[[IFAC_Ethics,IFAC Ethics]]], International Ethics Standards Board
+for Accountants (IESBA) Handbook of the International Code of Ethics
+for Professional Accountants, 2018. ISBN: 978-1-60815-369-5 Available
+from: https://www.ifac.org/system/files/publications/files/IESBA-Handbook-Code-of-Ethics-2018.pdf
+
+[bibliography]
+=== LEGAL TEXTS
+
+* [[[EUCSA,EUCSA]]], Regulation (EU) 2019/881 of the European Parliament
+and of the Council of 17 April 2019 on ENISA (the European Union Agency
+for Cybersecurity) and on information and communications technology
+cybersecurity certification and repealing Regulation (EU) No 526/2013
+(Cybersecurity Act), 2019.
+
+* [[[EC765_2008,EC765/2008]]], Regulation (EC) No 765/2008 of the
+European Parliament and of the Council of 9 July 2008 setting out
+the requirements for accreditation and market surveillance relating
+to the marketing of products and repealing Regulation (EEC) No 339/93,
+2008
+
+* [[[EU2018_1807,EU2018/1807]]], Regulation (EU) 2018/1807 of the
+European Parliament and of the Council of 14 November 2018 on a framework
+for the free flow of non-personal data in the European Union, 2018.
+
+* [[[GDPR,GDPR]]], Regulation (EU) 2016/679 of the European Parliament
+and of the Council of 27 April 2016 on the protection of natural persons
+with regard to the processing of personal data and on the free movement
+of such data, and repealing Directive 95/46/EC (General Data Protection
+Regulation), 2016.
+
+* [[[EC1025_2012,EC1025/2012]]], Regulation (EU) No 1025/2012 of the
+European Parliament and of the Council of 25 October 2012 on European
+standardisation, amending Council Directives 89/686/EEC and 93/15/EEC
+and Directives 94/9/EC, 94/25/EC, 95/16/EC, 97/23/EC, 98/34/EC, 2004/22/EC,
+2007/23/EC, 2009/23/EC and 2009/105/EC of the European Parliament
+and of the Council and repealing Council Decision 87/95/EEC and Decision
+No 1673/2006/EC of the European Parliament and of the Council, 2012.
+
+* [[[Blue_Guide,Blue Guide]]], The 'Blue Guide' on the implementation
+of EU products rules 2016 (Text with EEA relevance) (2016/C 272/01),
+2016
+
+* [[[EC1535_2015,EC 1535/2015]]] Directive (EU) 2015/1535 of the European
+Parliament and of the Council of 9 September 2015 laying down a procedure
+for the provision of information in the field of technical regulations
+and of rules on Information Society services (codification) (Text
+with EEA relevance)
+
+* [[[EC_881_2019,EC 881/2019]]] Regulation (EU) 2019/881 of the European
+Parliament and of the Council of 17 April 2019 on ENISA (the European
+Union Agency for Cybersecurity) and on information and communications
+technology cybersecurity certification and repealing Regulation (EU)
+No 526/2013 (Cybersecurity Act) (Text with EEA relevance)
+
+* [[[ISO_IEC_2382_2015,ISO/IEC 2382:2015]]]
+
+* [[[ISO_IEC_27036_1_2014,ISO/IEC 27036-1:2014]]]
+
+* [[[,]]]
+
+[bibliography]
+=== OTHER REFERENCES
+
+* [[[CSP_CERT,CSP-CERT]]], CSP-CERT (Cloud Service Provider Certification
+Working Group), Recommendations for the implementation of the CSP
+certification scheme, 2019. Available from:
+https://drive.google.com/open?id=1J2NJt-mk2iF_ewhPNnhTywpo0zOVcY8J
+
+* [[[C5_2020,C5]]], Bundesamt für Sicherheit in der Informationstechnik
+(BSI), Cloud Computing Compliance Criteria Catalogue (C5), 2020. Available
+from:
+https://www.bsi.bund.de/EN/Topics/CloudComputing/Compliance_Criteria_Catalogue/Compliance_Criteria_Catalogue_node.html
+
+* [[[SecNumCloud,SecNumCloud]]], Agence Nationale de Sécurité des
+Systèmes d'Information (ANSSI), Référentiel d'exigences pour les prestataires
+de service d'informatique en nuage (SecNumCloud) v3.1, 2014. Available
+from:
+https://www.ssi.gouv.fr/administration/qualifications/prestataires-de-services-de-confiance-qualifies/referentiels-exigences/
+
+* [[[OWASP_CA,OWASP CA]]], Open Web Application Security Project (OWASP)
+Foundation. Component Analysis. Available from: https://owasp.org/www-community/Component_Analysis
+
+* [[[Wikipedia,Wikipedia]]]], link:https://www.wikipedia.org/[]
