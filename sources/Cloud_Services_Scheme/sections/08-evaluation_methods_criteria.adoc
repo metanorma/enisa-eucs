@@ -1,0 +1,209 @@
+
+
+
+[[sec_8]]
+== EVALUATION METHODS AND CRITERIA
+
+.Foreword for Reviewers
+____
+The present chapter is not fully ready for review, the evaluation
+methods and criteria are still being defined. The structure is set,
+though, and we are mostly missing the mapping between the measures
+in the scheme and the security objectives of Article 51.
+____
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(g) the specific evaluation criteria and methods to be used, including
+types of evaluation, in order to demonstrate that the security objectives
+referred to in Article 51 are achieved;
+____
+
+The EUCS scheme uses a set of evaluation criteria that is defined
+in <<annex_a>>.
+
+The EUCS assessment methodology, based on the <<ISO17065>> standard,
+is defined in <<annex_b>>. This methodology defines two assessment
+approaches that may be used by CABs:
+
+* an assessment approach that may be used for assurance levels Substantial
+and High, defined in <<annex_c>>, which draws inspiration from both
+the <<ISO17021>> standard and from the ISAE family of standards [IAASB
+Handbook];
+
+* an evidence-based assessment approach, defined in <<annex_d>>, that
+may be used solely for assurance level Basic.
+
+In order to achieve a high level of interoperability between the assessment
+methods, the EUCS assessment methodology also defines strict guidelines
+and requirements on the assessment process and on its deliverables,
+which shall be followed independently of the assessment method used
+in a specific evaluation.
+
+Article 51 objectives are covered by the security objectives requirements
+defined in <<annex_a>>. Table 3 below provides a high-level vision
+based of the coverage of Article 51 requirements by security categories
+from Annex A:.
+
+[[table3]]
+.Coverage or Article 51 by requirement categories
+[cols="2",options="header"]
+|===
+| Security objectives from Article 51 | Categories from Annex A:
+
+| (a) to protect stored, transmitted or otherwise processed data against
+accidental or unauthorised storage, processing, access or disclosure
+during the entire life cycle of the ICT product, ICT service or ICT
+process;
+| This is covered in many categories of the scheme, including in particular
+the CKM category (covering cryptography) and the CS category (covering
+the security of communications)
+
+| (b) to protect stored, transmitted or otherwise processed data against
+accidental or unauthorised destruction, loss or alteration or lack
+of availability during the entire life cycle of the ICT product, ICT
+service or ICT process;
+| This is covered in many categories of the scheme, including in particular
+the CKM category (covering cryptography) and the CS category (covering
+the security of communications)
+
+| (c) that authorised persons, programs or machines are able only
+to access the data, services or functions to which their access rights
+refer;
+| This is mostly covered by the IAM category (covering identity management,
+authentication, and access control)
+
+| (d) to identify and document known dependencies and vulnerabilities;
+| This is mostly covered by the PM category (defining relationships
+with suppliers) and the OPS category (defining vulnerability handling)
+
+| (e) to record which data, services or functions have been accessed,
+used or otherwise processed, at what times and by whom;
+| This is mostly covered by the OPS category (defining logging)
+
+| (f) to make it possible to check which data, services or functions
+have been accessed, used or otherwise processed, at what times and
+by whom; | This is mostly covered by the OPS category (defining logging)
+
+| (g) to verify that ICT products, ICT services and ICT processes
+do not contain known vulnerabilities;
+| This is mostly covered by the OPS category (defining general pen
+testing measures) and by the DEV category (defining vulnerability
+testing in the development context)
+
+| (h) to restore the availability and access to data, services and
+functions in a timely manner in the event of a physical or technical
+incident;
+| This is mostly covered by the BCM category (defining business continuity)
+and the PS category (defining physical security measures)
+
+| (i) that ICT products, ICT services and ICT processes are secure
+by default and by design;
+| This is mostly covered in the DEV category (defining methodology),
+with complements in many other categories
+
+| (j) that ICT products, ICT services and ICT processes are provided
+with up-to-date software and hardware that do not contain publicly
+known vulnerabilities, and are provided with mechanisms for secure
+updates.
+| This is mostly covered by the OPS category (vulnerability handling),
+in the CCM category (for change management) and in the DEV category
+(for development methodologies)
+
+|===
+
+.RATIONALE
+____
+
+Additional information from the EUCSA Article 51. Security objectives
+of European cybersecurity certification schemes A European cybersecurity
+certification scheme shall be designed to achieve, as applicable,
+at least the following security objectives:
+
+(a) to protect stored, transmitted or otherwise processed data against
+accidental or unauthorised storage, processing, access or disclosure
+during the entire life cycle of the ICT product, ICT service or ICT
+process;
+
+(b) to protect stored, transmitted or otherwise processed data against
+accidental or unauthorised destruction, loss or alteration or lack
+of availability during the entire life cycle of the ICT product, ICT
+service or ICT process;
+
+(c) that authorised persons, programs or machines are able only to
+access the data, services or functions to which their access rights
+refer;
+
+(d) to identify and document known dependencies and vulnerabilities;
+
+(e) to record which data, services or functions have been accessed,
+used or otherwise processed, at what times and by whom;
+
+(f) to make it possible to check which data, services or functions
+have been accessed, used or otherwise processed, at what times and
+by whom;
+
+(g) to verify that ICT products, ICT services and ICT processes do
+not contain known vulnerabilities;
+
+(h) to restore the availability and access to data, services and functions
+in a timely manner in the event of a physical or technical incident;
+
+(i) that ICT products, ICT services and ICT processes are secure by
+default and by design;
+
+(j) that ICT products, ICT services and ICT processes are provided
+with up-to-date software and hardware that do not contain publicly
+known vulnerabilities, and are provided with mechanisms for secure
+updates.
+
+Recital (74) provide a rational for Article 51:
+
+(74) The purpose of European cybersecurity certification schemes should
+be to ensure that ICT products, ICT services and ICT processes certified
+under such schemes comply with specified requirements that aim to
+protect the availability, authenticity, integrity and confidentiality
+of stored, transmitted or processed data or of the related functions
+of or services offered by, or accessible via those products, services
+and processes throughout their life cycle. It is not possible to set
+out in detail the cybersecurity requirements relating to all ICT products,
+ICT services and ICT processes in this Regulation. ICT products, ICT
+services and ICT processes and the cybersecurity needs related to
+those products, services and processes are so diverse that it is very
+difficult to develop general cybersecurity requirements that are valid
+in all circumstances. It is therefore necessary to adopt a broad and
+general notion of cybersecurity for the purpose of certification,
+which should be complemented by a set of specific cybersecurity objectives
+that are to be taken into account when designing European cybersecurity
+certification schemes. The arrangements by which such objectives are
+to be achieved in specific ICT products, ICT services and ICT processes
+should then be further specified in detail at the level of the individual
+certification scheme adopted by the Commission, for example by reference
+to standards or technical specifications if no appropriate standards
+are available.
+____
+
+The requirements defined in the EUCS scheme have been drawn from a
+number of existing standards and conformity assessment schemes, and
+they cover all categories defined in information security standards
+such as <<ISO27001>>. In particular, the structure of the requirements
+is inspired from the <<C5_2020>> criteria and from the <<SecNumCloud>>
+scheme.
+
+Regarding assessment methods, a key objective from the scheme has
+been to minimize the disruption of existing practices regarding certification
+and assurance for CSPs. The choice was made to use a hybrid methodology,
+based on both the <<ISO17021>> methodology that is used for <<ISO27001>>
+certifications and on the <<ISAE3402>> methodology used by many companies
+to get assurance reports on the security of their information systems.
+
+As a result, the proposed methodology presents numerous advantages:
+
+* It proposes several assurance levels with increasing requirements
+that correspond to the levels defined in <<EUCSA>>;
+
+* It allows combined assessments with both <<ISO17021>> and <<ISAE3402>>
+assessments, allowing CSPs to contain the investment on compliance.

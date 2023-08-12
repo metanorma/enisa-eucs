@@ -1,0 +1,129 @@
+
+
+[[sec_4]]
+== USE OF STANDARDS
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following element*
+
+[start=3]
+. references to the international, European or national standards
+applied in the evaluation or, where such standards are not available
+or appropriate, to technical specifications that meet the requirements
+set out in Annex II to Regulation (EU) No 1025/2012 or, if such specifications
+are not available, to technical specifications or other cybersecurity
+requirements defined in the European cybersecurity certification scheme;
+____
+
+The scheme relies on a number of standards and technical specifications:
+
+* International standards ISO/IEC 17788 and ISO/IEC 17000, and to
+a lesser extent ISO/IEC 9000 and ISO/IEC 27000, are being used as
+references for the terminology used through the scheme, with input
+from all the schemes listed below when required.
+
+* The security controls used in the scheme, together with the associated
+security requirements, are defined in an Annex of the present scheme
+(see Annex A:. Security Objectives and requirements for Cloud Services),
+and they are based on international standards ISO/IEC 27001, ISO/IEC
+27002, ISO/IEC 27017, and on documents previously issued by Member
+States to define the security controls in their respective National
+Schemes [C5, SecNumCloud].
+
+* The definition of the assurance levels reuses some concepts defined
+in the ISO/IEC 15408-3 standard.
+
+* The conformity assessment methodology defined in the scheme is based
+on the ISO/IEC 17065 international standard.
+
+The scheme also leverages several security assessment methods and
+standards:
+
+* International standards ISO/IEC 17021 and ISO/IEC 27006.
+
+* International auditing standards ISAE3402 and ISAE3000.
+
+* One method defined in an Annex to the present scheme (see <<annex_d>>).
+
+The security controls and other annexes also reference a number of
+standards:
+
+* The ISO/IEC 29147 and ISO/IEC 30111 standards are referenced about
+vulnerability handling
+
+* The ISO/IEC27005 standard is referenced about risk management
+
+.RATIONALE
+____
+*Additional input*
+
+This is reinforced in the request for the candidate scheme, which
+indicates that "the candidate scheme (...) should take into account
+existing and relevant schemes and standards."
+
+The text mentions regulation (EU) No 1025/2012, it defines the following
+requirements (this is an outline, further details are available in
+the regulation itself:
+
+. Market acceptance, as demonstrated by the existence of compliant
+implementations from different vendors
+. No conflict with current or foreseen European standard
+. Developed by a non-profit making organization which fulfils some
+criteria
+.. Openness of the specification development process
+.. Consensus-based decision-making process
+.. Transparency of the development process
+
+. Requirements on the specification itself
+.. Sustained maintenance for a long period
+.. Publicly available for implementation and use on reasonable terms
+.. IP rights essential to the specification are available on a (F)RAND
+basis
+.. Relevant and effective, responding to market needs and regulatory
+requirements
+.. Neutral and stable
+.. Sufficient quality and level of details, with standardized interfaces
+available as needed
+
+These requirements are classical, and they are based on the WTO rules,
+so they are in practice met by many of the technical specifications
+developed by all kinds of industry groups.
+
+Regarding the elements included in the scheme itself, the following
+guidance has been provided to the SOGIS ad hoc working group:
+
+* The elements that are mandatory for the implementation of the scheme
+must be included as appendices to the scheme, and they will be included
+in the regulation.
+
+* The elements that are optional in the implementation of the scheme
+may be included in other documents, provided by ENISA on the certification
+framework portal.
+____
+
+The standards that are referenced are very classical in the IT security
+field.
+
+However, in some cases, it has not been possible to rely solely on
+European and international standards.
+
+For the security controls, the ISO/IEC 27000 series provides a very
+good basis, but it did not provide the level of details deemed suitable
+for the present scheme. The structure of the controls is strongly
+inspired from these standards, but the content has been enriched,
+in particular by introducing more detailed requirements that have
+been mapped to assurance levels. These requirements have been designed
+by drawing inspiration from current practices in Europe, and in particular
+from the documents issued by Member States who operated National Schemes
+for cloud services.
+
+For the assessment methods, the scheme recognizes the two most widely
+used assessment method families (based on the ISO/IEC 17000 family
+and on the ISAE3000 family), but there has been a need to add a specific
+and simplified assessment method for the 'basic' level, which is defined
+in the scheme itself.
+
+Both documents have been written in a way that could allow them to
+be considered as a basis for the establishment of new standards.

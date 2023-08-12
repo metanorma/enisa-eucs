@@ -1,0 +1,369 @@
+
+
+[[sec_3]]
+== PURPOSE OF THE SCHEME
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements*
+
+(b) a clear description of the purpose of the scheme and of how the
+selected standards, evaluation methods and assurance levels correspond
+to the needs of the intended users of the scheme;
+____
+
+The EUCS scheme aims at improving the Internal Market conditions,
+and at enhancing the level of security of a wide range of cloud services,
+of the cloud capabilities they implement, including application, infrastructure,
+and platform capabilities.
+
+The EUCS scheme also covers a wide range of security requirements,
+by offering all three (3) security assurance levels defined in the
+EUCSA ('basic', 'substantial' and 'high').
+
+Users of the scheme may be:
+
+* cloud service providers (CSPs) who wish to assess the security of
+their cloud services through third-party certification;
+
+* cloud service customers (CSCs) who wish to benefit from the evidence
+provided with certified cloud services to make informed decisions
+related to the security of these cloud services;
+
+* regulatory authorities who wish to include security and assurance
+requirements on cloud services within their regulations and directives.
+
+These users may use the EUCS scheme:
+
+* to assess how a cloud service, as described by the CSP, meets the
+requirements of a predefined set of security control objectives and
+a related set of measures, when used according to security recommendations
+provided by the CSP;
+
+* to provide CSCs the information required to make informed choices
+about the procurement and operation of cloud services, and to allow
+CSCs to use certified cloud services in their own development activities,
+and to meet their own security compliance requirements;
+
+* to allow regulatory authorities to refer to the scheme in European
+and national regulations, including criteria based on information
+defined in the scheme, and to check compliance by verifying the information
+provided in the certificates stored in the site managed by ENISA.
+
+The EUCS scheme defines rules and mechanisms that may be combined
+to allow users to reach these objectives:
+
+* three (3) assurance levels (see <<sec_5>>) corresponding to levels
+'basic', 'substantial' and 'high' defined in the EUCSA, which can
+cover cloud services corresponding to a wide range of risk profiles;
+
+* a set of security objectives and requirements (see <<sec_8>>), defining
+objectives to be met by CSPs for all certified cloud services, further
+decomposed into requirements mapped to the assurance levels referred
+to above;
+
+* an assessment meta-approach (see <<annex_b>>) defining how to use
+various assessment methods to determine that a cloud service fulfils
+the requirements assigned to a given assurance level;
+
+* two assessment methods (see <<sec_8>>, <<annex_c>> and <<annex_d>>)
+defining how to determine that a cloud service fulfils a given set
+of requirements;
+
+* a set of document templates to be used during the evaluation and
+review activities (<<annex_f>>) to ensure that the documents released
+by the CAB and its subcontractors follow the same organization and
+flow;
+
+* a detailed list of the documents to be made publicly available as
+part of the certificate package, that may allow scheme users to locate
+the information they are looking for to make informed decisions;
+
+* a set of rules about the lifecycle of certificates after their issuance,
+including maintenance and renewal requirements, management of vulnerabilities
+and complaints, and market surveillance activities, that may allow
+scheme users to remain informed of the evolution of the security of
+a given cloud service.
+
+In addition to these technical features, all stakeholders interested
+in the cybersecurity certification of cloud services will benefit
+from the following characteristics from the EUCS scheme:
+
+* a scheme harmonized at the European level;
+
+* strong quality guarantees through the use of third-party assessment
+by accredited bodies, supervision by national authorities, and for
+the High level, authorization by the national authorities and peer
+assessment between conformity assessment bodies;
+
+* the flexibility offered by three different assurance levels covering
+the entire range of assurance introduced in the EUCSA, with the possibility
+for a certified cloud service to upgrade to a higher level in future
+evaluation cycles;
+
+* strong transparency guarantees, with security information made publicly
+available through a centralized web site;
+
+* assurance maintained over time, with regular reassessments, operating
+effectiveness guarantees at the levels Substantial and High;
+
+* a maintenance framework for the EUCS scheme itself, endorsed by
+European institutions and Member states, providing strong guarantees
+on continued operation of the scheme;
+
+* integration in the European cybersecurity certification framework,
+which will facilitate the reuse of EUCS-certified cloud services in
+vertical schemes.
+
+The mechanisms defined above provide the means allowing the scheme's
+intended users to meet their objectives, by providing the conditions
+required for performing evaluations, issuing and managing certificates,
+and maintaining the framework and scheme over time.
+
+.RATIONALE
+____
+
+*Additional input*
+
+Recital 74 (excerpt). The purpose of European cybersecurity certification
+schemes should be to ensure that ICT products, ICT services and ICT
+processes certified under such schemes comply with specified requirements
+that aim to protect the availability, authenticity, integrity and
+confidentiality of stored, transmitted or processed data or of the
+related functions of or services offered by, or accessible via those
+products, services and processes throughout their life cycle. 
+
+Recital 92 (excerpt). European cybersecurity certificates and EU statements
+of conformity should help end users to make informed choices. Therefore,
+ICT products, ICT services and ICT processes that have been certified
+or for which an EU statement of conformity has been issued should
+be accompanied by structured information that is adapted to the expected
+technical level of the intended end user.
+____
+
+The scheme's intended users cover all relevant stakeholders in the
+life cycle of the certificate (production and consumption) and, due
+to the nature of the scheme, all relevant stakeholders in the life-cycle
+of the cloud service.
+
+<<table1>> and <<table2>>, below, describe the intended users as stakeholders
+of the certificate, their role and their use case related to the scheme.
+
+[[table1]]
+.Stakeholders involved in the production of certificates
+[cols="3",options="header"]
+|===
+| Stakeholder | Role | Use case
+
+| Cloud Service Provider
+| Development
+| The Development role covers the activities related to the development
+of the cloud service, including architecture design, hardware and
+software development, and service design. It also includes processes,
+in particular the development process.
+
+| Cloud Service Provider
+| Operations
+| The Operations role covers the activities related to the operation
+of the cloud service, including procurement, provisioning, update,
+and other processes. Some processes may be shared with Development,
+like DevOps (when Development and Operations personnel may be combined
+in the implementation of shared processes).
+
+| Cloud Service Provider
+| Compliance
+| The Compliance role covers the activities related to the verification
+of compliance to standards and regulations, including documentation,
+self-assessment, interfaces with CABs, and management of EU statements
+of conformity.
+
+| CAB
+| Evaluation
+| The Evaluation role for CABs includes all the activities related
+to the assessment of cloud services and related processes.
+
+| CAB
+| Review and Certification
+| The Review and Certification role for CABs includes all the activities
+related to the issuance and management of certificates, including
+in particular the review of the evaluation and of its results.
+
+| NCCA
+| As a CAB
+| For level 'high', the NCCA is involved and may perform the tasks
+of a CAB. This would include at least the Review and Certification
+role, and it may also include the Evaluation role.
+
+| NCCA
+| Compliance monitoring
+| NCCAs have a Compliance Monitoring role, to ensure that certified
+cloud services remain compliant to the requirements of the scheme.
+
+| NAB
+| CAB Accreditation
+| NABs are not directly involved in the production of certificates,
+but their role in the accreditation of CABs is essential in the proper
+operation of the scheme
+
+| ENISA
+| Publicity
+| ENISA is in charge of publicizing the certificates issued in the
+context of the scheme, as well as the events associated with these
+certificates.
+|===
+
+[[table2]]
+.Stakeholders consuming certificates
+[cols="3",options="header"]
+|===
+| Stakeholder | Role | Use case
+
+| Cloud Service Customer
+| Procurement
+| The Procurement role covers the activities related to the selection
+of a cloud service, and in particular the definition of the criteria
+and the assessment of the candidates, leading to the selection.
+
+| Cloud Service Customer
+| Customer Development
+| The Customer Development role covers the activities related to the
+development of new products or services on the basis of the certified
+cloud service, possibly including other cloud services. Developers
+will in particular rely on the recommendations provided with the certified
+cloud service.
+
+| Cloud Service Customer
+| Customer Operations
+| The Customer Operations role covers the activities related to the
+operation of the certified cloud service by the CSC within its own
+organization, possibly through another cloud service. The tasks involved
+depend on the cloud capabilities type, and may include configuration,
+deployment, and maintenance tasks, following the guidance provided
+with the certified cloud service.
+
+| Cloud Service Customer
+| Customer compliance
+| The Customer Compliance role covers the activities related to the
+verification of compliance of the CSC's own products or services,
+possibly includes other cloud services. In that context, the main
+aspects are the use of the evaluation performed on the cloud service
+and the reuse of evidence or conclusions generated during the cloud
+service evaluation.
+
+| Cloud Service User
+| User
+| The Cloud Service User is not expected here to be a primary user
+of the scheme, but they should be targeted as secondary users through
+Cloud Service Customers. Users are nevertheless directly targeted
+by some of the documentation provided by the CSP and evaluated in
+the context of the scheme, and their profile should be considered
+when developing and auditing user documentation.
+
+| Regulatory authority
+| Regulation
+| The Regulation role includes the development of rules and regulations
+to be applied at a local, regional, national or European level. Regulators
+may use the scheme as a basis for including high-level requirements
+(mandatory certification) or more detailed requirements, for instance
+building on transparency requirements.
+
+| Regulatory authority
+| Enforcement
+| The Enforcement role includes all activities related to the enforcement
+of regulations that mention the scheme. Enforcers will in particular
+need to verify that cloud service providers comply with the parts
+of the regulation that depend on the scheme.
+
+|===
+
+Out of the stakeholders using the scheme, we can distinguish between
+primary users, including CSPs, CSCs and Regulatory Authorities, and
+secondary users, including CABs, NCCAs and Cloud Service Users. Among
+the secondary users, CABs and NCCAs are mentioned because they control
+the issuance of the certificates and NABs and ENISA are mentioned
+because they are directly involved in the operation of the scheme.
+
+Cloud Service Users (the actual persons or machines using the certified
+cloud services) are not considered as primary users for two distinct
+reasons:
+
+* Employees of a CSC are considered secondary users. The CSC as primary
+users select the cloud service and will provide its internal users
+with the recommendations provided by the CSP to securely use their
+services.
+
+* Final customers are not considered as direct users of the scheme,
+because one of the prerequisites for being a user of the scheme is
+the ability to understand the information made available to CSCs,
+which requires some knowledge in cybersecurity that cannot be assumed
+from a final customer.
+
+The intended users whose needs the scheme shall satisfy are the CSPs
+and the CSCs, as well as the Regulatory Authorities. Satisfying these
+needs is indeed the purpose of the scheme, with one distinct objective
+for each category of users:
+
+* For CSPs. The scheme shall assess how a cloud service, as described
+by the CSP, meets the requirements of a predefined set of security
+control objectives and a related set of measures, when used according
+to security recommendations provided by the CSP.
+
+* For CSCs. The scheme shall provide CSCs the information required
+to make informed choices about the procurement and operation of cloud
+services, and shall allow CSCs to use certified cloud services in
+their own development activities, and to meet their own security compliance
+requirements.
+
+* For Regulatory Authorities. The scheme shall allow Regulatory Authorities
+to refer to the scheme in European and national regulations, including
+criteria based on information defined in the scheme, and it shall
+allow them to enforce regulations by verifying the information provided
+in the certificates stored in the site managed by ENISA
+For CSPs, the scheme offers:
+
+* a single certification scheme recognized across the entire European
+Union;
+
+* three assurance levels corresponding to different needs from the
+CSPs and different use cases;
+
+* two assessment methodologies tailored to the assurance levels, designed
+to simplify their integration with other established methodologies
+such as <<ISO17021>> or <<ISAE3402>>;
+
+* a set of objectives and requirements inspired from existing schemes
+and mapped to the assurance levels;
+
+* the possibility to use composition to simplify the certification
+of cloud services that rely on other already certified cloud services;
+and
+
+* a certificate that can be used to demonstrate that their cloud service
+fulfils the requirements of the scheme.
+
+For CSCs, the scheme offers:
+
+* a single certification scheme recognized the entire European Union;
+
+* three assurance levels corresponding to different needs from the
+CSCs and different use cases;
+
+* requirements mandating transparency about the split responsibility
+between the CSP and the CSC regarding security;
+
+* requirements mandating transparency about the location of the processing
+and storage of data, and about the applicable laws; and
+
+* the possibility to use composition to certify their own cloud service
+when needed.
+
+For Regulatory Authorities, the scheme offers:
+
+* a single certification scheme recognized the entire European Union;
+
+* three assurance levels corresponding to different needs from the
+CSCs and different use cases; and
+
+* requirements mandating transparency about the location of the processing
+and storage of data, and about the applicable laws.
