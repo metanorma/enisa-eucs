@@ -1,0 +1,293 @@
+
+
+[[sec_24]]
+== ADDITIONAL TOPICS
+
+.Foreword for Reviewers
+____
+This chapter introduces a few topics that are not addressed in Article
+54, but may still be relevant for the present scheme. The topics do
+not all have the same level of maturity:
+
+The two first ones (Security Profiles and Force Majeure) are high-level
+proposals that need to be further detailed and instantiated in the
+scheme, whereas the two last ones (Security of Information and Composition)
+are more mature, and are ready to be integrated in the scheme.
+____
+
+[[sec_24.1]]
+=== SECURITY PROFILES
+
+==== PROPOSAL
+
+Cloud services are likely to be used in ICT products, ICT services
+and ICT processes that will themselves be subject to certification
+in the context of another conformity assessment scheme, and in particular
+of another European cybersecurity certification scheme. Some of these
+conformity assessment schemes may have specific requirements, for
+instance related to an industry vertical.
+
+In order to simplify the use of certificates issued in the EUCS scheme
+in other schemes, it is therefore important to support the definition
+of such specific vertical requirements, and to allow cloud services
+to take these requirements into consideration in their certification.
+
+Such specific requirements shall be defined in a Security Profile,
+following some principles:
+
+* A security profile shall not remove or weaken any requirement defined
+in the EUCS scheme.
+
+* A security profile shall not modify the assessment methodology or
+the assessment methods defined in the EUCS scheme.
+
+* A security profile shall follow the processes defined in the scheme,
+and shall produce the same deliverables.
+
+* A security profile shall specify the EUCS assurance level that it
+targets.
+
+* A security profile may define new security controls, or may add
+new requirements to an existing security control, as long as these
+requirements do not weaken existing EUCS requirements.
+
+* A security profile may mandate a higher frequency of periodic assessments.
+
+* A security profile may define a dedicated section in the document
+templates defined in the EUCS scheme.
+
+In order to be recognized in the context of EUCS, Security Profiles
+shall be published on ENISA's Website, after approval from the ECCG.
+
+A CSP may choose to claim conformity to the requirements of one or
+several security profiles in addition to the core requirements of
+the scheme. If this claim is confirmed by the conformity assessment,
+then the CSP may list the security profile(s) in the certificate documentation.
+
+[[sec_24.2]]
+=== FORCE MAJEURE
+
+==== PROPOSAL
+
+In case of force majeure, a NCCA may take temporary measures to ensure
+the continuity of certification, by extending the timelines related
+to the periodic and renewal assessments, by relaxing requirements
+on the execution of conformity assessment activities, and if necessary,
+by extending the validity of certificates.
+
+The NCCA shall inform ENISA about the extension and provide transparency
+on reasons and the duration of extension, and ENISA shall make the
+information available on their website.
+
+The NCCA shall inform the ECCG about the temporary measures, and if
+several NCCAs are affected by the same force majeure event, they shall
+coordinate to ensure that they apply equivalent temporary measures.
+
+[[sec_24.3]]
+=== SECURITY OF INFORMATION
+
+==== PROBLEM STATEMENT
+
+Annex to the EUCSA, item 16: The conformity assessment body and its
+staff, its committees, its subsidiaries, its subcontractors, and any
+associated body or the staff of external bodies of a conformity assessment
+body shall maintain confidentiality and observe professional secrecy
+with regard to all information obtained in carrying out their conformity
+assessment tasks under this Regulation or pursuant to any provision
+of national law giving effect to this Regulation, except where disclosure
+is required by Union or Member State law to which such persons are
+subject, and except in relation to the competent authorities of the
+Member States in which its activities are carried out. Intellectual
+property rights shall be protected. The conformity assessment body
+shall have documented procedures in place in respect of the requirements
+of this point.
+
+==== RECOMMENDATION
+
+Unless otherwise provided for in this scheme and without prejudice
+to existing national provisions and practices in the Member States
+on confidentiality, all parties footnote:[Including at least the CAB,
+the NCCA, and their staff, their committees, their subsidiaries, their
+subcontractors, and any associated body or the staff of external bodies
+of the CAB or the NCCA.] involved in the application of this Scheme
+shall maintain confidentiality and observe professional secrecy with
+regard to all information and data obtained in carrying out their
+tasks in order to protect the following:
+
+. personal data, in accordance with GDPR footnote:[Regulation (EU)
+2016/679 of the European Parliament and of the Council of 27 April
+2016 on the protection of natural persons with regard to the processing
+of personal data and on the free movement of such data, and repealing
+Directive 95/46/EC (General Data Protection Regulation).];
+
+. commercially sensitive and confidential information and trade secrets
+of a natural or legal person, including intellectual property rights,
+during the certification lifecycle of the cloud service and up to
+the end of the indicated retention time for all certification information,
+unless disclosure is necessary in the public interest, or subject
+to court orders;
+
+. exchange of information necessary for the effective implementation
+of this scheme, in particular for the purpose of peer reviews, peer
+assessments or audits, effective collaboration between the involved
+authorities and bodies, the handling of publicly unknown and subsequently
+detected vulnerabilities in the process of, or after certification,
+and the handling of complaints.
+
+Without prejudice to previous paragraph, information exchanged on
+a confidential basis between competent authorities and between competent
+authorities and the Commission shall not be disclosed to the public
+without the prior agreement of the originating authority.
+
+All information received from the CABs or their subcontractors or
+the CSPs shall only be used for the purpose of the certification and
+deemed confidential by the NCCAs &#8211; unless a different agreement
+is reached between the parties or unless an information flow is required
+by a specific regulation of the scheme.
+
+All parties involved in the application of this Scheme shall implement
+security measures in order to ensure the confidentiality of the information
+provided during the certification process. ENISA may provide guidance
+on how to insure the security of information based on the workflows
+associated with the activities described in the EUCS scheme.
+
+==== RATIONALE
+
+Security of information is key in cybersecurity related activities.
+All cybersecurity certification related activities fall into the latter.
+
+Information provided by the applicant to the CAB for certification
+might be sensitive, especially as, the higher the evaluation level,
+the deeper the evaluator shall go into the analysis of the cloud service
+and related life-cycle, based on information details that may comprise
+commercially confidential information and trade secrets, including
+intellectual property rights.
+
+Information developed by cybersecurity certification activities, such
+as Assurance Reports, which are associated to vulnerabilities assessment,
+handling and release, will also contain information sensitive parts
+that, when poorly protected, may obviously endanger the users of associated
+cloud services, even when these cloud services are certified.
+
+Therefore, the obligations of the different actors of the scheme to
+insure the security of information shall be established and take into
+consideration the requirements for CSPs and developers to comply with
+Article 55 of the EUCSA, and the necessary respect of Freedom of Information
+policies and legal frameworks, Access to Information Acts, and/or
+any other similar national, European and international policies and
+regulations by any individuals or entities.
+
+[[sec_24.4]]
+=== COMPOSITION
+
+==== PROBLEM STATEMENT
+
+The composition of certificates is not mentioned explicitly in the
+EUCSA, but it is a common way of building complex certified products
+or services by leveraging previously certified products and services.
+In the context of the EUCS scheme, the objective is twofold:
+
+* Allow certified cloud services to be certified along a supply chain.
+
+* Reduce the costs of certifying a cloud service that relies on previously
+certified products and services by allowing the reuse of evidence
+and of audit results.
+
+The use of composition leads to specific issues related to the evaluation
+of composed cloud services, and also to the maintenance of the certification
+for composed cloud services, relatively to the maintenance of the
+certification of their components.
+
+==== RECOMMENDATION
+
+Cloud services are layered systems, in which infrastructure and platform
+capabilities from a service are often used as a basis for other services.
+There may also be some dependencies between an application capability
+and another service. These services used by a CSP in the provision
+of its own cloud service are referred to as sub-services, supplied
+by sub-service providers or organizations. The general rules for the
+consideration of such sub-service providers in the assessment of a
+cloud service is covered extensively in <<annex_b>>. In addition,
+CSPs need to fulfil specific requirements related to their service
+providers and suppliers that are defined in <<annex_a>>.
+
+Composition is a particular case, in which the sub-service (then called
+a base service) is itself a cloud service that has been certified
+in the EUCS scheme. In such a case the cloud service (or dependent
+service) relying on the base service can expect the assessment of
+the requirements related to the base service to be greatly simplified,
+because they use the same security framework, and because the rules
+of the scheme (and in particular those related to the CABs) are trusted.
+
+In order to be eligible for composition, the base cloud service shall
+satisfy some specific requirements, defined in <<annex_a>>, which
+will allow the assessment of dependent cloud services to be further
+simplified. These specific requirements consist in defining precisely,
+in terms of specific EUCS security objectives and requirements, how
+security responsibilities are split between the base service and the
+dependent service:
+
+* The base cloud service shall provide a description of their contribution
+to the EUCS requirement fulfilment of their dependent services, properly
+justified through references to their own controls; and
+
+* The base service shall provide a list of actionable requirements
+on Complementary Customer Controls (CCCs, based on the EUCS objectives
+and requirements) that define the requirements to be fulfilled by
+the dependent cloud service in order for the base service to fulfil
+the requirements for EUCS certification at the chosen assurance level.
+
+These two conditions are defined as requirements for base services
+in <<annex_a>>. Therefore, they are in the scope of the conformity
+assessment for the base service.
+
+This information can then be used by the CSP of the dependent service
+in several ways:
+
+* During the design phase, the CSP can use the information about the
+base service to drive design decisions for its dependent service;
+
+* When building documentation for its certification, the description
+of the base service's contribution and of its CCCs can be used directly
+by the CSP of the dependent service, who will simply need to document
+is its implementation of the CCCs; and
+
+* The CAB only needs to verify that this information has not been
+modified and if necessary that a subset has been properly selected,
+and will focus on verifying that the CCCs are fulfilled by the dependent
+service.
+
+In addition, there are a few simple rules that must be followed:
+
+* In order to apply composition, the base service shall be certified
+at a level equal or greater than the level targeted by the dependent
+service;
+
+* In order to apply composition fully, the base service shall claim
+compliance to the security profiles that the dependent service claims
+compliance to. If the dependent service claims compliance to a security
+profile that is not claimed by the base service, then this security
+profile is excluded from the composition, and a classical process
+shall be used if necessary to demonstrate that the base service satisfies
+as a subservice the expectations of the dependent service relative
+to that security profile;
+
+* The dependent service shall add to the requirements to be fulfilled
+the requirements from the base service's CCCs.
+
+* In its description of its contribution of the base service to the
+fulfilment of the scheme's requirements, the dependent service shall
+indicate when the description is the one provided by the base service
+in its documentation.
+
+Finally, note that:
+
+* A dependent service may use composition with more than one base
+services;
+
+* Although composition cannot only be applied to base services that
+have been certified through the EUCS scheme, ENISA will issue with
+the support of ECCG some guidance about a similar approach for base
+services that have been assessed through existing National schemes
+listed in <<sec_16>>, in order to facilitate the transition from National
+schemes to the EUCS scheme.

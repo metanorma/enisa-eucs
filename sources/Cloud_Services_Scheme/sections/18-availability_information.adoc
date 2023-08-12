@@ -1,0 +1,61 @@
+
+
+[[sec_18]]
+== AVAILABILITY OF INFORMATION
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(q) the period of the availability of the EU statement of conformity,
+technical documentation, and all other relevant information to be
+made available by the manufacturer or provider of ICT products, ICT
+services or ICT processes;
+____
+
+Each CSP shall maintain a publication system for the information to
+be made available to the public, in accordance with the procedures
+described in <<sec_23>> for the Supplementary cybersecurity information.
+
+All information shall be available for a period of at least seven
+(7) years after the expiration or withdrawal of the certificate.
+
+In case a later expiration date of the certificate is attributed in
+accordance with the activities described under <<sec_12>>, it shall
+be taken into account for the calculation of the availability period
+of the information, with the same rule as previously stated.
+
+Available information shall be updated with the new or revised information
+related to the activities performed under <<sec_12>>.
+
+Records of information made available to the CAB for the conformity
+assessment process shall be stored securely, and made available on
+its request to the CAB or the NCCA (according to Article 58.8(a) of
+the EUCSA) up to five years after expiration of the certification,
+in line with the duration established under <<sec_15>>. These records
+shall include all documentation and evidence made available to the
+CAB during the conformity assessment, including those that were only
+made available in a restricted manner, for a limited time or only
+on the CSP's premises.
+
+Over the period of validity of a certificate, some of the information
+associated to the cloud service may be deprecated and replaced by
+new information, and the need to maintain available information on
+the cloud service only relates to the valid and up-to-date information.
+The deprecated information shall still be archived for the duration
+of the related certificate when the information was deprecated plus
+seven (7) years.
+
+=== RATIONALE
+
+The period of retention for CSPs shall not be shorter than the retention
+of records by the CAB that is of seven (7) years after the end of
+validity period of the certificate. This applies in particular to
+the information made available in a restricted manner to the CAB,
+which is retained under the sole responsibility of the CSP, whereas
+the CAB only maintains a list of the records made available).
+
+It is to be noted that CSPs may however have to extend this period,
+in order to comply with other regulations that state a different period
+of availability of documentation, up to ten (10) years.

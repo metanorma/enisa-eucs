@@ -1,0 +1,52 @@
+
+
+[[sec_15]]
+== RECORD RETENTION
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(n) where applicable, rules concerning the retention of records by
+conformity assessment bodies;
+____
+
+Each CAB shall maintain a records system in accordance with the requirements
+of the accreditation standard ISO/IEC 17065 (or to the applicable
+accreditation standard for its internal or external evaluation facilities,
+e.g. ISO/IEC17021-3).
+
+The records system shall include all records and other documents produced
+in connection with each conformity assessment, as well as documents
+and evidence provided by the CSP about the implementation of security
+controls; the record system shall also include a list of all the documents
+and evidence made available temporarily by the CSP during the conformity
+assessment. It shall be sufficiently complete to enable the course
+of each certification to be traced.
+
+All records shall be securely and accessibly stored for a period of
+at least seven (7) years after the expiration or withdrawal of the
+certificate.
+
+In case a later expiration date of the certificate is attributed in
+accordance with the conditions of <<sec_12>>, it shall be taken into
+account for the new calculation of the retention period of the records,
+with the same rule as previously stated. New or revised information
+related to the activities described under <<sec_12>> shall be added
+to the previous records for the certificate.
+
+=== RATIONALE
+
+The proposal consists is to require records to be kept for seven (7)
+years after the expiration of the certificate, or until legal actions
+related to the certificate are completed.
+
+If the certificate is renewed, then the records are kept for seven
+(7) years after the new date, with a full history of the certificate,
+including records related to all conformity assessments.
+
+Also, there is a split responsibility between the CAB and the CSP
+regarding the documents and evidence that the CSP made available in
+a restricted manner to the CAB: It is the CSP's responsibility to
+keep these records, while the CAB only maintains a list of the documents.

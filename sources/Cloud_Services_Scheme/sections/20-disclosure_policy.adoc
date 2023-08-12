@@ -1,0 +1,112 @@
+
+
+[[sec_20]]
+== DISCLOSURE POLICY
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(s) disclosure policy for European cybersecurity certificates issued,
+amended or withdrawn under the scheme;
+____
+
+The certificates shall be disclosed by ENISA, with the related certification
+report and any relevant information as requested by other chapters
+of this document, in a dedicated website on European cybersecurity
+certification schemes, in accordance with Article 50.1 of the CSA.
+
+The certificates shall be disclosed with their applicable status,
+as decided through the application of the requirements established
+by <<sec_12>> and <<sec_13>>.
+
+The certificates may also be disclosed by the NCCAs and the issuing
+CABs on their websites. Any change to the status of a certificate
+shall be reported to the NCCA and to ENISA.
+
+Amendments and withdrawals of certificates resulting from maintenance
+activities shall as well be published, in a way that users of certificates
+can identify which versions of a certified cloud service are certified
+(where applicable) and which relevant information shall apply (such
+as guidance).
+
+ENISA shall establish in cooperation with the ECCG the conditions
+and/or guidance for the delivery and for the publication in due time
+of certificates and their updates, and associated relevant information,
+and shall make them publicly available on its website dedicated to
+cybersecurity certification.
+
+Such information on the website on European cybersecurity certification
+schemes shall be available in English language. It shall be available
+at least for the entire period of validity of the certificate.
+
+The certificates may be complemented with additional information,
+such as a QR-code providing a direct link to the corresponding certificate
+and related information, as to offer a better user experience and
+to publicise the certificates. ENISA may therefore establish a procedure
+for the generation of a QR-code: such procedure may imply that CABs,
+ahead of the release of a certificate, request from ENISA the generation
+of the QR-code to be applied on the certificate and provided to the
+CSPs for their commercial and technical documents.
+
+CSPs may use certificates published on ENISA's website for commercial
+purposes, but they shall not modify the certificate, and in particular,
+they shall always include a link to the original certificate on ENISA's
+website to allow customers to check the current status of the certificate.
+Only cloud services with a valid certificate shall be promoted as
+certified cloud services by their relevant CSP, or users of these
+services.
+
+If a certificate is suspended, the information published on ENISA's
+website shall include the date of the end of the suspension period,
+a reason for the suspension, as well as recommendations for the users
+of the certificate.
+
+Once a certificate has expired or has been withdrawn, ENISA shall
+move it to a dedicated archive part of the website, where it shall
+remain available for at least (5) years. CSPs shall not refer to such
+expired or withdrawn certificates in their commercial information,
+and any access to the expired or withdrawn certificate through its
+initial URL or QR-code shall lead to the prominent display of the
+current status of the certificate.
+
+=== RATIONALE
+
+ENISA will publish the certificates with appropriate relevant information
+attached. To manage accurate and up to date dataflows, ENISA will
+establish conditions and/or guidance for the delivery and publication
+of information.
+
+In accordance with <<sec_17>>, both certificates and associated certification
+reports, as well as relevant information for the secure configuration
+and usage of the certified cloud service (guidance) shall be made
+available to the users (and potential users) of certificates. Amendments
+to certificate will also need to contain the same type of information
+as the issuance of certificates, including guidance, and users shall
+be given an easy access to the status of the certificates when using
+ENISA dedicated Website.
+
+As to offer an easy access to the Supplementary cybersecurity information
+defined by Article 55, a validated link to that information will be
+made available into the certificate.
+
+ENISA shall be informed without undue delay of the evolution of the
+certificates, be it an amendment or a withdrawal, in line with the
+requirements of relevant Chapters of this scheme and Recital 93 of
+the CSA.
+
+As to offer the necessary flexibility and enforcing character of the
+conditions for presentation of the information to ENISA, and for its
+publication, ENISA will establish generic conditions and/or guidance.
+
+The generic conditions and/or guidance should make sure information
+is accurate and up to date as the information provided by ENISA could
+act as a single point of reference. It should define what information
+is to be transmitted to ENISA and within what reasonable timeframe.
+According to principles of transparency and openness, the outlines
+of these conditions/guidance should be made public on the ENISA Website.
+
+As to promote valid certificates, certificates that have expired will
+be archived and made available on a different webpage than the valid
+ones.

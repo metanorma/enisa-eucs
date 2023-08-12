@@ -1,0 +1,115 @@
+
+
+[[sec_16]]
+== RELATED SCHEMES
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(o) the identification of national or international cybersecurity
+certification schemes covering the same type or categories of ICT
+products, ICT services and ICT processes, security requirements, evaluation
+criteria and methods, and assurance levels;
+____
+
+Within the EU, the following national cybersecurity certification
+schemes cover the same type or categories of services:
+
+* The SecNumCloud scheme in France, operated by ANSSI: link:https://www.ssi.gouv.fr/administration/qualifications/prestataires-de-services-de-confiance-qualifies/prestataires-de-service-dinformatique-en-nuage-secnumcloud/[]
+
+* The C5 methodology in Germany, defined by BSI: link:https://www.bsi.bund.de/DE/Themen/DigitaleGesellschaft/CloudComputing/Kriterienkatalog/Kriterienkatalog_node.html[]
+
+* The Zeker-Online scheme in the Netherlands, operated by the Zeker-Online
+foundation: link:https://www.zeker-online.nl[]
+
+These schemes only provide a partial coverage of the requirements
+provided in the present scheme, and they also include some requirements
+that have not been included in the present scheme footnote:[In most
+cases, the requirements that have not been included are related to
+aspects beyond security, to aspects that are not relevant in a cybersecurity
+certification scheme, for instance related to procurement, or to aspects
+that are covered differently in the EUCS scheme.]. In particular,
+each scheme defines only a single assurance level.
+
+Nevertheless, it shall be considered that:
+
+* a certificate issued under these schemes may where necessary footnote:[To
+satisfy market or regulatory requirements.] be transformed into a
+certificate under the EUCS scheme if all required activities are conducted;
+
+* a CAB may accept to use the results of evaluation activities performed
+under these schemes for a certification under the EUCS scheme;
+
+* a certificate issued under these schemes may be used for certifications
+under the EUCS scheme whereby the CSP uses the certificate as assurance
+documentation for subservice organizations until its period of validity,
+if evaluation work confirms that the subservice meets all requirements
+of the EUCS scheme.
+
+ENISA may establish associated guidance as to support the conditions
+related to these possibilities. This guidance shall be established
+in cooperation with the ECCG.
+
+Based on the recommendations established by this Chapter, the European
+Commission and EU Member States may consider to establish a date of
+one (1) year after the implementing act has been adopted pursuant
+to Article 49(7) for existing schemes to cease producing effect.
+
+Some of these schemes may continue to run conformity assessment activities
+covering the same type or category of ICT services, security requirements,
+evaluation criteria and methods and go beyond the scope of the EUCS
+scheme in terms of assurance levels or requirements.
+
+Further to these National schemes, no international schemes have been
+identified that cover the same services, security requirements, evaluation
+criteria and methods.
+
+.RATIONALE
+____
+*Additional information from the EUCSA*
+
+Article 57 provides additional information regarding National cybersecurity
+schemes and certificates:
+
+1. Without prejudice to paragraph 3 of this Article, national cybersecurity
+certification schemes, and the related procedures for the ICT products,
+ICT services and ICT processes that are covered by a European cybersecurity
+certification scheme shall cease to produce effects from the date
+established in the implementing act adopted pursuant to Article 49(7).
+National cybersecurity certification schemes and the related procedures
+for the ICT products, ICT services and ICT processes that are not
+covered by a European cybersecurity certification scheme shall continue
+to exist.
+
+2. Member States shall not introduce new national cybersecurity certification
+schemes for ICT products, ICT services and ICT processes already covered
+by a European cybersecurity certification scheme that is in force.
+____
+
+We acknowledge in this chapter that there were pre-existing schemes
+in Europe; these schemes were very different in nature, in some cases
+not even issuing any kind of declaration (like Germany's C5). Nevertheless,
+the companies who went through a conformity assessment using one of
+these schemes have been gathering evidence, which led to an analysis
+by a CAB, and some of this information may be relevant for EUCS conformity
+assessments.
+
+Out of the three reuse hypotheses included, the first one (transformation
+of a certificate) is the least likely to be used, because the differences
+are quite significant. The reuse of evidence and of evaluation results,
+though, could lead to significant optimizations of the evaluation
+process. Finally, the use of previously issued documentation (certificates,
+reports) as a basis for composition may allow smaller vendors, who
+rely on someone else's infrastructure to get started earlier with
+their certification.
+
+Regarding the details of such reuse, we are following the path set
+by the EUCC scheme by allowing these details to be provided later,
+in a guidance issued by ENISA and elaborated with the Member States
+through the ECCG.
+
+We have also proposed to delay the issuance of certificates through
+the scheme for one year, giving the community enough time to develop
+the required guidance. This is covered in greater details in <<sec_25>>.

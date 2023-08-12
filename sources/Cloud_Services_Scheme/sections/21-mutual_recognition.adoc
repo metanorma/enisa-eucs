@@ -1,0 +1,161 @@
+
+
+
+[[sec_21]]
+== MUTUAL RECOGNITION
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(t) conditions for the mutual recognition of certification schemes
+with third countries;
+____
+
+The mutual recognition of certification schemes with third countries
+shall be supported by the establishment of a Mutual Recognition Agreement
+(MRA) between the participants.
+
+This MRA may include the following information:
+
+* participants to the MRA;
+
+* purpose and spirit of the Agreement;
+
+* membership;
+
+* scope;
+
+* exceptions;
+
+* definitions;
+
+* conditions for recognition of certificates;
+
+* peer assessments;
+
+* publications;
+
+* sharing of Information;
+
+* acceptance of new participants and compliant authorities or bodies;
+
+* administration of this Agreement;
+
+* disagreements;
+
+* costs of this Agreement;
+
+* revision;
+
+* duration;
+
+* voluntary termination of participation;
+
+* commencement and continuation;
+
+* effect of this Agreement.
+
+Conditions for recognition of certificates by participants to such
+an Agreement shall include at a minimum the following conditions:
+
+* the participants shall commit themselves to recognise applicable
+conformant certificates by any accepted Participant;
+
+* acceptance of participants shall confirm that the evaluation and
+certification processes have been carried out in a duly professional
+manner:
+** on the basis of commonly accepted ICT security evaluation criteria;
+** using commonly accepted ICT security evaluation methods;
+** in the context of an evaluation and certification scheme managed
+by a compliant certification body in the accepted participant's country;
+** the conformant certificates and certification reports issued satisfy
+the objectives of this Agreement;
+
+* certificates which meet all these conditions shall be termed as
+conformant certificates for the purposes of this Agreement;
+
+* ICT security evaluation criteria are to be those laid down in <<sec_8>>
+of this document;
+
+* minimum requirements for Certification Reports are laid down in
+Annex 13 to this document;
+
+* the scheme of the participants or to which the participants adhere
+shall be organised with a proper National Authority and conformity
+assessment bodies (CABs), in accordance with the following requirements:
+** the National Authority supervises the certification activities,
+notifies and authorises where applicable CABs, and reports any vulnerability
+of certified cloud services to the NCCAs of the EU participants;
+** the CAB has been accredited in its respective country by a recognised
+Accreditation Body in accordance with ISO/IEC 17065 and has been authorised
+where necessary by the National Authority;
+** the CAB is accepted as compliant by the Participants through a
+peer assessment mechanism installed for the MRA;
+** the CAB has been where necessary subject to an assessment by the
+National Authority in order to confirm its competence to perform evaluations,
+in accordance with <<sec_7>> of this document;
+
+* in order to assist the consistent application of the criteria and
+methods between evaluation and certification schemes, the participants
+plan to work towards a uniform interpretation of the currently applicable
+criteria and methods and commit to accept the supporting documents
+that results from this work. In pursuit of this goal, the participants
+also plan to conduct regular exchanges of information on interpretations
+and discussions necessary to resolve differences of interpretation;
+
+* in further aid to the goal of consistent, credible and competent
+application of the criteria and methods, the certification bodies
+shall undertake the responsibility for the monitoring of all evaluations
+in progress within the MRA at an appropriate level, and carrying out
+other procedures to ensure that all CABs:
+** perform evaluations impartially;
+** apply the criteria and methods correctly and consistently;
+** have and maintain the required technical competencies;
+** adequately protect the confidentiality of sensitive or protected
+information.
+
+The MRA may include a limitation of the assurance level of the certificates
+subject to recognition.
+
+CAB(s) of the participants of such an Agreement that issue(s) certificates
+at the equivalent assurance level 'high' of the CSA shall be subject
+to peer assessments in line with the procedure set up in this scheme
+(<<annex_h>>).
+
+The procedure may be adapted and simplified for the CABs that issue
+certificates at the equivalent assurance levels 'basic' or 'substantial'
+of the CSA as to benefit from the international Accreditation system,
+and shall at least consist of the following activities by the peer
+assessment team regarding review of the:
+
+* documentation associated to 2 certification projects of the 'substantial'
+assurance level;
+
+* procedures associated to the security of information.
+
+.RATIONALE
+____
+*Additional input from the EUCSA*
+
+The context for mutual recognition is provided in the EUCA recitals:
+
+
+(104) In order to further facilitate trade, and recognising that ICT
+supply chains are global, mutual recognition agreements concerning
+European cybersecurity certificates may be concluded by the Union
+in accordance with Article 218 of the Treaty on the Functioning of
+the European Union (TFEU). The Commission, taking into account the
+advice from ENISA and the European Cybersecurity Certification Group,
+may recommend the opening of relevant negotiations. Each European
+cybersecurity certification scheme should provide specific conditions
+for such mutual recognition agreements with third countries.
+____
+
+The text is here strongly inspired from the EUCC scheme, around which
+some MRAs already exist. In the context of the EUCS scheme, a number
+of parameters, including the evaluation criteria and methods, are
+specific to the scheme; mutual recognition is therefore likely to
+be possible only with third countries that will operate a scheme locally
+that use the criteria and methods defined in the EUCS scheme.

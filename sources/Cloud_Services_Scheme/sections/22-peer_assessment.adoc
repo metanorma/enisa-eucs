@@ -1,0 +1,193 @@
+
+
+[[sec_22]]
+== PEER ASSESSMENT
+
+.ARTICLE 54 REFERENCE
+____
+*Article 54. A European cybersecurity certification scheme shall include
+at least the following elements:*
+
+(u) where applicable, rules concerning any peer assessment mechanism
+established by the scheme for the authorities or bodies issuing European
+cybersecurity certificates for assurance level 'high' pursuant to
+Article 56(6). Such mechanism shall be without prejudice to the peer
+review provided for in Article 59;
+____
+
+The EUCS scheme requires that each authority footnote:[From the perspective
+of peer assessment, an authority that is issuing certificates as the
+assurance level high should be considered as a CAB, and participate
+in the same way to peer assessment.] or body issuing certificates
+at the assurance level High undergo a peer assessment at periodic
+intervals.
+
+While every authority or body issuing certificates for assurance level
+'high' pursuant to Article 56.6 of the EUCSA, including their subcontractors,
+shall operate under its own responsibility, a peer assessment shall
+be established for those issuing EUCS certificates at level High to:
+
+* assess that they work in a harmonised way and produce the same quality
+of certificates;
+
+* allow the reuse of certificates for composite service certification,
+as offered by <<sec_3>>, including the reuse of a certified cloud
+service's evaluation results when used as base component in a composite
+service;
+
+* identify any potential strength that result out of their daily work
+and that may benefit to others;
+
+* identify any potential weakness that result out of their daily work
+and that shall to be considered for improvement by the peer assessed
+CAB;
+
+* find a harmonised way to handle nonconformities and vulnerabilities
+and exchange best practices regarding the handling of complaints.
+
+NOTE: The peer assessment is not intended to interfere with or make
+judgement to the activities performed by the NCCA, as this is the
+subject of the peer review process as required by Article 59 of EUCSA.
+Nor shall it interfere with or make judgement to the activities performed
+by the National Accreditation Body (NAB).
+
+In order to allow timely feedback with respect to questions of the
+national aspects of the scheme that are handled by the NCCA, a representative
+of the NCCA of the assessed CAB shall participate to the peer assessment.
+
+The peer assessment of each CAB issuing certificates of assurance
+level 'high' shall take place on a regular basis, with a periodic
+interval that shall not exceed five (5) years.
+
+The ECCG footnote:[The ECCG may establish a dedicated subgroup to
+handle peer assessments, based on the organisation to be installed
+for the maintenance of the EUCS scheme (see <<sec_25>>).] shall establish
+and maintain a planning of peer assessments ensuring that this periodicity
+is respected, and take into consideration the level of priority that
+may be given to the peer assessment of a CAB issuing certificates
+at the assurance level 'high' in case of alleged non-compliance of
+this CAB, and in case of CBs with recent activity engaged in certifications
+for the first time or after a long lasting break (more than two years).
+
+In the case of Article 56.6.(a) of the EUCSA, both the CAB issuing
+the certificates and the NCCA proceeding to the prior approval for
+each individual certificate shall be subject to the peer assessment.
+This shall include the procedure established by of the NCCA for prior
+approval for each individual certificate.
+
+In the case of Article 56.6.(b) of the CSA, both the CAB issuing the
+certificates and the NCCA shall be subject to the peer assessment.
+This shall include the general delegation requirements defined by
+the NCCA.
+
+Peer assessments shall follow the procedure established in <<annex_h>>.
+Unless duly justified, peer assessments shall be performed on site
+for the peer assessed CAB and, where applicable, for a selected set
+of its subcontractors.
+
+The peer assessment team may decide to reuse results of previous peer
+assessments of the assessed authority or body covering part of the
+scope, under the following conditions:
+
+* such results shall be not older than five (5) years;
+
+* where previous peer assessments of the peer assessed CAB were performed
+under a different scheme, these shall be provided with the description
+of the peer assessment procedures in place for that different scheme;
+
+* the peer assessment report shall clearly indicate which parts were
+reused without further assessment, and which parts were reused with
+additional assessment;
+
+The peer assessment team shall report their findings to the ECCG in
+a peer assessment report, with an indication of the severity of any
+shortcomings. The peer assessment report shall include where necessary
+guidelines or recommendations on actions or measures to be taken by
+the peer assessed CAB, as well as the measures proposed by the peer
+assessed CAB to handle the findings.
+
+When establishing measures to handle the findings, the peer assessed
+CAB may ask for the support of the peer assessment team. These measures
+shall be transmitted to the ECCG, indicating how they intend to correct
+the findings, within the peer assessment report. Where necessary,
+the ECCG may inform the relevant:
+
+* NCCA of the peer assessed CAB for its consideration of the potential
+impact of the remaining findings on the certificates issued by the
+peer assessed CAB, or any authorisation or notification related to
+the peer assessed CAB and associated subcontractors;
+
+* National Accreditation Body (NAB) of the peer assessed CAB for its
+consideration of the potential impact of the remaining findings on
+the accreditation of the peer assessed CAB and associated subcontractors;
+
+and may ask for their conclusions.
+
+The peer assessed CAB and related NCCA shall have the opportunity
+to address with the ECCG any shortcomings and recommendations identified
+in the report, before the results of the peer assessment are published
+by ENISA. Also, the NAB shall have the opportunity to address any
+shortcomings and recommendations in case any have been brought up
+to the NAB before the results are published.
+
+ENISA may participate in the peer assessments.
+
+CABs shall inform applicants to certification at the assurance level
+High of the EUCS scheme that their certification projects may be subject
+to the peer assessment installed by this scheme.
+
+.RATIONALE
+____
+*Additional input from the EUCSA*
+
+Additional information about peer assessment is provided in the EUCA
+recitals:
+
+(100) Without prejudice to the general peer review system to be put
+in place across all national cybersecurity certification authorities
+within the European cybersecurity certification framework, certain
+European cybersecurity certification schemes may include a peer-assessment
+mechanism for the bodies that issue European cybersecurity certificates
+for ICT products, ICT services and ICT processes with an assurance
+level 'high' under such schemes. The ECCG should support the implementation
+of such peer-assessment mechanisms. The peer assessments should assess
+in particular whether the bodies concerned carry out their tasks in
+a harmonised way, and may include appeal mechanisms. The results of
+the peer assessments should be made publicly available. The bodies
+concerned may adopt appropriate measures to adapt their practices
+and expertise accordingly.
+____
+
+In addition to the peer review between NCCAs, introduced in Article
+59 of the EUCSA, which is outside of the scope of this scheme, a peer
+assessment may be defined for each scheme, with scheme specific objectives
+defined here for the EUCC scheme in the first part of this Chapter,
+and requirements.
+
+This approach guarantees the high quality of evaluation activities
+as required for a 'high' level of security assurance and the harmonisation
+of the evaluation methods between different CAB, therefore allowing
+more objective results and to proceed to composite cloud service certifications
+within different CABs.
+
+It is essential that a planning is established for such activities,
+including reassessments, and necessary priorities associated to newcomers
+to certification, or those facing issues with certification.
+
+The procedure in <<annex_h>> takes into consideration the possibility
+to reuse results from other peer assessment mechanisms.
+
+The results of the peer assessment will be made publicly available
+on the ENISA website dedicated to cybersecurity certification, as
+recommended by Recital 100 of the CSA.
+
+It is considered of importance that where applicable, the assessed
+body or authority presents the effective measures to adapt their practices
+and expertise accordingly to the ECCG, in order to reinsure other
+participants to the scheme of the quality of the certificate it issues.
+
+In cases where the quality of the certificates is considered by the
+ECCG not in line with the requirements of this scheme, the ECCG may
+inform and consult the NCCA and the National Accreditation Body of
+the assessed body or authority for their conclusions on the impacts
+on its authorisation and accreditation.
