@@ -1,0 +1,378 @@
+
+
+[[annex_d]]
+[appendix]
+== ASSESSMENT FOR LEVEL BASIC
+
+[cols="2",options="unnumbered"]
+|===
+| *PURPOSE*
+| This annex describes the applicable conformity assessment method
+for level Basic.
+
+| *CROSS REFERENCE TO THE CHAPTER(S) WHERE THE ELEMENTS ARE DECLARED
+APPLICABLE*
+| <<sec_8>>
+|===
+
+.Foreword for Reviewers
+____
+This annex has been integrated recently.
+
+Some  important templates, described in annexes, are missing, as we
+first need to determine to which extent they are to be considered
+as requirements or as guidance. Also, for level Basic, some documents
+are based on checklists, which will be built with numerous references
+to the scheme's security requirements, as defined in <<annex_a>>.
+____
+
+[[sec_D.1]]
+=== INTRODUCTION
+
+At the Basic assurance level, the conformity assessment is greatly
+simplified, and it relies solely on evidence provided by the CSP,
+if needed upon explicit request from the CAB. For consistency reasons,
+we will use the same terminology (audit, auditor, audit team) as for
+the other assurance levels, also the evaluation performed is not a
+full-fledged audit of the cloud service to be certified.
+
+For the assurance level Basic the reviewer shall use the approach
+defined in the present Annex.
+
+This approach is facilitating a controlled environment for providing
+limited assurance while keeping the associated cost for certification
+affordable for smaller CSP's, through limited evaluation of the control
+framework of the CSP by an independent reviewer that the cloud service
+is built and operated with procedures and mechanisms to meet the corresponding
+Security Objectives and related Security Requirements defined in the
+EUCS.
+
+The EU Cybersecurity Act requires for the assurance level Basic that
+the evaluation must minimise the known basic risks of incidents and
+cyberattacks, and that a review of technical documentation is required
+at a minimum.
+
+While the CSP shall be required to conduct the necessary initial verification
+of compliance with the objectives and controls of this scheme, at
+the basic level there will be a review of the documentation created
+or compiled by the CSP as a part of its internal verifications.
+
+[[sec_D.2]]
+=== ACCEPTING THE CONFORMITY ASSESSMENT ENGAGEMENT
+
+Before agreeing to accept or continue a conformity assessment engagement
+the CAB shall determine whether the application request is appropriate
+by performing a review of the application.
+
+The CAB shall conduct a review of the information obtained for application
+to assess the applicability of the criteria as set in the EUCS, including
+the decision whether the chosen assurance level is appropriate in
+the circumstances, and to ensure that:
+
+* the application request contains all the mandatory information;
+
+* the information about the CSP and the service is sufficient for
+conducting of the assessment and the certification process;
+
+* the CSP has acknowledged and understands its responsibilities as
+set out in TBD
+
+* any known difference in understanding between the CAB and the CSP
+is resolved, including agreement regarding standards or other normative
+documents;
+
+* the scope of certification is clearly defined;
+
+* the means are available to perform all evaluation activities;
+
+* the resources, capabilities and competences are available to perform
+the engagement, including knowledge of the relevant industry, an understanding
+of information technology and systems and experience in evaluating
+risks as they relate to the suitable design of controls, and experience
+in the design and execution of tests of controls and the evaluation
+of the results.
+
+In addition, the auditor shall obtain a legally binding declaration
+of the CSP that it acknowledges and understands its responsibility
+and complies at least, with the following:
+
+* the CSP is responsible for the preparation of the description of
+its system ("Description"), and accompanying CSP's assertion ("Management
+Statement");
+
+* if the certification applies to ongoing service provision, the certified
+service continues to fulfil the security requirements;
+
+* the CSP agrees to on-site reviews in case they would be necessary
+to clarify assertions or to resolve complaints disputes;
+
+* the CSP makes claims regarding certification consistent with the
+scope of certification;
+
+* the CSP does not use its service certification in such a manner
+as to bring the certification body into disrepute and does not make
+any statement regarding its service certification that the certification
+body may consider misleading or unauthorized;
+
+* upon suspension, withdrawal, or termination of certification, the
+CSP discontinues its use of all advertising matter that contains any
+reference thereto and takes any other required measure, and inform
+their customers;
+
+* in referring to its service certification in communication media
+such as documents, brochures or advertising, the CSP complies with
+the requirements of the certification body;
+
+* the CSP complies with any requirements that may be prescribed in
+the certification scheme relating to the use of marks of conformity,
+and on information related to the service;
+
+* the CSP keeps a record of all complaints made known to it relating
+to compliance with security requirements and makes these records available
+to the certification body when requested, and
+** takes appropriate action with respect to such complaints and any
+deficiencies found in service that affect compliance with the security
+requirements;
+** documents the actions taken;
+
+* the CSP informs the certification body, without delay, of changes
+that may affect its ability to conform with the certification requirements.
+
+* the CSP agrees to fees payable to the CAB for the execution of the
+conformity assessment communicated beforehand
+In the case of a recertification, the CAB shall also ensure that:
+
+* the trigger for the recertification is clearly described; and
+
+* where applicable, the CSP has provided an impact assessment of the
+changes implemented since the last assessment.
+
+Once all the review criteria are fulfilled and the CAB and CSP have
+reached an agreement about the conditions of the engagement, the auditor
+shall conduct the following major audit activities:
+
+. Developing the audit plan (section <<sec_D.3>>);
+. Execution of assessment procedures (section <<sec_D.4>>);
+. Analysis of results (section <<sec_D.5>>);
+. Issue of an assurance report (section <<sec_D.6>>) and of an evaluation
+report (section <<sec_B.9>>).
+
+Once the auditor has delivered the assurance report, the CAB shall
+perform the following activities:
+
+[start=5]
+. Review of the evaluation (section <<sec_B.10>>);
+. Certification decision (section <<sec_B.11>>); and
+. Certification (section <<sec_B.12>>).
+
+[[sec_D.3]]
+=== DEVELOPING THE AUDIT PLAN
+
+[[sec_D.3.1]]
+==== Introduction
+
+The CAB shall plan the engagement so that it will be performed in
+an effective manner, including setting the scope, timing and direction
+of the audit to be carried out in order to achieve the objective of
+the conformity assessment. This can be achieved by using a predefined
+audit plan.
+
+For each activity mentioned below: the auditor shall document the
+high-level audit plan following the requirements defined in <<annex_f>>,
+including the procedures executed, the information and documentation
+used, the evidence gained, and the conclusion reached.
+
+There shall be at least one meeting between the CAB and the CSP during
+the development of the audit plan, to provide clarifications about
+the cloud service and related controls and about the next phases of
+the audit.
+
+[[sec_D.3.2]]
+==== Initial activities
+
+In this phase the assessor shall:
+
+* Obtain an Understanding of the CSP's cloud service offered and the
+controls to meet the Security Control Objectives and related Security
+Requirements, by reading provided documentation and inquiries of people
+involved.
+** The auditor shall obtain and read the CSP's description of its
+system, identify the boundaries of that system, and how it interfaces
+with other systems (e.g. cloud services provided by subservice organizations)
+and shall evaluate whether those aspects of the description are fairly
+presented.
+
+* Review the CSP's mapping between the Security Objectives and related
+Security Requirements as defined by the EUCS and the CSP's control
+framework:
+** To conclude whether the applicable Security Control Objectives
+and related Security Requirements of the EUCS are covered by the CSP's
+internal controls;
+** To identify any remaining risks (as a result of gaps in the mapping)
+and the possible impact of them;
+
+* Determine to what extent and for which processes the CSP uses sub
+service providers and how the CSP controls and monitors the services
+provided by these sub service providers;
+** To determine which assessment approach is appropriate: using the
+inclusive or carve-out method.
+** To identify which sub service providers do have an acceptable assurance
+report which can be (re)used.
+
+* Review how the CSP dealt with complementary controls towards customers
+of the CSP (user entities) and towards sub service providers, as well
+complementary controls of sub service providers towards the CSP:
+** Does the CSP has CCC for its costumer defined?
+** Does the CSP fulfils the CCC of the subservice provider for the
+services consumed?
+
+* Consider the relative importance and effect of possible omissions
+or deviations with respect to the fair presentation of the description,
+** whether the description includes the significant aspects of the
+cloud systems;
+** whether the description omits or distorts relevant information;
+
+* Determine self-assessment and audit procedures to obtain sufficient
+and appropriate objective evidence about the design and implementation
+of the CSP's internal controls to meet the Security Control Objectives
+and related Security Requirements as defined by the EUCS by using
+a review plan.
+
+[[sec_D.3.3]]
+==== The audit plan
+
+Sufficient and appropriate objective evidence about the design and
+implementation of the CSP's internal controls can be obtained through,
+inspection of the provided documentary evidence and if necessary,
+by inquiry to be able to evaluate the provided documentary evidence
+in order to determine whether
+
+. the evidence addresses the security requirements of the scheme in
+a sufficiently comprehensive manner;
+. the evidence is sufficiently clear and unambiguous in how the requirements
+are met and how controls have been implemented by the CSP;
+. the evidence is _prima_ facie plausible (i.e. it appears in the
+professional opinion of the reviewer that there are no elements in
+the evidence that are manifestly inaccurate, incomplete or false)
+and verifiable (can in principle be verified by an on-site audit).
+
+This can be achieved by using a standardized self-assessment and audit
+plan (To be developed), The CAB shall then provide the self-assessment
+plan to the CSP, together with indications on its specific application
+to the targeted cloud service.
+
+[[sec_D.4]]
+=== EXECUTION
+
+In the phase the auditor shall obtain sufficient and appropriate objective
+evidence by evaluation the provided documentary evidence by the CSP
+regarding:
+
+* the suitability of the design of controls, including controls over
+the out-sourced processes (such as hosting, infrastructure, platform,
+etc.) to meet the Security Control Objectives and related Security
+Requirements as defined by the EUCS;
+
+* the actual existence and implementation of controls to be in accordance
+with their design as of a point in time (specified date).
+
+The execution phase starts when the CSP provides the results of their
+self-assessment, together with all required supporting documentation.
+The auditor shall document the procedures executed, the evidence gained
+and conclusions reached using a standardized document (To be developed)
+A control is suitably designed when actions or events that comprise
+a risk (e.g. for information security) are prevented or detected and
+corrected. Obtaining evidence regarding the suitability of the design
+of controls requires the auditor to determine whether
+
+* The risks that threaten the achievement of the Security Control
+Objectives and related Security Requirements as defined by the EUCS
+have been identified by management;
+
+* The controls are, if operating effectively, able to prevent or detect
+Security Control Objectives and related Security Requirements of the
+EUCS from not being met.
+
+In order to prevent, or detect and correct actions that comprise a
+risk, the controls have to be placed in operation as designed. After
+the auditor has concluded that a control is suitably designed, is
+has to be concluded per control whether the control actually exists
+and is implemented as designed by examining the provided documentary
+evidence. To be able to conclude on this the reviewer shall obtain
+evidence related to exemplary actions or events that triggered the
+occurrence or performance of the controls (e.g. tickets) and to inspect
+the environment in which it operates (e.g. suitable configuration
+of the tools or systems used to execute the control in accordance
+with the design).
+
+[[sec_D.5]]
+=== ANALYSIS OF RESULTS
+
+In forming the conclusions on the evidence obtained the auditor shall
+
+. Evaluate whether the described technical and organizational controls
+refer to or describe the applicable requirements of the Certification
+framework;
+. Consider whether the provided documents adequately disclose the
+significant information security policies and the selected and implemented
+technical and organizational measures;
+. Consider whether the information security policies and technical
+and organizational measures are deemed suitable to meet the Security
+Control Objectives and related Security Requirements of the EUCS considering
+the nature of the service;
+. The information provided appears relevant, reliable, comprehensive
+and comparable.
+
+On this basis the auditor shall assess if it can be concluded that
+nothing has come to its attention that causes the reviewer to believe
+that the technical and organizational manners warranted by the CSP
+are not meeting in all material aspects the requirements of the Basic
+level in accordance with the Certification framework and that the
+evidence presented is at least sufficient for the reviewer to obtain
+a limited level of assurance.
+
+The auditor shall document the results of the review in the report
+according to the examples in the (mapping) table below.
+
+[cols="4",options="unnumbered,header"]
+|===
+| Security Control Objectives
+| <Service-Org>'s Description of Controls
+| Documentary evidence used or other means of evidence
+| Test Results
+
+4+h| Objective: description
+
+| *ID &#8211; Security requirement*
+| ID &#8211; Title of Control [Control Description]
+| Description of the evidence
+| Result
+|===
+
+There shall be at least one meeting between the CAB and the CSP during
+the execution phase or the analysis of results, during which the CAB
+may ask for additional documentation or make specific inquiries to
+consolidate the evidence and the analysis of results.
+
+[[sec_D.6]]
+=== ISSUING THE ASSURANCE REPORT
+
+After evaluating the result of the audit procedures, the auditor shall
+form a conclusion and issue an evaluation report.
+
+The conclusion shall be based on the evidence obtained and the procedures
+performed, and express whether, in all material respects, nothing
+has come to the reviewer's attention that the
+
+. CSP's description does not fairly presents its cloud service, including
+the controls to meet the Security Control Objectives and related Security
+Requirements of the EUCS, and is free from material misstatements
+as of a specified date;
+. controls stated in the CSP's are not in conformity with the Security
+Control Objectives and related Security Requirements of the EUCS as
+of a specified date.
+
+The reviewer shall issue the assurance report using the template in
+<<annex_f>>.
+
+This assurance report shall be first addressed to the CSP.

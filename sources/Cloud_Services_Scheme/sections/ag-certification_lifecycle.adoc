@@ -1,0 +1,230 @@
+
+[[annex_g]]
+[appendix]
+== CERTIFICATION LIFECYCLE AND CONTINUED ASSURANCE
+
+[cols="2",options="unnumbered"]
+|===
+| *PURPOSE*
+| This annex describes additional content related to the chapters
+on certification lifecycle and continued assurance
+| *CROSS REFERENCE TO THE CHAPTER(S) WHERE THE ELEMENTS ARE DECLARED
+APPLICABLE*
+| <<sec_11>> +
+<<sec_12>> +
+<<sec_13>> +
+<<sec_14>>
+|===
+
+.Foreword for Reviewers
+____
+This Annex is work in progress; its content is not final, and it is
+only intended to provide an overview of the planned processes for
+the different types of conformity assessment needed.
+
+It has not yet reviewed by the TG3 and TG5 thematic group.
+____
+
+[[sec_G.1]]
+=== ASSESSMENT DURING MAINTENANCE
+
+The initial conformity assessment of a cloud service shall cover all
+parts of the assessment methods defined in <<annex_b>>, <<annex_c>>,
+<<annex_d>> for all EUCS requirements defined in <<annex_a>>.
+
+However, during maintenance some conformity assessments may be simplified,
+provided that they follow the minimum requirements defined below.
+
+[[sec_G.1.1]]
+==== Periodic assessment
+
+In a periodic assessment, the conformity assessment shall include
+at least the following activities.
+
+===== Analysis of the change in the cloud service
+
+These activities are required at all assurance levels.
+
+The CAB shall at least:
+
+* Obtain an understanding of the changes operated since the last assessment
+in the cloud service and the CSP's controls to meet the Security Objectives
+and related Security Requirements;
+
+* Determine a list of affected controls, based on the CSP's Impact
+Assessment and if needed on additional inquiries;
+
+* Assess the suitability of the design of the modified controls.
+
+* Assess the existence and implementation of the modified controls.
+
+===== Partial reassessment of controls
+
+These activities are only required at assurance levels Substantial
+and High.
+
+The CAB shall at least:
+
+* Select a subset of controls, including at least the controls for
+which nonconformities have been detected in the previous assessment
+and controls defined in a dedicated guidance to be provided on a regular
+basis by ENISA with the support of the ECCG.
+
+* Assess the suitability of the design of the modified controls.
+
+===== Effectiveness assessment
+
+These activities are only required at assurance levels Substantial
+and High.
+
+The CAB shall at least:
+
+* Assess the operating effectiveness of all controls over the period
+since the previous assessment of operating effectiveness.
+
+If some controls have been affected by the changes in the cloud service
+since the last assessment and if they have been operating for less
+than 3 months (6 months for level High), the CAB shall assess to which
+extent of the changes affect their ability to assess the operating
+effectiveness of the controls.
+
+[[sec_G.1.2]]
+==== Renewal assessment
+
+Alike an initial assessment, a renewal assessment of a cloud service
+shall cover all parts of the assessment methods defined in <<annex_b>>,
+<<annex_c>>, <<annex_d>> for all EUCS requirements defined in <<annex_a>>.
+
+However, in the context of a renewal assessment, some controls may
+not have changed since the last assessment. In such cases, the CAB
+may consider the previous assessment they have made of the suitability
+of the design in their analysis, provided that they put their focus
+on the changes in the risk environment and the potential impact of
+these changes on the controls.
+
+[[sec_G.1.3]]
+==== Restoration assessment
+
+In the restoration assessment, the objective is to perform a highly
+focused conformity assessment on the measures taken by the CSP to
+fulfil some EUCS requirements for which major nonconformities have
+been detected.
+
+In a restoration assessment, the conformity assessment shall include
+at least the following activities.
+
+===== Analysis of the change in the cloud service
+
+These activities are required at all assurance levels.
+
+The CAB shall at least:
+
+* Obtain an understanding of the changes operated since the last assessment
+in the cloud service and the CSP's controls to meet the Security Objectives
+and related Security Requirements;
+
+* Determine a list of affected controls, based on the CSP's Impact
+Assessment and if needed on additional inquiries;
+
+* Assess the suitability of the design of the modified controls;
+
+* Assess the existence and implementation of the modified controls;
+
+* Determine whether the changes on the controls are sufficient to
+fulfil all the EUCS requirements for which major nonconformities have
+been detected
+
+===== Effectiveness assessment
+
+These activities are only required at assurance levels Substantial
+and High.
+
+The CAB shall at least:
+
+* Assess the operating effectiveness of modified controls over the
+period since the previous assessment of operating effectiveness.
+
+Since the controls have been affected by the changes in the cloud
+service since their last assessment and if they have been operating
+for less than 3 months (6 months for level High), the CAB shall assess
+to which extent of the changes affect their ability to assess the
+operating effectiveness of the controls.
+
+[[sec_G.1.4]]
+==== Ad hoc assessment
+
+An ad hoc assessment can be triggered by a CSP at any time, typically
+after performing significant changes to their cloud service or their
+security controls, which require a specific assessment.
+
+The mandatory activities for an ad hoc assessment are therefore the
+same as for a periodic assessment.
+
+[[sec_G.2]]
+=== RE-ASSESSMENT AND AUDITS FOR COMPLIANCE MONITORING
+
+Specific procedures may be triggered by the NCCA in the context of
+compliance monitoring, which are described below.
+
+[[sec_G.2.1]]
+==== Re-assessment
+
+NCCAs are required in the context of the compliance monitoring process
+to perform a number of re-assessments every year, depending on the
+number of certificates issued or maintained during the previous year.
+
+In the first step of the re-assessment, the NCCA shall perform again
+the review phase performed by the CAB before taking the decision to
+issue or maintain the certificate, based on the documentation that
+was available at the time to the reviewer.
+
+If needed for their review, the NCCA may contact the CSP in order
+to be granted access to the documents for which they have only provided
+restricted access to the CAB during the audit.
+
+Following this review, the NCCA may request additional information
+about any of the activities performed during any stage of the conformity
+assessment. For each activity, the NCCA may:
+
+* request additional information and explanations from the CAB;
+
+* have the CAB perform the activity again, possibly while monitored
+by a NCCA representative;
+
+* have a NCCA representative perform the activity again.
+
+Any NCCA representative being granted access to information from the
+CSP or performing any conformity assessment shall be submitted to
+the same requirements as CAB employees performing similar activities.
+
+The CSP shall support re-assessment activities as they supported the
+original conformity assessment activities.
+
+[[sec_G.2.2]]
+==== Compliance audits
+
+The NCCA may request a compliance audit if they have some reasons
+to doubt that a CSP complies to all their obligations with respect
+to the scheme, for instance after receiving a complaint.
+
+The NCCA shall address a compliance audit request to the CAB, indicating
+the potential non-compliance that is suspected. Then, the process
+should be as follows:
+
+* The CAB shall transmit the request to the CSP, after adding any
+information that they deem suitable based on their knowledge of the
+certified cloud service;
+
+* The CSP shall then analyse the request and provide a motivated answer
+to the CAB, describing in particular any non-compliance or nonconformity
+they may have detected in their analysis, accompanied by supporting
+documentation if required;
+
+* The CAB shall then analyse the answer from the CSP, and transmit
+the CSP's answer with their analysis back to the NCCA.
+
+If the CSP does not confirm the CSP's analysis, then the NCCA shall
+take the final decision after consulting both parties.
+
+If non-compliance or nonconformities have been detected, then the
+appropriate process(es) shall be triggered.

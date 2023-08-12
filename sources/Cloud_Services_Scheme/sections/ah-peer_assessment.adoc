@@ -1,0 +1,536 @@
+
+[[annex_h]]
+[appendix]
+== PEER ASSESSMENT
+
+[cols="2",options="unnumbered"]
+|===
+| *PURPOSE*
+| This annex describes the applicable procedure for peer assessments
+
+| *CROSS REFERENCE TO THE CHAPTER(S) WHERE THE ELEMENTS ARE DECLARED
+APPLICABLE*
+| <<sec_22>>
+|===
+
+.Foreword for Reviewers
+____
+This Annex has been integrated recently, and it has not yet reviewed
+by the TG5 thematic group.
+
+This Annex is an adaptation of the Annex 12 of the EUCC scheme. Because
+the topic is quite generic and covers the general organization of
+peer assessment rather than detailed technical requirements, the content
+has been only slightly modified.
+
+Because the content has been adapted from EUCC, there may be leftover
+references to products, Common Criteria, ITSEFs, and other terms that
+normally don't belong to EUCS. Please flag such issues, and take note
+that there is no willingness to use these terms here.
+____
+
+[[sec_H.1]]
+=== SCOPE
+
+This annex describes the applicable procedure for peer assessments.
+The procedure consists of four phases: preparation, site visit, reporting,
+and adoption of a report.
+
+The procedure only defines the process to be followed. In order to
+be as comprehensive and objective as possible, checklists shall be
+further developed in cooperation with the ECCG to assist the peer
+assessment team. These checklists will contain a common understanding
+of state of the art footnote:[As discussed in cooperation with the
+ECCG and/or relevant subgroups.] and operating practices.
+
+[[sec_H.2]]
+=== OVERVIEW
+
+The primary assessment team shall consist of two EUCS experts (Leader
+and co-Leader) selected from two CABs issuing certificates at the
+assurance level High of the EUCS.
+
+This primary assessment team may be extended with additional EUCS
+experts from other or the same CABs, and in the case of a delegation
+of the issuance of certificates or of prior approval of certificates,
+an expert from the concerned NCCA may be associated to the selected
+CAB expert into the team.
+
+[[fig6]]
+.Assessment team organisation
+image::figure6.png[]
+
+Each EUCS expert in the assessment team shall have a minimum of two
+years of experience as a certifier at a CAB issuing EUCS certificates
+at assurance level High. In addition, at least one EUCS expert in
+the assessment team shall have previously participated to the assessment
+of competences of CABs issuing certificates at level High, as listed
+in <<sec_7>>.
+
+The peer assessment team may be assisted by subject matter experts.
+Those experts may be certifiers themselves, but that is not essential.
+
+It is also highly recommended that the peer assessment team members
+have participated in previous peer assessments under the EUCS scheme,
+either as observers or team members.
+
+The peer assessment may be observed by observers proposed by other
+NCCAs.
+
+The peer assessed CAB may present to the ECCG any concern it has about
+the choice of the peer assessment team members and observers, for
+example in case of a conflict of interest
+The peer assessment activities will be carried out in four phases.
+
+The preparation phase will involve the review of the CAB documentation
+by the members of the peer assessment team in order to become familiar
+with the CAB's policies and procedures.
+
+The site visit phase will consist of a two-week visit by the peer
+assessment team to the CAB in order to assess the CAB's technical
+competence, and where applicable of auditors performing evaluation
+activities. The exact duration of site visit will depend on the possible
+reuse of existing peer assessment evidence and results, and on the
+number of auditors subcontracted by the CAB.
+
+The peer assessment will include a reporting phase: the assessment
+team will document their findings in a peer assessment report delivered
+to the ECCG.
+
+The peer assessment will conclude with the adoption of an opinion
+by the ECCG of the outcome of the peer assessment.
+
+[[sec_H.3]]
+=== SCHEDULING PEER ASSESSMENT ACTIVITIES
+
+In accordance with the planning established by the ECCG, and taking
+into consideration the possible priorities indicated in <<sec_22>>,
+the ECCG shall notify the CAB of the peer assessment, and will task
+a peer assessment team to perform the peer assessment.
+
+The peer assessed CAB shall submit the required number of candidate
+services for which the CAB has performed a conformity assessment,
+for review by the peer assessment team. In general the candidate services
+shall cover all technical aspects of the audit.
+
+The required number of candidate services is:
+
+* At least two (2) services; and
+
+* At least one (1) service for every auditor accredited as subcontractor
+for the CAB at assurance level High, if applicable.
+
+The requested information and the list of candidate products (and
+auditors) shall be provided by the peer assessed CAB to the peer assessment
+team within one month after the notification by the ECCG.
+
+The assessment team will arrange the dates for the peer assessed CAB
+and where applicable auditor(s) site visit(s).
+
+[[sec_H.4]]
+=== RESPONSIBILITIES OF THE PEER ASSESSED CB
+
+The peer assessed CAB shall provide the following documentation:
+
+* a full description of its scope, organization and operation, including:
+** the title, address and principal point of contact;
+** its role according to Article 56;
+** the accreditation decision for the CAB;
+** the procedures for certification;
+** where applicable, the procedures for the prior approval for each
+individual certificate or the requirements from a general delegation;
+** the rules applying within the peer assessed CB and its internal
+or external auditors to the protection of protected other sensitive
+information;
+** the titles and addresses of the auditors participating in the activities
+and their status (commercial or governmental);
+** the procedures by which the peer assessed CAB ensures that auditors
+apply the evaluation criteria and methods correctly and consistently
+and protect the confidentiality of sensitive information involved;
+
+* the latest list of the certificates issues by the peer assessed
+CAB for the last five years;
+
+* two or more certificates and Certification Reports issued which
+are selected by the peer assessment team;
+
+* where reuse of the results of a previous peer assessment is proposed,
+associated results, under the conditions of <<sec_22>>;
+
+* the list of all auditors that perform evaluations for that domain
+and a description of the evidence used when assessing the competences
+of these auditors.
+
+In addition, all relevant information about the quality management
+system that has been implemented by the CAB in order to obtain accreditation
+by its NAB shall be provided. It should be noted that this information
+is provided for informative purposes and that the content of this
+information is not the focus of the peer assessment. Any deviations
+from processes described in these documents that are found shall however
+be reported.
+
+All written documentation and communications for the peer assessment
+activities must be provided in English at least 4 weeks before the
+audit date.
+
+During the site visit, English will be spoken, unless the CAB and
+the peer assessment team unanimously agree upon another language.
+
+One part of the peer assessment activities during the site visit will
+involve a review of at least one evaluation that has been completed
+or is close to being completed within the CAB.
+
+Although the conformity assessments for chosen services submitted
+for consideration need not be entirely complete, there must be records
+showing that significant evaluation analysis and certification activities
+have been performed, and that the majority of the evaluation report
+has been delivered to and reviewed by the certification team.
+
+In addition to the selected services, the CAB may also provide the
+peer assessment team with information on (up to) another two conformity
+assessments which were completed in the 12 months prior to the start
+of the peer assessment activities. If the peer assessment team has
+sufficient time and resources, they will review these conformity assessments
+during their site visit and, if they are found to be compliant with
+the EUCS scheme requirements, will take them into consideration within
+the peer assessment report.
+
+The CAB is responsible for preparing, documenting and providing general
+information on the candidate services. This information will be provided
+to the peer assessment team for their review and selection and shall
+include:
+
+* a brief overview of the product,
+
+* the status of the conformity assessment (if not completed, then
+indicate what parts have been completed and what remains to be done),
+
+* the target assurance level,
+
+* any Security Profile compliance claims.
+
+The peer assessment team will select at least one candidate evaluation(s)
+to be assessed during the site visit(s) of the CAB and where applicable
+of the auditor(s).
+
+The CAB will identify a Point of Contact who will be the individual
+responsible for facilitating the peer assessment activities and for
+interacting with the assessment team leader.
+
+The CAB Point of Contact is responsible for:
+
+* Coordinating the site visit(s) dates and location(s) with the peer
+assessment team,
+
+* Delivering the CAB materials to the peer assessment team during
+the Preparation Phase at least 4 weeks before the audit date,
+
+* Coordinating any required auditor(s) visits with the peer assessment
+team,
+
+* Arranging all necessary approvals to allow the peer assessment team
+to perform the CB and auditor(s) site visits and to have access to
+all information required to complete the peer assessment activities,
+
+* Coordinating the peer assessment agenda for the CAB, including scheduling
+certifiers for peer assessment team interviews and briefings, ensuring
+the availability of materials to be reviewed during the site visit,
+etc.,
+
+* Providing the peer assessment team with the ability to have copies
+and printouts made for use during the site visit;
+
+* Providing secure storage, if required, for the peer assessment team's
+documents (e.g. lunchtime, overnight);
+
+* Being generally available to answer questions and resolve issues
+that may arise during the site visit,
+
+* Coordinating the review of the peer assessment report by CAB representatives,
+
+* Providing feedback to the peer assessment team leader on the peer
+assessment draft report.
+
+The CAB must have private room(s) available that is (are) large enough
+to accommodate the peer assessment team and CAB personnel during the
+site visit(s). Such room(s) will serve as the meeting room throughout
+the site visit. Accessibility to records and CAB personnel will be
+needed throughout the site visit in the meeting room.
+
+[[sec_H.5]]
+=== RESPONSIBILITIES OF THE PEER ASSESSMENT TEAM LEADER
+
+One member of the peer assessment team will be designated the team
+leader. The team leader is responsible for the following tasks:
+
+* Coordinating the receipt of materials from the CAB,
+
+* Coordinating the decision regarding the selection of the candidate
+services (and auditors) and notification to the peer assessed CAB,
+
+* Drafting the site visit(s) agenda and coordinating it with the CB,
+
+* Coordinating and completing the peer assessment draft report at
+the end of the site visit,
+
+* Delivering the peer assessment final report to the ECCG, and
+
+* If necessary, monitoring the CAB's resolution of outstanding issues
+resulting from the peer assessment.
+
+[[sec_H.6]]
+=== PREPARATION PHASE
+
+The peer assessment team should begin preparation approximately four
+weeks before the site visit. The peer assessed CAB shall provide the
+peer assessment team with access to all written policies and operating
+procedure documents four weeks before the site visit. Electronic and/or
+hardcopy documentation have to be provided, depending on the preference
+of the peer assessment team members and nature of documentation needed.
+The peer assessment team should focus their review of the documentation
+on gaining an understanding of the CAB's standard operating procedures.
+
+The peer assessment team leader will coordinate the review of materials
+during the preparation phase. If there is a large amount of material
+to be reviewed, the team may divide it so that members review different
+portions of the documentation. The team leader will also draft and
+finalize the site visit(s) agenda, with input from the team members,
+at the conclusion of the preparation phase. The site visit(s) agenda
+must be forwarded to the peer assessed CAB no later than one week
+before the site visit(s). It is recommended that the peer assessment
+team leader should maintain close contact with the CAB Point of Contact
+during the preparation phase to keep the CAB informed of areas that
+will require further investigation during the site visit.
+
+Previous peer assessment results with associated results may be proposed
+by the CAB for consideration by the peer assessment team.
+
+[[sec_H.7]]
+=== SITE VISIT PHASE
+
+[[sec_H.7.1]]
+==== Determine that the constitution and procedures of the CB comply with the general requirements of the EUCC scheme
+
+A checklist shall be used to determine if the processes that the CAB
+uses to provide its conformity assessment services are sufficient
+to ensure effective oversight of evaluations and to ensure that successful
+certifications comply with the requirements of the EUCS scheme.
+
+The CAB shall provide any relevant information associated to its accreditation
+to support this determination.
+
+Where the peer assessment team decides to check some procedures of
+the CAB, this should occur before the assessment process commences.
+Nevertheless, the peer assessment team should check that the CAB is
+applying its procedures. This can be done at the site visit (see below)
+for the particular conformity assessments being assessed.
+
+[[sec_H.7.2]]
+==== Perform the peer assessment
+
+The peer assessment team should allocate two (2) full weeks for the
+site visit(s). If the peer assessment is completed in a shorter period
+of time, the team will not need to stay the full two weeks.
+
+The peer assessment team shall have access to all evaluation and certification
+documentation that was used by the CAB during its conformity assessment
+process and especially when reviewing the evaluation documentation,
+and shall be permitted to observe all activities carried out during
+such review. If an evaluation team/certifier meeting occurs during
+the site visit, the peer assessment team should observe the meeting.
+
+The peer assessment team should not completely review the work of
+the auditor, which may be covered by its own accreditation. However,
+the peer assessment team should assess whether the deliverables available
+to the CAB are of sufficient quality to allow the CAB to determine
+that the evaluation was conducted in accordance with the appropriate
+methodology.
+
+The peer assessment team will make a determination of an auditor's
+technical competence by:
+
+* a visit of the auditor's site,
+
+* interviews with audit team members on technical items related to
+the assessment of EUCS requirements.
+
+Findings corresponds either to
+
+* nonconformities that are linked to a requirement from the applicable
+checklist or to common understanding of state of the art and operative
+practices that are not met (or not fulfilled). The latter will be
+discussed with the ECCG and could, where appropriate, be incorporated
+as a new item into the lists for use by future peer assessments.
+
+* or observations that correspond to improvement proposals made by
+the peer assessment team, not directly linked to requirements from
+the checklist.
+
+A non-conformity could be either critical or non-critical. A critical
+non-conformity challenges the reliability of the results established
+by the assessed CAB. The peer assessment team shall analyse and describe
+the impact of each critical non-conformity.
+
+At the end of the site visit, the peer assessment team should present
+the list of findings (at least the draft list of non-conformities
+associated to their criticality level) to the peer assessed CAB, so
+that the assessed CAB can establish a proposed action plan to cover
+the findings. The peer assessment team should provide the final list
+of nonconformities (associated to their criticality level) not later
+than 4 weeks after the site visit to the peer assessed CAB.
+
+If non-conformities have been identified, the CAB may request the
+support of the peer assessment team for establishing an action plan
+associated to a timescale to implement the relevant measures.
+
+[[sec_H.8]]
+=== REPORTING
+
+The peer assessment team shall produce a report that summarizes and
+explains their findings.
+
+The report should be agreed internally within the peer assessment
+team. If the peer assessment team cannot agree internally, then majority
+and minority opinions shall be included in the report.
+
+The CAB's disagreement on findings can be incorporated to the report,
+no later than one month after the report has been established.
+
+The report shall also present the position of the peer assessment
+team on the relevance of proposed action plan to cover the findings,
+if this plan was submitted to the team prior to the delivery of the
+report to the ECCG. If evidence that cover critical non conformity
+is provided before issuance of the report, the team can reconsider
+the criticality of the non-conformity and shall document this change
+in the report.
+
+The assessment team might include into its report relevant outcomes
+and findings from other peer assessments reused.
+
+Findings from the peer assessment team included in the report shall
+be clearly identified, with a unique and unambiguous identifier.
+
+The final report shall be produced within three months after the site
+visit and will be reviewed by the peer assessed CAB prior to distribution
+to the ECCG.
+
+For preparation of the final report the following steps will be followed:
+
+. the peer assessment team will prepare a draft report, including
+all findings, unresolved minor and major non-conformities detected
+during the peer assessment in the preparation phase and the site visit
+phase, and deliver it for comments to the assessed CAB (one month);
+. the assessed CAB will comment the draft report, highlighting any
+points of disagreement and proposing changes to the report (one month);
+. the peer assessment team will consider the comments received by
+the CB and produce a final report with possible revisions (one month).
+
+All three documents at points 1-3 will be delivered to the ECCG by
+the peer assessment team to give evidence of the final reporting phase
+of the peer assessment.
+
+If any deviations of relevance for the NAB have been found, the NAB
+shall be informed.
+
+The report shall provide one of three possible verdicts:
+
+Pass:: The CAB has met all requirements and no measure is required.
+
+Pass with controlled (minor) nonconformities:: The CAB has not met
+all requirements, but has provided a relevant actions plan and an
+acceptable timescale for correcting the nonconformities identified
+by the peer assessment team. There is no remaining critical nonconformity
+identified in the report.
+
+Fail:: The CAB has not met the requirements and has not provided a
+relevant action plan and an acceptable timescale for correcting the
+nonconformities identified by the peer assessment team
+
+The peer assessment team leader (or a suitable representative with
+full knowledge of the assessment) shall present the report to the
+ECCG, including any disagreement within the team of with the peer
+assessed CAB. He/she shall present the findings of the team and its
+appreciation of how the measures proposed by the CAB will solve the
+issues.
+
+Where relevant, appropriate additions will be made to the assessment
+checklist to assist future peer assessment teams.
+
+[[sec_H.9]]
+=== ADOPTION OF PEER ASSESSMENT REPORT
+
+The following procedure is provided to guarantee adequate involvement
+of the assessed CB to demonstrate prompt resolution of non-conformities.
+The procedure also helps limiting the time for the adoption of the
+peer assessment.
+
+. The ECCG will request the ECCG subgroup dedicated to maintenance
+of the EUCS scheme to prepare an opinion to be adopted by the ECCG
+on the conducted peer assessment.
+
+. The ECCG subgroup will meet to discuss the result of the peer assessment
+(based on documents 1-3) and invite for the meeting the peer assessment
+team and the assessed CAB. Following the meeting, one of the following
+proposals of opinion will be issued by the ECCG subgroup:
++
+--
+* the final report from the assessment team is proposed to be adopted
+as it is;
+
+* an amended final report from the assessment team is proposed to
+be adopted.
+
+In the case of non-conformities, the opinion to be adopted by the
+ECCG will include a recommendation to the assessed CAB to resolve
+such non-conformities with an indication of the duration allocated
+to this resolution. This duration should be limited to 2 months in
+the general case and should not exceed 6 months.
+--
+
+. the ECCG subgroup will deliver to the ECCG:
++
+--
+* the minutes of the meeting;
+
+* the proposed opinion to be adopted by the ECCG.
+
+The ECCG subgroup shall ensure that any feedback on non-conformities
+or recommendations received by the CAB that underwent the peer assessment
+or the NAB will be forwarded along to the ECCG.
+--
+
+. The ECCG will provide its opinion on the draft opinion. In the case
+of favourable opinion, the assessed CAB will:
++
+--
+* either pass the peer assessment (if the draft opinion indicated
+a positive verdict of the peer assessment). The positive verdict will
+be published on ENISA website directly with the accompanying peer
+assessment findings.
+
+* or be recommended to take the necessary actions to resolve the non-conformities in the allocated duration. The recommendation will not be published on the ENISA website.
+
+The ECCG may also request the ECCG subgroup to re-examine the peer
+assessment (starting at point 2. again), only one time.
+--
+
+. When corrective actions are requested by the ECCG to the CAB, following
+the implementation of the corrective actions, the assessed CAB will
+issue a report to the ECCG subgroup within 2 months
+
+. The ECCG subgroup will hold a meeting within 2 months with the assessed
+CAB and the assessment team to discuss the status of resolution of
+the non-conformities. The lack of a report from the assessed CAB will
+not prevent the ECCG subgroup to have the meeting.
+
+. The ECCG subgroup will prepare an opinion to be adopted by the ECCG
+containing either a pass (successful correction of non-conformities)
+or a fail (residual non conformities already in place) and will deliver
+the proposed opinion and the minutes of the meeting to the ECCG.
+
+. The ECCG will establish its opinion based on the draft opinion and
+adopt the final result (including residual recommendation, or no recommendation
+for the CAB). The ECCG will adopt the proposed opinion or adopt its
+own opinion, without recurring to further iterations with the ECCG
+subgroup. The opinion adopted by the ECCG will be published with all
+relevant documents on the ENISA website.

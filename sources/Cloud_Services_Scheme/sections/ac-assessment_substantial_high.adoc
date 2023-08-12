@@ -1,0 +1,689 @@
+
+[[annex_c]]
+[appendix]
+== ASSESSMENT FOR LEVELS SUBSTANTIAL AND HIGH
+
+[cols="2",options="unnumbered"]
+|===
+| *PURPOSE*
+| This annex describes the applicable conformity assessment methods
+for levels 'substantial' and 'high'.
+
+| *CROSS REFERENCE TO THE CHAPTER(S) WHERE THE ELEMENTS ARE DECLARED
+APPLICABLE*
+| <<sec_8>>
+|===
+
+.Foreword for Reviewers
+____
+This annex has been recently separated from the main meta-approach,
+in order to support the integration of the conformity assessment method
+for level Basic with the meta-approach, so there may be a few remaining
+inconsistencies in the text.
+
+The current proposal is built on the following hypotheses:
+
+* All CSPs are subject to the same requirements in order to get their
+cloud services certified, regardless of the way in which their cloud
+services are implemented (e.g., a SaaS provider implementing a full
+stack vs. a SaaS provider relying on a subservice provider's infrastructure).
+
+* The auditor is in charge of assessing the level of compliance and
+assurance for subservice providers based on the information available,
+including assurance reports of various origins and evidence provided
+by the CSP in their risk assessment of their subservice providers.
+
+Some important templates, described in annexes, are missing, as we
+first need to determine to which extent they are to be considered
+as requirements or as guidance.
+____
+
+[[sec_C.1]]
+=== INTRODUCTION
+
+The content of this Annex complements the <<annex_b>> for conformity
+assessments where the CSP claims compliance to the Substantial and
+High assurance levels.
+
+This Annex follows the content of the <<annex_b>>, and refines the
+definition of the steps related to the audit by providing additional
+detail.
+
+[[sec_C.2]]
+=== ACCEPTING THE CONFORMITY ASSESSMENT ENGAGEMENT
+
+Before agreeing to accept or continue a conformity assessment engagement
+the CAB shall determine whether the application request is appropriate
+by performing a review of the application.
+
+The CAB shall conduct a review of the information obtained for application
+to assess the applicability of the criteria as set in the EUCS scheme,
+and to ensure that:
+
+* the application request contains all the mandatory information;
+
+* the information about the CSP and the service is sufficient for
+conducting of the assessment and the certification process, and it
+fulfils the requirements defined in the EUCS scheme;
+
+* the CSP has acknowledged and understands its responsibilities as
+set out in <<annex_f>>
+
+* any known difference in understanding between the CAB and the CSP
+is resolved, including agreement regarding standards or other normative
+documents;
+
+* the scope of certification is clearly defined;
+
+* the resources, capabilities and competences are available to perform
+the conformity assessment activities, including knowledge of the relevant
+industry, an understanding of information technology and systems and
+experience in evaluating risks as they relate to the suitable design
+of controls, and experience in the design and execution of tests of
+controls and the evaluation of the results.
+
+The CAB may also express its opinion on the suitability of the assurance
+level selected by the CSP.
+
+In the case of a recertification, the CAB shall also ensure that:
+
+* the reason for the recertification is clearly described; and
+
+* where applicable, the CSP has provided an impact assessment of the
+changes implemented since the last assessment.
+
+Once all the review criteria are fulfilled and the CAB and CSP have
+reached an agreement about the conditions of the engagement, the auditor
+shall conduct the following major audit activities:
+
+. Developing the audit plan (section <<sec_C.3>>);
+. Execution of assessment procedures (section <<sec_C.4>>);
+. Analysis of results (section <<sec_C.5>>);
+. Issue of an assurance report (section <<sec_C.6>>) and of an evaluation
+report (section <<sec_B.9>>).
+
+Once the auditor has delivered the assurance report, the CAB shall
+perform the following activities:
+
+[start=5]
+. Review of the evaluation (section <<sec_B.10>>);
+. Certification decision (section <<sec_B.11>>); and
+. Certification (section <<sec_B.12>>).
+
+[[sec_C.3]]
+=== DEVELOPING THE AUDIT PLAN
+
+[[sec_C.3.1]]
+==== Introduction
+
+The CAB shall plan the engagement so that it will be performed in
+an effective manner, including setting the scope, timing and direction
+of the assessment, and determining the nature, timing and extent of
+planned audit procedures that are required to be carried out in order
+to achieve the objective of the conformity assessment. This activity
+shall result in an audit plan as described in ISO 19011 and 17021,
+and including the aspects presented in <<sec_C.3.2>> and <<sec_C.3.3>>
+below.
+
+For each activity mentioned below: the auditor shall document the
+procedures executed, the information and documentation used, the evidence
+gained, and the conclusion reached, as described in <<sec_C.3.3>>..
+
+[[sec_C.3.2]]
+==== Initial activities
+
+In this phase the auditor shall:
+
+* Obtain an Understanding of the CSP's cloud service offered and the
+controls to meet the Security Control Objectives and related Security
+Requirements, by reading provided documentation and inquiries of people
+involved.
+** The auditor shall obtain and read the CSP's description of its
+system, identify the boundaries of that system, and how it interfaces
+with other systems (e.g. cloud services provided by subservice organizations)
+and shall evaluate whether those aspects of the description are fairly
+presented.
+
+* Assess, if applicable, the mapping between the Security Objectives
+and related Security Requirements as defined by the EUCS and the CSP's
+control framework:
+** To conclude whether the applicable Security Objectives and related
+Security Requirements of the EUCS are covered by the CSP's internal
+controls;
+** To identify any remaining risks (as a result of gaps in the mapping)
+and the possible impact of them;
+
+* Determine to what extent and for which elements of the CSP's internal
+controls sub service organisations are being used and how the CSP
+controls and monitors the services provided by these sub service organisations;
+** To determine which assessment approach is appropriate: using the
+inclusive or carve-out method, or a suitable alternative.
+** To identify which sub service organisations do have an acceptable
+assurance report which can be (re)used.
+
+* Assess how the CSP dealt with complementary controls towards customers
+of the CSP (user entities) and towards sub service organisations,
+as well complementary controls of sub service organisations towards
+the CSP.
+
+* Consider materiality, i.e. the relative importance and effect of
+possible omissions or deviations with respect to the fair presentation
+of the description, the suitability of the design of controls and
+the operating effectiveness of controls, primarily based on qualitative
+factors, for example: whether the description includes the significant
+aspects of the cloud systems in accordance with the requirements as
+defined by the EUCS; whether the description omits or distorts relevant
+information;
+** Determine to what extent, if any, to use the work of an internal
+audit function from the CSP and/or to use specific experts;
+** The use of an internal audit function is highly dependent of a
+number of criteria
+** The use of a specific expert is dependent of the nature of the
+audit procedure and the complexity of the item to be examined.
+
+* Determine audit procedures to obtain sufficient and appropriate
+objective evidence about the design, implementation and the operating
+effectiveness of the CSP's internal controls to meet the Security
+Control Objectives and related Security Requirements as defined by
+the EUCS. These procedures are described in the detailed audit plan
+(<<sec_C.3.3>>).
+
+* Determine the roles and responsibilities of the audit team members,
+as well as guides and observers or interpreters;
+
+* Determine the logistics and communications arrangements, including
+specific arrangements for the locations to be audited (e.g. datacentre
+visits);
+
+* Determine matters related to confidentiality and information security
+of records obtained during the audit;
+
+* Determine any follow-up actions from a previous audit or other source(s)
+e.g. lessons learned, project reviews.
+
+In the case of a recertification, the auditor shall also:
+
+* Analyse the impact assessment to determine the subset of audit activities
+that need to be performed in order to cover the changes in the Cloud
+service since the last assessment; and
+
+* Analyse the reason for the recertification to determine the subset
+of audit activities that need to be performed in order to satisfy
+the specific requirements for that trigger (see <<annex_g>>).
+
+[[sec_C.3.3]]
+==== Detailed audit plan
+
+Sufficient and appropriate objective evidence about the design, existence,
+and operating effectiveness of the CSP's controls shall be gathered
+using one or more of the following activities: inquiry, observation,
+inspection, and re-performance of the control and re-performance of
+programmed processing, as defined in <<sec_B.1.1>>.
+
+Detailed reference audit procedures per Security Objectives and related
+Security Requirements as defined by the EUCS shall be developed, using
+general guidelines on how to perform some of the audit activities.
+These references audit procedures shall be the basis for the establishment
+of the audit plan, but they may need to be adapted to the specific
+circumstances of the assessment, as explained below.
+
+The CSP's actual approach to meet the Security Objectives and related
+Security Requirements as defined by the EUCS will be different per
+CSP. Although they will all have certain elements in common, the actual
+design, implementation and operation of the controls to meet the security
+requirements, will be different per organization.
+
+As the actual design, implementation and operation of these controls
+will be different per organizations, the risks that prevent the CSP
+from meeting the Security Objectives and related Security Requirements
+as defined by the EUCS will be different as well. The risks depend
+e.g. on
+
+* services provided by the CSP;
+
+* components of the systems used to provide the services;
+
+* environment in which the systems operate.
+
+To deal with this situation, the auditor must be able to tailor the
+audit procedures for the specific circumstances. By doing so, the
+following aspects are typically to be considered:
+
+* Whether there have been changes to the systems used to operate the
+service or the organization (e.g. changes in processes, IT systems);
+
+* The competence of the personnel who perform the measures or monitor
+its performance and whether there have been changes in key personnel;
+
+* History of errors in the operation of the measures (known from previous
+examinations);
+
+* The relevance and reliability of the evidence to be obtained;
+
+* The nature of the measures (including their level of automation)
+and the frequency with which it operates;
+
+* The degree to which the measures rely on the effectiveness of other
+measures.
+
+The audit procedures need to be adapted to a specific security requirement
+and desired level of certification. Security requirements have been
+constructed in a way that all security requirements for level basic
+are applicable to levels substantial and high, while security requirements
+for level substantial also apply to level high. Therefore, it is necessary
+to access all security requirements on the specific level, including
+those from lower levels. Security requirements that were initially
+written for level Basic, are also applicable to levels Substantial
+and High, but they would be assessed in different ways according the
+certification level.
+
+[[fig5]]
+.the Audit procedure
+image::figure5.png[]
+
+Based on the analysis above the auditor shall determine for each control
+and security measure under audit:
+
+* the nature (what kind of audit procedure),
+
+* the extent (how many or how often to execute the procedure), and
+
+* the timing (at what point in time or over what period)
+of the evidence gathering audit procedures.
+
+=== NATURE
+
+The nature of an audit procedures relates to the kind of an audit
+procedures and describes the way how to obtain the evidence required.
+
+Selecting the nature depends on the specific characteristics of the
+specific control or security measure under audit. The rigour and depth
+increase from substantial to high assurance level. The different natures
+of activities are described in <<sec_B.1.1>>.
+
+=== EXTENT
+
+The extent of an audit procedure relates to the number of observations
+to be performed, the rigour and dept of inquiries, how many inspections
+are needed, and the number of re-performances of a specific audit
+procedure.
+
+Determining the extent depends on the specific characteristics of
+the control or security measure and the assurance level required.
+The extent in case of the assurance level high is much higher than
+for assurance level substantial. In many cases, especially for testing
+operating effectiveness, a sampling approach is appropriate.
+
+==== Sampling
+
+The size of the samples to select in order to test the operating effectiveness
+of controls primarily depends on the nature and frequency of the control.
+The following sample sizes should provide reasonable assurance that
+the tested controls operated effectively during the specified period
+and that the associated control objectives were achieved during that
+specified period. Where the population of occurrences falls between
+the levels identified in the table below, the number of items to test
+shall be interpolated, exercising professional judgment in determining
+the appropriate sample size.
+
+[[table5]]
+.Determining sample size
+[cols="3",options="header"]
+|===
+| Frequency of the control
+| Assumed population of control occurrences
+| Sample Size (per specified period)
+
+| More than daily | Over 250  | 25 - 60
+| Daily           | 250       | 20 - 40
+| Weekly          | 52        | 5 - 15
+| Monthly         | 12        | 2 - 5
+| Quarterly       | 4         | 2
+| Annually        | 1         | 1
+|===
+
+==== Timing
+
+The timing of an audit procedure relates to the point in time of a
+period to be covered of an audit procedure.
+
+For obtaining evidence about design and implementation/existence the
+audit procedures are built around a certain point in time: the reporting
+date.
+
+For obtaining evidence about operating effectiveness the audit procedure
+need to cover a period before the reporting date (typically 12 months,
+or 3-6 months for an initial audit), which is fixed in the scheme
+and in <<annex_g>>, depending on the assessment type.
+
+==== Documentation
+
+The detailed plan shall be documented following the requirements defined
+in <<annex_f>> for the "Audit Plan and Execution".
+
+For each control or security measure under audit the template shall
+be used covering the following topics:
+
+* the control or security measure under audit;
+
+* for the suitability of the design, the existence and implementation,
+and operating effectiveness:
+** nature of the audit procedure;
+** timing of the audit procedure;
+** extent of the audit procedure;
+
+* the documents used, the names and function of the inquired people,
+other information;
+
+* the evidence obtained;
+
+* the conclusion reached.
+
+These procedures will vary between engagements and depends, among
+other things, on the requested assurance level (Substantial or High)
+and the auditor's judgment, including the assessment of the risks
+of material non-conformity of the matter being investigated. All the
+three elements increase in scope, depth and rigour as the level of
+assurance increases.
+
+[[sec_C.3.4]]
+==== Audit plan review
+
+The auditor may request the reviewer (see <<sec_B.10>>) to provide
+an opinion on the audit plan, to ensure that they agree on the structure
+and content of the plan before its execution. The CSP may explicitly
+request this review to be performed before starting the execution
+of the audit plan.
+
+[[sec_C.4]]
+=== EXECUTION
+
+[[sec_C.4.1]]
+==== Suitability of the Design of Controls
+
+A control is suitably designed, when actions or events that comprise
+a risk (e.g. for information security) are prevented, or detected
+and corrected. Obtaining evidence regarding the suitability of the
+design of controls requires the auditor to determine whether
+
+* The risks that threaten the achievement of the Security Control
+Objectives and related Security Requirements as defined by the EUCS
+have been identified by the CSP;
+
+* The controls would, if operating effectively, provide reasonable
+assurance that those risks would not prevent the Security Control
+Objectives and related Security Requirements of the EUCS from being
+met.
+
+To be able to conclude on this the auditor shall:
+
+* obtain an understanding of the CSP's process for identifying and
+evaluating the risks that threaten the achievement of the Security
+Control Objectives and related Security Requirements and assessing
+the completeness and accuracy of the CSP's identification of those
+risks,
+
+* evaluate the linkage of the controls with those risks, which is
+typically a consideration of frequency or timing of the occurrence
+or performance of the control (e.g. monthly, weekly, per triggering
+action or event such as a service request);
+
+* evaluate the party responsible for conducting the control (e.g.
+competence and authority of the person, group or system);
+
+* understand the specific activity being performed by the party to
+determine especially how the control is triggered, how it is executed,
+which tools or systems are used to support the execution and which
+records are kept evidencing the execution; and
+
+* validate the source of information (for example a log file, archive,
+ticketing system, etc.) to which the control is applied to determine
+whether this source is reliable and ensures for completeness and accuracy
+of information processing.
+
+Obtaining evidence regarding the suitability of the design of controls
+typically requires the auditor to perform inquiries with the CSP's
+subject matter experts and the examination of supporting documentation
+that describe how the control should operate, e.g. written policies,
+procedures or process flowcharts.
+
+[[sec_C.4.2]]
+==== Existence and Implementation of controls and security measures
+
+In order to prevent, or detect and correct actions that comprise a
+risk, the controls have to be placed in operation as designed.
+
+After the auditor has concluded that a control is suitably designed,
+is has to be concluded per control whether the control actually exists
+and is implemented as designed.
+
+To be able to conclude on this the auditor shall obtain evidence that
+the controls and security measures have been implemented by examining
+exemplary actions or events that triggered the occurrence or performance
+of the controls (e.g. tickets) and to inspect the environment in which
+it operates (e.g. suitable configuration of the tools or systems used
+to execute the control in accordance with the design).
+
+[[sec_C.4.3]]
+==== Operating effectiveness
+
+Controls considered to be suitable in design, shall be tested for
+operating effectiveness over a certain period of time (specified period).
+The auditor shall design the tests in a manner to cover a representative
+number of actions and events that triggered the occurrence or performance
+of the controls throughout the specified period.
+
+For initial certification the period shall be at least 3 months for
+level Substantial and 6 months for level High; for subsequent certification
+the period is 12 months or the time since the operating effectiveness
+was last tested in a previous conformity assessment. In all cases,
+the period to consider shall be the period that precedes immediately
+the conformity assessment.
+
+In determining the nature, timing and extent of the tests the following
+the auditor shall consider:
+
+* the nature and frequency of the controls being tested,
+
+* the types of available evidential matter,
+
+* the nature of the Security Control Objectives and related Security
+Requirements to be met;
+
+* the assessed level of control risk,
+
+* the expected efficiency and effectiveness of the tests, and
+
+* the results of tests of the control environment.
+
+A control is operating effectively, if
+
+* it was consistently applied as designed throughout the specified
+period, and
+
+* in case of manual controls, they were applied by individuals who
+have the appropriate competence and authority (e.g. changes being
+only approved by personnel who are responsible for the service being
+provided).
+
+To be able to conclude on this the auditor shall perform procedures
+such as inspection, observation, or re-performance in combination
+with inquiry to obtain evidence about the following:
+
+* how the control was applied;
+
+* the consistency with which the control was applied; and
+
+* by whom or by what means the control was applied.
+
+An inquiry alone is NOT sufficient to determine whether a control
+operated effectively. This also applies to controls, if applicable,
+over the out-sourced processes to sub-service providers.
+
+At level High, in addition to the testing for operating effectiveness,
+the CAB and the CSP shall define procedures for the automated monitoring
+of key security controls, including at least:
+
+* A description of automated monitoring mechanisms implemented by
+the CSP;
+
+* A description of the procedures implemented by the CSP to handle
+the deviations and nonconformities identified through automated monitoring;
+
+* A description of the procedures used to notify the CAB, at least
+when any major nonconformity is identified through automated evidence
+gathering.
+
+Specific controls and requirements are defined in <<annex_a>> that
+define the general requirements for these procedures, and also define
+the minimum et of automated evidence gathering mechanisms to be implemented
+by the CSP.
+
+[[sec_C.5]]
+=== ANALYSIS OF RESULTS
+
+[[sec_C.5.1]]
+==== Evaluation of evidence obtained
+
+The auditor shall evaluate the sufficiency and appropriateness of
+the evidence obtained from the executed audit procedures to conclude
+about the suitability of the design, existence and implementation,
+and operating effectiveness.
+
+The evidence obtained shall be appropriate and sufficient to enable
+the auditor to take informed decisions.
+
+In addition, when using information produced (or provided) by the
+CSP, the auditor shall evaluate whether this information is reliable
+enough for executing the planned audit procedures by obtaining evidence
+about the accuracy and completeness of such information and evaluating
+whether the information was appropriately precise, detailed, consistent
+and current.
+
+Sufficiency is the measure of the quantity of evidence. The quantity
+of evidence needed is affected by the risks of that the description
+is not fairly presented and that the controls were not suitably designed
+or operating and, if required, functioning effectively, and also by
+the quality of such evidence (the higher the quality, the less may
+be required). Obtaining more evidence, however, may not compensate
+for its poor quality.
+
+Appropriateness is the measure of the quality of evidence; that is,
+its relevance and its reliability in providing support for the auditor's
+opinion. The reliability of evidence is influenced by its source and
+by its nature, and is dependent on the individual circumstances under
+which it is obtained.
+
+All relevant evidence shall be considered, regardless of whether it
+appears to corroborate or to contradict the analysis of the description
+or the controls against the applicable security requirements of the
+EUCS.
+
+If the auditor is unable to obtain sufficient appropriate evidence
+to conclude on a given requirement, then the audit shall be considered
+inconclusive. This should be considered as a nonconformity, and handled
+as defined in <<sec_B.6.1>>.
+
+[[sec_C.5.2]]
+==== Analysis of controls to meet the applicable Security Control
+Objectives and related Security Requirements of the EUCS
+
+The analysis of the suitability of the design, existence and implementation,
+and operating effectiveness of the CSP's internal controls, is based
+on the requirements outlined in <<sec_C.4>> above.
+
+For analysing whether the CSP's internal controls meet the Security
+Control Objectives and related Security Requirements of the EUCS,
+the auditor has to consider whether the controls fully cover all aspects
+of the Security Requirements. Several controls may be required in
+combination per Security Requirement to fully meet each security requirement.
+
+If the CSP already performs audits in accordance with other standards
+(e.g. ISO 27001 or SOC 2), it is possible that the controls presented
+in the description may be optimally aligned with the criteria of these
+standards, but that their descriptions do not fully meet all aspects
+of the Security Requirement of the EUCS to which they are mapped to.
+
+The auditor's test procedures and the results thereof shall be documented
+in the report according to the examples in the table below
+
+[cols="4",options="header,unnumbered"]
+|===
+| Security Control Objectives
+| <Service-Org>'s Description of Controls
+| Tests Performed | Test Results
+
+4+h| Objective: description
+
+| *ID -- Security requirement*
+| ID &#8211; Title of Control +
+[Control Description]
+| Test performed by the auditor
+| Test result by the auditor
+
+|===
+
+In describing the tests of controls in the assurance report, the auditor
+shall clearly state per control tested, whether the items tested represent
+all or a selection of the items in the population. The auditor shall
+further indicate the nature of the tests in sufficient detail to enable
+the CAB's review team as the report recipient to review whether the
+auditor has obtained sufficient and appropriate objective in accordance
+with the requirements as outlined in <<sec_C.4>>.
+
+If nonconformities (or deviations) have been identified, the auditor
+shall record them against a specific control, including a description
+of the objective evidence on which the nonconformity is based, the
+extent of testing performed that led to identification of the nonconformities
+(including the sample size where sampling has been used), and the
+number and nature of the nonconformities noted. The auditor shall
+report nonconformities even if, on the basis of tests performed, he
+has concluded that the related Security Requirement of the EUCS were
+met, and even if the CSP has implemented corrective actions to address
+the nonconformities and the auditor has determined that the corrective
+actions effectively address the nonconformities.
+
+[[sec_C.6]]
+=== ISSUING THE ASSURANCE REPORT
+
+After evaluating the result of the audit procedures the auditor shall
+form a conclusion and issue an assurance report.
+
+The conclusion shall include the audit team's recommendation as to
+whether the cloud service should be certified or not. The conclusion
+shall be based on the evidence obtained and the audit activities performed,
+and express whether, in all material respects,
+
+. For Substantial Level:
+.. the CSP's description fairly presents its cloud service, including
+the controls to meet the Security Control Objectives and related Security
+Requirements of the EUCS, and is free from material misstatements
+as of a specified date (in case of an initial conformity assessment)
+or throughout a specified period (in case of a subsequent conformity
+assessment);
+.. the controls stated in the CSP's description were suitably designed,
+existed and were implemented to provide reasonable assurance that
+the Security Control Objectives and related Security Requirements
+of the EUCS were met as of a specified date (in case of an initial
+conformity assessment) or throughout a specified period (in case of
+a subsequent conformity assessment); and
+.. the controls stated in the CSP's description operated effectively
+to provide reasonable assurance that the Security Control Objectives
+and related Security Requirements of the EUCS were met throughout
+a specified period; or.
+
+. For High Level:
++
+--
+[start=4]
+.. (i) and (ii) above noted for Substantial Level; and
+.. the controls stated in the CSP's description operated and functioned
+effectively to provide reasonable assurance that the Security Control
+Objectives and related Security Requirements of the EUCS were met
+throughout a specified period.
+--
+
+The auditor shall issue the assurance report using the template in
+<<annex_f>>.
+
+This assurance report shall be first addressed to the CSP.

@@ -1,0 +1,1393 @@
+
+[[annex_i]]
+[appendix]
+== TERMINOLOGY
+
+[cols="2",options="unnumbered"]
+|===
+| *PURPOSE*
+| This annex describes the applicable terminology for the candidate
+scheme
+| *CROSS REFERENCE TO THE CHAPTER(S) WHERE THE ELEMENTS ARE DECLARED
+APPLICABLE*
+| All chapters and annexes
+|===
+
+.Foreword for Reviewers
+____
+This Annex defines some vocabulary to be used in the draft candidate
+scheme.
+
+Its first section defines certification-related terminology. It mostly
+draws from <<ISO17000>> and related standards, and also from other
+standards such as ISAE standards. This first section will later be
+reduced in order to leave only the terms that are actually used in
+the draft candidate scheme, but the full content is left for now as
+a reference.
+
+Its second section defines more general vocabulary, which is used
+in particular in <<annex_a>>. Please refer to that section in case
+of doubt regarding a term used in that annex. The section is less
+mature and some definitions will need to be revised. .
+____
+
+[[sec_I.1]]
+=== CERTIFICATION TERMINOLOGY
+
+The following terminology mostly comes from ISO standards (ISO17000,
+ISO17021, ISO17025, ISO17065) and EU regulations.
+
+WARNING: This is work in progress, so the definitions will evolve
+over time.
+
+[[sec_I.1.1]]
+==== Components
+
+[cols="a,a",options="unnumbered,header"]
+|===
+| Term | Definition
+
+| *requirement*
+| need or expectation that is stated, generally implied or obligatory
+
+NOTE: "Generally implied" means that it is custom or common practice
+for the organization and interested parties that the need or expectation
+under consideration is implied.
+
+NOTE: A specified requirement is one that is stated, for example in
+documented information.
+
+NOTE: A qualifier can be used to denote a specific type of requirement,
+e.g. product requirement, service requirement, customer requirement.
+
+.source
+<<ISO27000,clause=3.56>>
+
+| *specified requirement*
+
+| need or expectation that is stated
+
+NOTE: Specified requirements may be stated in normative documents
+such as regulations, standards and technical specifications.
+
+NOTE: Specified requirements can be detailed or general
+
+NOTE: In the context of a European cybersecurity certification scheme,
+the specified requirements typically correspond to the requirements
+specified in the scheme, either directly or indirectly (in normative
+documents referred to in the scheme). 
+
+.source
+<<ISO17000,clause=5.1>>
+
+| *product requirement*
+| requirement that relates directly to a product, specified in standards
+or in other normative documents identified by the certification scheme
+
+NOTE: Product requirements can be specified in normative documents
+such as regulations, standards and technical specifications.
+
+[.source]
+<<ISO17065,clause=3.8>>
+
+
+| *operational requirement*
+| requirement that relates directly to the operation of a service,
+specified in standards or in other normative documents identified
+by the certification scheme
+
+[.source]
+<<ISO17065,clause=3.8>>
+
+
+| *audit criteria*
+
+| set of requirements used as a reference against which objective
+evidence is compared
+
+NOTE: Requirements may include policies, procedures, work instructions,
+legal requirements, contractual obligations, etc.
+
+[.source]
+<<ISO19011,clause=3.7>>
+
+
+| *claim*
+| information declared by the client
+
+NOTE: The claim is the object of conformity assessment by validation
+or verification. 
+
+NOTE: The claim can represent a situation at a point in time or could
+cover a period of time. 
+
+NOTE: The claim should be clearly identifiable and capable of consistent
+evaluation or measurement against specified requirements by a conformity
+assessment body. 
+
+NOTE: The claim can be provided in the form of a report, a statement,
+a declaration, a project plan, or consolidated data. 
+
+NOTE: We may need to change this definition in order to give it a
+more general meaning.
+
+[.source]
+<<ISO17029,clause=3.1>>
+
+
+| *objective*
+| result to be achieved
+
+NOTE: An objective can be strategic, tactical, or operational.
+
+NOTE: Objectives can relate to different disciplines (such as financial,
+health and safety, and environmental goals) and can apply at different
+levels [such as strategic, organization-wide, project, product and
+process ].
+
+NOTE: An objective can be expressed in other ways, e.g. as an intended
+outcome, a purpose, an operational criterion, as an information security
+objective or by the use of other words with similar meaning (e.g.
+aim, goal, or target).
+
+NOTE: In the context of information security management systems, information
+security objectives are set by the organization, consistent with the
+information security policy, to achieve specific results.
+
+[.source]
+<<ISO27000,clause=3.49>>
+
+
+| *objective evidence*
+| data supporting the existence or verity of something 
+
+NOTE: Objective evidence can be obtained through observation, measurement,
+test, or by other means. 
+
+NOTE: Objective evidence for the purpose of audit generally consists
+of records, statements of fact or other information which are relevant
+to the audit criteria and verifiable.
+
+[.source]
+<<ISO9000,clause=3.8.3>>
+
+
+| *sufficiency of evidence*
+| The measure of the quantity of evidence
+
+[.source]
+<<ISAE3000,clause=12.i.i>>
+
+
+| *appropriateness of evidence*
+| The measure of the quality of evidence
+
+[.source]
+<<ISAE3000,clause=12.i.ii>>
+
+
+| *characteristic*
+| distinguishing feature
+
+NOTE: A characteristic can be inherent or assigned.
+
+NOTE: A characteristic can be qualitative or quantitative.
+
+[.source]
+<<ISO9000,clause=3.10.1>>
+
+
+| *component*
+| an entity with discrete structure within a system considered at
+a given level of analysis
+
+[.source]
+<<Wikipedia>>
+
+
+| *system*
+| a group of interacting or interrelated entities that form a unified
+whole
+
+[.source]
+<<Wikipedia>>
+
+
+| *subsystem*
+| a set of elements, which is a system itself, and a component of
+a larger system
+
+[.source]
+<<Wikipedia>>
+
+
+| *management system*
+| set of interrelated or interacting elements of an organization to
+establish policies and objectives, and processes to achieve those
+objectives
+
+NOTE: A management system can address a single discipline or several
+disciplines, e.g. quality management, financial management or environmental
+management.
+
+NOTE: The management system elements establish the organization's
+structure, roles and responsibilities, planning, operation, policies,
+practices, rules, beliefs, objectives and processes to achieve those
+objectives.
+
+NOTE: The scope of a management system can include the whole of the
+organization, specific and identified functions of the organization,
+specific and identified sections of the organization, or one or more
+functions across a group of organizations.
+
+[.source]
+<<ISO9000,clause=3.5.3>>
+
+
+| *procedure*
+| specified way to carry out an activity or a process 
+
+NOTE: Procedures can be documented or not.
+
+[.source]
+<<ISO9000_2000,clause=3.4.5>>
+
+
+| *policy*
+| intentions and direction of an organization, as formally expressed
+by its top management
+
+[.source]
+<<ISO_Supplement,clause=3.7>>
+
+
+| *product*
+| output of an organization that can be produced without any transaction
+taking place between the organization and the customer 
+
+[.source]
+<<ISO9000_2000,clause=3.4.2>>
+
+
+| *ICT product*
+| an element or a group of elements of a network or information system
+
+NOTE: In the definition of certification schemes, the use of 'ICT
+product' follows this definition from EC 881-2019, and will mostly
+be used to refer to certification schemes and products certified using
+such schemes. It is a subset of the more general term product, whose
+definition originates in <<ISO9000>>.
+
+[.source]
+<<EC_881_2019,clause=2.12>>
+
+
+| *output*
+| result of a process 
+
+NOTE: Whether an output of the organization is a product or a service
+depends on the preponderance of the characteristics involved, e.g.
+a painting for sale in a gallery is a product whereas supply of a
+commissioned painting is a service, a hamburger bought in a retail
+store is a product whereas receiving an order and serving a hamburger
+ordered in a restaurant is part of a service.
+
+[.source]
+<<ISO9000,clause=5.6>>
+
+
+| *process*
+| set of interrelated or interacting activities which transforms inputs
+into outputs
+
+[.source]
+<<ISO_Supplement,clause=3.12>>
+
+
+| *ICT process*
+| a set of activities performed to design, develop, deliver or maintain
+an ICT product or ICT service 
+
+NOTE: This term is to be used when a process is intended to be the
+object of a cybersecurity certification. The term 'process' is more
+general and should be used in other situations.
+
+[.source]
+<<EC_881_2019,clause=2.14>>
+
+
+| *service*
+| output of an organization with at least one activity necessarily
+performed between the organization and the customer
+
+NOTE: This definition from ISO9000 echoes the definition of a product,
+and is refined into the notion of information service from European
+Regulation 1535/2015.
+
+[.source]
+<<ISO9000_2000,clause=3.7.7>>
+
+
+| *information service*
+| any service normally provided for remuneration, at a distance, by
+electronic means and at the individual request of a recipient of services.
+
+
+NOTE: For the purposes of this definition: (i) 'at a distance' means
+that the service is provided without the parties being simultaneously
+present; (ii) 'by electronic means' means that the service is sent
+initially and received at its destination by means of electronic equipment
+for the processing (including digital compression) and storage of
+data, and entirely transmitted, conveyed and received by wire, by
+radio, by optical means or by other electromagnetic means; (iii) 'at
+the individual request of a recipient of services' means that the
+service is provided through the transmission of data on individual
+request.
+
+[.source]
+<<EC1535_2015,clause=1.b>>
+
+
+| *ICT service*
+| a service consisting fully or mainly in the transmission, storing,
+retrieving or processing of information by means of network and information
+systems
+
+NOTE: In the definition of certification schemes, the use of 'ICT
+service' follows this definition from EC 881-2019, and will mostly
+be used to refer to certification schemes and products certified using
+such schemes. For a more general use, it is preferable to use the
+term 'service'.
+
+[.source]
+<<EC_881_2019,clause=2.13>>
+
+
+| *composed service* +
+*composite service*
+| service comprised of two or more components that have been successfully
+certified
+
+[.source]
+<<ISO15408,clause=3.6.4>>
+
+
+| *base service*
+| entity in a composed service, which has itself been the subject
+of a conformity assessment, providing services and resources to a
+dependent service
+
+[.source]
+<<ISO15408,clause=3.6.1>>
+
+
+| *dependent service*
+| entity in a composed service, which is itself the subject of a conformity
+assessment, relying on the provision of services by a base services
+
+[.source]
+<<ISO15408,clause=3.6.5>>
+
+
+| *object of conformity assessment* +
+*object*
+| entity to which specified requirements (5.1) apply
+
+[example]
+Product, process, service, system, installation, project, data, design,
+material, claim, person, body or organization, or any combination
+thereof.
+
+[.source]
+<<ISO17000,clause="4.2, Note 2">>
+
+
+| *assurance level*
+| a basis for confidence that an ICT product, ICT service or ICT process
+meets the security requirements of a specific European cybersecurity
+certification scheme, indicates the level at which an ICT product,
+ICT service or ICT process has been evaluated but as such does not
+measure the security of the ICT product, ICT service or ICT process
+concerned 
+
+NOTE: A scheme often defines discrete assurance levels, and each such
+discrete level defines a degree of confidence in the fulfilment of
+requirements by the ICT product, ICT service, or ICT process.
+
+[.source]
+<<EC_881_2019,clause=2.21>>
+
+
+| *conformity*
+| fulfilment of a requirement
+
+NOTE: when used in opposition with compliance, conformity relates
+to the requirements related to the object of conformity assessment
+rather than to the requirements related to the certification scheme.
+
+[.source]
+<<ISO_Supplement,clause=3.18>>
+
+
+| *compliance*
+| conformity in the context of a the rules and requirements defined
+in a certification scheme. 
+
+NOTE: This is a refinement of <<ISO19011>>, which defines compliance
+as conformity in the context of a statutory requirement or regulatory
+requirement. In this case, compliance is conformity in the context
+of a given scheme.
+
+[.source]
+<<ISO19011,clause=3.7>>
+
+
+| *nonconformity*
+| non-fulfilment of a requirement
+
+NOTE: when used in opposition with non-compliance, conformity relates
+to the requirements related to the object of conformity assessment
+rather than to the requirements related to the certification scheme.
+
+[.source]
+<<ISO_Supplement,clause=3.19>>
+
+
+| *major nonconformity*
+| nonconformity that affects the capability of the management system
+to achieve its intended results 
+
+NOTE: Nonconformities could be classified as major in the following
+circumstances: - if there is a significant doubt that effective process
+control is in place, or that products or services will meet specified
+requirements; - a number of minor nonconformities associated with
+the same requirement or issue could demonstrate a systemic failure
+and thus constitute a major nonconformity.
+
+[.source]
+<<ISO17021,clause=3.12>>
+
+
+| *minor nonconformity*
+| nonconformity that does not affect the capability of the management
+system to achieve its intended results
+
+| *non-compliance*
+| nonconformity in the context of the rules and requirements defined
+in a certification scheme 
+
+NOTE: This is a refinement of ISO19011, which defines non-compliance
+as nonconformity in the context of a statutory requirement or regulatory
+requirement. Here, compliance is conformity in the context of a given
+scheme.
+
+[.source]
+<<ISO19011,clause=3.7>>
+
+
+| *control*
+| measure that is modifying risk
+
+NOTE: Controls include any process, policy, device, practice, or other
+actions which modify risk.
+
+NOTE: Controls may not always exert the intended or assumed modifying
+effect.
+
+[.source]
+<<ISO_Guide_73_2009,clause=3.8.11>>
+
+
+| *control objective*
+| statement describing what is to be achieved as a result of implementing
+controls
+
+[.source]
+<<ISO27000,clause=3.15>>
+
+
+| *compensating control*
+| An internal control that reduces the risk of an existing or potential
+control weakness resulting in errors and omissions
+
+[.source]
+<<SOC2>>
+
+
+| *detective control*
+| A control that detects and reports when errors, omissions and unauthorized
+uses or entries occur
+
+[.source]
+<<SOC2>>
+
+
+| *preventive control*
+| An internal control that is used to avoid undesirable events, errors
+and other occurrences that an enterprise has determined could have
+a negative material effect on a process or end product
+
+[.source]
+<<SOC2>>
+
+
+| *effectiveness*
+| extent to which planned activities are realized and planned results
+achieved
+
+[.source]
+<<ISO_Supplement,clause=3.6>>
+
+
+| *design effectiveness*
+| Refers to the suitability of the control as of a specified date
+or for a specified period (typically 6 to 12 months), based on the
+auditor's conclusion on whether
+
+. the risks that threaten the achievement of the control objectives
+have been identified by management;
+. the controls would, if operating effectively, provide reasonable
+assurance that those risks would not prevent the control objectives
+from being achieved.
+
+[.source]
+<<ISAE3402>>
+
+
+| *operating effectiveness*
+| A control is operating effectively, if
+
+. it was consistently applied as designed throughout the specified
+period, and
+. in case of manual controls, they were applied by individuals who
+have the appropriate competence and authority.
+
+[.source]
+<<ISAE3402>>
+
+
+| *asset*
+| item, thing or entity that has potential or actual value to an organization
+
+NOTE: Value can be tangible or intangible, financial or non-financial,
+and includes consideration of risks and liabilities. It can be positive
+or negative at different stages of the asset life.
+
+NOTE: Physical assets usually refer to equipment, inventory and properties
+owned by the organization. Physical assets are the opposite of intangible
+assets, which are non-physical assets such as leases, brands, digital
+assets, use rights, licences, intellectual property rights, reputation
+or agreements.
+
+NOTE: A grouping of assets referred to as an asset system could also
+be considered as an asset.
+
+[.source]
+<<ISO55000>>
+
+
+| *asset*
+| life period from asset creation to asset end-of-life
+
+[.source]
+<<ISO55000>>
+
+
+| *life cycle*
+| stages involved in the management of an asset
+
+NOTE: The naming and number of the stages and the activities under
+each stage usually vary in different industry sectors and are determined
+by the organization.
+
+[.source]
+<<ISO55000>>
+
+
+| *asset system*
+| set of assets (3.2.1) that interact or are interrelated
+
+[.source]
+<<ISO55000>>
+
+
+| *risk*
+| effect of uncertainty on objectives
+
+NOTE: An effect is a deviation from the expected -- positive and/or
+negative.
+
+NOTE: Objectives can have different aspects (such as financial, health
+and safety, and environmental goals) and can apply at different levels
+(such as strategic, organization-wide, project, product and process).
+
+NOTE: Risk is often characterized by reference to potential events
+and consequences, or a combination of these.
+
+NOTE: Risk is often expressed in terms of a combination of the consequences
+of an event (including changes in circumstances) and the associated
+likelihood of occurrence.
+
+NOTE: Uncertainty is the state, even partial, of deficiency of information
+related to, understanding or knowledge of, an event, its consequence,
+or likelihood.
+
+[.source]
+<<ISO_Guide_73_2009,clause=1.1>>
+
+
+| *operational risk*
+| A risk arising from execution of a company's business functions
+
+| *engagement risk*
+| The risk that the practitioner expresses an inappropriate conclusion
+when the subject matter information is materially misstated
+
+[.source]
+<<ISAE3000,clause=12.f>>
+
+
+| *risk of material misstatement*
+| The risk that the subject matter information is materially misstated
+prior to the start of the engagement
+
+[.source]
+<<ISAE3000,clause=12.w>>
+
+
+| *control risk*
+| the risk that an event that prevents a security requirement from
+being met will not be prevented or detected and corrected on a timely
+basis by the controls
+
+| *security event*
+| An occurrence, arising from actual or attempted unauthorized access
+or use by internal or external parties, that impairs or could impair
+the availability, integrity, or confidentiality of information or
+systems, result in unauthorized disclosure or theft of information
+or other assets, or cause damage to systems
+
+[.source]
+<<TSC>>
+
+
+| *security incident*
+| A security event that requires action on the part of an entity in
+order to protect information assets and resources
+
+[.source]
+<<TSC>>
+
+
+| *compromise*
+| Refers to a loss of confidentiality, integrity, or availability
+of information, including any resultant impairment of (1) processing
+integrity or availability of systems or (2) the integrity or availability
+of system inputs or outputs
+
+[.source]
+<<TSC>>
+
+
+| *carve-out method*
+| Method of dealing with the services provided by a subservice organization,
+whereby the service organization's description of its system includes
+the nature of the services provided by a subservice organization,
+but that subservice organization's relevant control objectives and
+related controls are excluded from the service organization's description
+of its system and from the scope of the service auditor's engagement.
+The service organization's description of its system and the scope
+of the service auditor's engagement include controls at the service
+organization to monitor the effectiveness of controls at the subservice
+organization, which may include the service organization's review
+of an assurance report on controls at the subservice organization.
+
+[.source]
+<<ISAE3402,clause=9.a>>
+
+
+| *inclusive method*
+| Method of dealing with the services provided by a subservice organization,
+whereby the service organization's description of its system includes
+the nature of the services provided by a subservice organization,
+and that subservice organization's relevant control objectives and
+related controls are included in the service organization's description
+of its system and in the scope of the service auditor's engagement
+
+[.source]
+<<ISAE3402,clause=9.g>>
+
+|===
+
+[[sec_I.1.2]]
+==== Activities
+
+[cols="a,a",options="unnumbered,header"]
+|===
+| Term | Definition
+
+| *conformity assessment*
+| demonstration that specified requirements are fulfilled
+
+NOTE: The process of conformity assessment [...] can have a negative
+outcome, i.e. demonstrating that the specified requirements are not
+fulfilled.
+
+NOTE: The subject field of conformity assessment includes selection
+activities, determination activities such as testing, inspection and
+audit, review activities, and attestation activities such as certification,
+as well as the accreditation of conformity assessment bodies.
+
+NOTE: <<ISO17000>> does not include a definition of "conformity".
+"Conformity" does not feature in the definition of "conformity assessment".
+Nor does <<ISO17000>> address the concept of compliance.
+
+[.source]
+<<ISO17000,clause=4.1>>, some modifications in notes
+
+
+| *activity*
+| smallest identified object of work in a given context
+
+[.source]
+<<ISO9000,clause=3.3.11>>
+
+
+| *first-party conformity assessment activity*
+| conformity assessment activity that is performed by the person or
+organization that provides the object of conformity assessment
+
+[.source]
+<<ISO17000,clause=4.3>>
+
+
+| *third-party conformity* +
+*assessment activity*
+| conformity assessment activity that is performed by a person or
+organization that is independent of the provider of the object of
+conformity assessment, and has no user interest in the object
+
+[.source]
+<<ISO17000,clause=4.5>>
+
+
+| *conformity self-assessment*
+| first-party conformity assessment activities, which evaluate whether
+those ICT products, ICT services or ICT processes meet the requirements
+of a specific European cybersecurity certification scheme
+
+NOTE: The original definition from EC 881-2019 has been reworded to
+make the link with the definition of a first-party conformity assessment
+activity, but the meaning remains unchanged.
+
+[.source]
+<<EC_881_2019,clause=2.22>>
+
+
+| *selection*
+| planning and preparation activities in order to collect or produce
+all the information and input needed for the subsequent determination
+function 
+
+NOTE: Selection activities vary widely in number and complexity. In
+some instances, very little selection activity may be needed.
+
+[.source]
+<<ISO17000,clause=A.2.1>>
+
+
+| *sampling*
+| selection and/or collection of material or data regarding an object
+of conformity assessment
+
+NOTE: Selection can be on the basis of a procedure, an automated system,
+professional judgement etc.
+
+NOTE: Selection and collection can be performed by the same or different
+persons or organizations.
+
+[.source]
+<<ISO17000,clause=6.1>>
+
+
+| *determination*
+| activities undertaken to develop complete information regarding
+fulfilment of the specified requirements by the object of conformity
+assessment or its sample
+
+[.source]
+<<ISO17000,clause=A.3.1>>
+
+
+| *testing*
+| determination of one or more characteristics of an object of conformity
+assessment, according to a procedure
+
+NOTE: The procedure can be intended to control variables within testing
+as a contribution to the accuracy or reliability of the results.
+
+NOTE: The results of testing can be expressed in terms of specified
+units or objective comparison with agreed references.
+
+NOTE: The output of testing can include comments (e.g. opinions and
+interpretations) about the test results and fulfilment of specified
+requirements.
+
+[.source]
+<<ISO17000,clause=6.2>>
+
+
+| *inspection*
+| examination of an object of conformity assessment and determination
+of its conformity with specific requirements or, on the basis of professional
+judgement, with general requirements 
+
+NOTE: Examination can include direct or indirect observations, which
+can include measurements or the output of instruments. 
+
+NOTE: Conformity assessment schemes or contracts can specify inspection
+as examination only.
+
+[.source]
+<<ISO17000,clause=6.3>>
+
+
+| *audit*
+| process for obtaining relevant information about an object of conformity
+assessment (4.2) and evaluating it objectively to determine the extent
+to which specified requirements (5.1) are fulfilled
+
+NOTE: The specified requirements are defined prior to performing an
+audit so that the relevant information can be obtained.
+
+NOTE: Examples of objects for an audit are management systems, processes,
+products and services.
+
+[.source]
+<<ISO17000,clause=6.4>>
+
+
+| *validation*
+| confirmation of plausibility for a specific intended use or application
+through the provision of objective evidence that specified requirements
+(5.1) have been fulfilled 
+
+NOTE: Validation can be applied to claims to confirm the information
+declared with the claim regarding an intended future use.
+
+[.source]
+<<ISO17000,clause=6.5>>
+
+
+| *verification*
+| confirmation of truthfulness through the provision of objective
+evidence that specified requirements (5.1) have been fulfilled
+
+NOTE: Verification can be applied to claims to confirm the information
+declared with the claim regarding events that have already occurred
+or results that have already been obtained.
+
+[.source]
+<<ISO17000,clause=6.6>>
+
+
+| *evaluation*
+| combination of the selection and determination functions of conformity
+assessment activities
+
+[.source]
+<<ISO17065,clause=3.3>>
+
+
+| *review*
+| consideration of the suitability, adequacy and effectiveness of
+selection and determination activities, and the results of these activities,
+with regard to fulfilment of specified requirements by an object of
+conformity assessment
+
+[.source]
+<<ISO17000,clause=7.1>>
+
+
+| *decision*
+| conclusion, based on the results of review (7.1), that fulfilment
+of specified requirements (5.1) has or has not been demonstrated
+
+[.source]
+<<ISO17000,clause=7.2>>
+
+
+| *peer assessment*
+| assessment of a body against specified requirements by representatives
+of other bodies in, or candidates for, an agreement group
+
+NOTE: This entry is not satisfactory for several reasons, and in particular
+because it refers to concepts that are not currently defined (agreement
+group) and have little interest for us, and also mentions of a "body",
+which is unclear.
+
+NOTE: On the other hand, this could cover both CABs at level 'high'
+and NCCAs, but some rewriting is required.
+
+[.source]
+<<ISO17000,clause=4.5>>
+
+
+| *attestation*
+| issue of a statement, based on a decision, that fulfilment of specified
+requirements has been demonstrated
+
+NOTE: The resulting statement [...] is intended to convey the assurance
+that the specified requirements have been fulfilled. Such an assurance
+does not, of itself, afford contractual or other legal guarantees.
+
+
+NOTE: First-party attestation and third-party attestation are distinguished
+by the terms declaration, certification, and accreditation, but there
+is no corresponding term applicable to second-party attestation.
+
+[.source]
+<<ISO17000,clause=5.2>>
+
+
+| scope of attestation
+| identification of
+
+* the product(s), process(es) or service(s) for which the attestation
+is granted,
+* the applicable conformity assessment scheme, and
+* the standard(s) and other normative document(s), including their
+date of publication, to which it is judged that the product(s), process(es)
+or service(s) comply
+
+NOTE: The notion of scope can be similarly applied to specific kinds
+of attestation, such as scope of certification or scope of declaration.
+
+[.source]
+<<ISO17065,clause=3.10>>
+
+
+| *declaration*
+| first-party attestation
+
+[.source]
+<<ISO17000,clause=7.5>>
+
+
+| *EU statement of conformity*
+| declaration produced by a vendor of ICT product, ICT process, or
+ICT service after performing a conformity self-assessment in the context
+of an European cybersecurity certification scheme, that states that
+a specific ICT product, ICT service or ICT process complies with the
+requirements of the European cybersecurity certification scheme certification
+third-party attestation related to an object of conformity assessment,
+with the exception of accreditation
+
+[.source]
+<<ISO17000,clause=7.6>>
+
+
+| *accreditation*
+| third-party attestation related to a conformity assessment body,
+conveying formal demonstration of its competence, impartiality and
+consistent operation in performing specific conformity assessment
+activities
+
+[.source]
+<<ISO17000,clause=7.7>>
+
+
+| *surveillance*
+| systematic iteration of conformity assessment activities as a basis
+for maintaining the validity of the statement of conformity 
+
+NOTE: We may not want to keep this term, because of possible confusion
+with market surveillance, but it is kept for now, as some term needs
+to cover that concept.
+
+[.source]
+<<ISO17000,clause=8.1>>
+
+
+| *suspension*
+| temporary restriction of the statement of conformity by the body
+that issued the statement, for all or part of the specified scope
+of attestation
+
+[.source]
+<<ISO17000,clause=8.2>>
+
+
+| *withdrawal* +
+*cancellation*
+| revocation of the statement of conformity by the body that issued
+the statement
+
+[.source]
+<<ISO17000,clause=8.3>>
+
+
+| *expiry*
+| ending of the validity of the statement of conformity after a specified
+period
+
+[.source]
+<<ISO17000,clause=8.4>>
+
+
+| *restoration*
+| reinstatement of the full or partial statement of conformity
+
+[.source]
+<<ISO17000,clause=8.5>>
+
+|===
+
+
+
+[[sec_I.1.3]]
+==== Entities and roles
+
+[cols="a,a",options="unnumbered,header"]
+|===
+| Term | Definition
+
+| *conformity assessment body*
+| body that performs conformity assessment services
+
+[.source]
+<<ISO17000,clause=2.5>>
+
+
+| *accreditation body*
+| conformity assessment body that performs accreditation 
+
+NOTE: The authority of an accreditation body is generally derived
+from government.
+
+[.source]
+<<ISO17000,clause=2.6>>
+
+| *national accreditation body*
+| the sole body in a Member State that performs accreditation with
+authority derived from the State
+
+[.source]
+<<EC765_2008,clause=2.1>>
+
+
+| *certification body*
+| third-party conformity assessment body that performs review and
+certification activities.
+
+| *audit team*
+| one or more persons conducting an audit, supported if needed by
+technical experts
+
+NOTE: One auditor of the audit team is appointed as the audit team
+leader.
+
+[.source]
+<<ISO9000,clause=3.13.14>>
+
+
+| *auditor*
+| person who conducts an audit 
+
+NOTE: In the schemes and related documents, 'the auditor' is typically
+used as the subject of requirements related to audit of the form "the
+auditor shall...".
+
+[.source]
+<<ISO17021,clause=3.6>>
+
+| *technical expert*
+| person who provides specific knowledge or expertise to the audit
+team
+
+[.source]
+<<ISO17021,clause=3.14>>
+
+
+| *conformity assessment system*
+| rules, procedures and management for carrying out conformity assessment
+
+
+NOTE: The Cybersecurity Act is a conformity assessment system from
+which are derived European cybersecurity certification schemes.
+
+[.source]
+<<ISO17000,clause=2.7>>
+
+| *conformity assessment scheme*
+| conformity assessment system related to specified objects of conformity
+assessment, to which the same specified requirements, specific rules
+and procedures apply
+
+[.source]
+<<ISO17000,clause=2.8>>
+
+
+| *certification scheme*
+| conformity assessment scheme that includes a certification activity
+
+
+NOTE: In a certification scheme, a successful assessment leads to
+the issuance of a certificate.
+
+| *European cybersecurity certification scheme*
+| a comprehensive set of rules, technical requirements, standards
+and procedures that are established at Union level and that apply
+to the certification or conformity assessment of specific ICT products,
+ICT services or ICT processes
+
+NOTE: This definition is a refinement of the definition of a certification
+scheme.
+
+[.source]
+<<EC_881_2019,clause=2.9>>
+
+
+| *national cybersecurity certification scheme*
+| a comprehensive set of rules, technical requirements, standards
+and procedures developed and adopted by a national public authority
+and that apply to the certification or conformity assessment of ICT
+products, ICT services and ICT processes falling under the scope of
+the specific scheme 
+
+NOTE: This definition is a refinement of the definition of a certification
+scheme.
+
+[.source]
+<<EC_881_2019,clause=2.10>>
+
+| *organization*
+| person or group of people that has its own functions with responsibilities,
+authorities and relationships to achieve its objectives
+
+NOTE: The concept of organization includes, but is not limited to,
+sole-trader, company, corporation, firm, enterprise, authority, partnership,
+charity or institution, or part or combination thereof, whether incorporated
+or not, public or private.
+
+[.source]
+<<ISO_Supplement,clause=3.1>>
+
+
+| *top management*
+| person or group of people who directs and controls an organization
+at the highest level 
+
+NOTE: Top management has the power to delegate authority and provide
+resources within the organization. 
+
+NOTE: If the scope of the management system covers only part of an
+organization, then top management refers to those who direct and control
+that part of the organization.
+
+[.source]
+<<ISO_Supplement,clause=3.5>>
+
+| *first-party*
+| the person or organization that provides the object of conformity
+assessment
+
+[.source]
+<<ISO17000,clause=2.2>>
+
+
+| *third-party*
+| a person or body that is independent of the person or organization
+that provides the object of conformity assessment, and of user interests
+in that object
+
+[.source]
+<<ISO17000,clause=2.2>>
+
+| *interested party* +
+*stakeholder*
+| person or organization that can affect, be affected by, or perceive
+itself to be affected by a decision or activity
+
+[.source]
+<<ISO_Supplement,clause=3.2>>
+|===
+
+
+[[sec_I.2]]
+=== TERMS TO BE ADDED OR CONSIDERED
+
+.Foreword for Reviewers
+____
+This section is work in progress about terminology, in particular
+regarding the terminology used in the Security Controls, often derived
+from C5. The definition need to be confirmed and integrated in the
+main terminology.
+____
+
+[cols="a,a,a",options="unnumbered,header"]
+|===
+| Term | Abbreviation | Definition
+
+| *Mutual Recognition Agreement* | MRA |
+
+| *records system* |
+| information system which captures, manages and provides access (3.1)
+to records over time
+
+NOTE: A records system can consist of technical elements such as software,
+which may be designed specifically for managing records or for some
+other business purpose, and non-technical elements including policy,
+procedures, people and other agents, and assigned responsibilities.
+
+[.source]
+<<ISO15489_1_2016>>
+
+| *Supplementary cybersecurity information* |
+| From the Cybersecurity Act
+
+| *document* |
+| <policies and procedures> the actions of designing policies and
+procedures related to a given topic or process and of preparing documentation
+targeting the relevant stakeholders
+
+| *implement establish?* |
+| <policies and procedures> the action of putting the policies and
+procedures into practice
+
+NOTE: C5 does not explicitly refer to implementation.
+
+| *communicate* |
+| <any document or information> the action of sharing the document
+or information with targeted persons through an explicit action (email,
+posters, etc.)
+
+| *make available provide?* |
+| <any document or information> the action of sharing the document
+or information by storing or displaying it in a place previously agreed
+with the targeted persons
+
+| *approve* |
+| <any document or information> the action by an authorized body to
+confirm that a document conforms to requirements or expectations
+
+| *review* |
+| <any document> the action of checking that a document is up-to-date,
+and unless otherwise specified, of modifying the document with up-to-date
+information
+
+| *update* |
+| <any document> the action of modifying the document with up-to-date
+information
+
+| *maintain* |
+| <any document> the continuous action of keeping a document up-to-date
+
+| *control securitycontrol* |
+| Process-integrated or process-independent measure to reduce the
+likihood of events occurring or to detect events that have occurred
+in order to maintain the information security of the cloud service
+
+[.source]
+<<C5_2020>>
+
+| *system component* |
+| the objects required for the information security of the cloud service
+during the creation, processing, storage, transmission, deletion or
+destruction of information in the Cloud Service Provider's area of
+responsibility
+
+[example]
+firewalls, load balancers, web servers, application servers, database
+servers
+
+[.source]
+<<C5_2020>>
+
+| *authorized body* |
+| person or group of persons to whom top management has delegated
+a task or responsibility
+
+NOTE: In the security controls, authorized bodies would typically
+be responsible for of a given policy and related procedures
+
+| *internal employee* |
+| employee of the CSP
+
+| *external employee* |
+| employee of a third-party who is working for the CSP and who is
+considered as an employee in the human resource managements controls
+described in the HR category.
+
+| *perimeter security perimeter* |
+| the physical border surrounding locations hosting CSP equipment
+and personnel, for which access is controlled
+
+| *area security area* |
+| an area delimited by security perimeters, within which access is
+not controlled
+
+| *datacentre* |
+| location hosting the equipment from which the cloud operates
+
+| *personal account* |
+| a personal account associated to a single human user
+
+| *shared account* |
+| a generic account, typically shared between several human users
+
+| *technical account* |
+| an account associated to a non-human user, who could be an application
+or a device
+
+| *access right* |
+
+| permission for a subject to access a particular asset for a specific
+type of operation
+
+[.source]
+<<ISO_IEC_2382_2015,clause=2126298>>
+
+| *development environment* |
+| The environment in which changes to software are developed, typically
+an individual developer's workstation
+
+| *test environment* |
+| The environment in which new and changed code is exercised via automated
+or non-automated techniques
+
+| *pre-production environment* |
+| Mirror of production environment used for final testing or
+
+| *production environment* |
+| The environment that serves customers
+
+| *service provider external service provider* |
+| organization or an individual that enters into agreement with the
+CSP for the supply of a service
+
+[.source]
+<<ISO_IEC_27036_1_2014,clause=3.9>>
+
+| *subservice provider subservice organization* |
+| third-party providing services to the CSP that contribute to the
+provision of the cloud service by the CSP
+
+| *supplier* |
+| organization or an individual that enters into agreement with the
+acquirer for the supply of a product or service
+
+NOTE: Other terms commonly used for supplier are contractor, producer,
+seller, or vendor.
+
+NOTE: the term "service provider" is typically used in this scheme
+for suppliers of services
+
+NOTE: when opposed to "service provider", the term "supplier" refers
+to a supplier of products
+
+[.source]
+<<ISO_IEC_27036_1_2014,clause=3.9>>
+
+|===
+
