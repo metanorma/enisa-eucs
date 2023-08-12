@@ -1,0 +1,1043 @@
+
+
+[[annex_b]]
+[appendix]
+== META-APPROACH FOR THE ASSESSMENT OF CLOUD SERVICES
+
+[cols="2",options="unnumbered"]
+|===
+| *PURPOSE*
+| This annex describes a meta-approach that is applicable to all conformity
+assessment for all assurance levels
+| *CROSS REFERENCE TO THE CHAPTER(S) WHERE THE ELEMENTS ARE DECLARED
+APPLICABLE*
+| <<sec_8>>
+|===
+
+.Foreword for Reviewers
+____
+The content related to assessment has recently been structured, and
+in particular, the assessment for levels Substantial and High is now
+split between two annexes. This organization is not necessarily permanent
+and may be reconsidered.
+
+The current proposal is built on the following hypotheses:
+
+* All CSPs are subject to the same requirements in order to get their
+cloud services certified, regardless of the way in which their cloud
+services are implemented (e.g., a SaaS provider implementing a full
+stack vs. a SaaS provider using a subservice provider's infrastructure
+for the delivery of its own service).
+
+* The auditor is in charge of assessing the level of compliance and
+assurance for subservice providers based solely on the information
+available, including assurance reports of various origins and evidence
+provided by the CSP in their risk assessment of their subservice providers.
+
+As we added more details, such as requirements for documents, these
+aspects have been the subject of discussions until the last days before
+the release of this draft candidate scheme.
+____
+
+[[sec_B.1]]
+=== INTRODUCTION
+
+[[sec_B.1.1]]
+==== Definitions
+
+===== Audit
+
+In EUCS, the definition of an audit is taken from <<ISO17000>>:
+
+* A systematic, independent, documented process for obtaining records,
+statements of fact or other relevant information and assessing them
+objectively to determine the extent to which specified requirements
+are fulfilled.
+
+ISAE/ISA proposes another definition for the term:
+
+* A systematic process of objectively obtaining and evaluating evidence
+regarding management assertions about conformity with the predefined
+framework to ascertain the degree of correspondence between those
+assertions and established criteria and [additional to ISO] communicating
+the results to interested users.
+
+For the purpose of this annex, we will consider that the definitions
+are sufficiently close to be considered equivalent.
+
+===== Reasonable assurance
+
+A reasonable assurance engagement footnote:[An audit performed in
+the context of the EUCS scheme is a kind of assurance engagement.]
+is defined in <<ISAE3000>> as:
+
+____
+An assurance engagement in which the practitioner footnote:[Auditor]
+reduces engagement risk to an acceptably low level in the circumstances
+of the engagement as the basis for the practitioner's conclusion.
+The practitioner's conclusion is expressed in a form that conveys
+the practitioner's opinion on the outcome of the measurement or evaluation
+of the underlying subject matter against criteria.
+____
+
+Reasonable assurance aims at reducing to an acceptably low level the
+risk of reaching an inappropriate conclusion when the information
+provided on the subject matter (here, the description of the cloud
+service and the CSP's management claim) is materially misstated. Such
+risk is never reduced to nil and therefore, there can never be absolute
+assurance.
+
+The conclusion in a reasonable assurance engagement is framed in a
+positive sense: "Based on the procedures performed, in our opinion,
+the cloud service XYZ satisfies the requirements of the EUCS at level
+LLL."
+
+===== Limited Assurance
+
+A limited assurance engagement is defined in <<ISAE3000>> as:
+
+____
+An assurance engagement in which the practitioner reduces engagement
+risk to a level that is acceptable in the circumstances of the engagement
+but where that risk is greater than for a reasonable assurance engagement
+as the basis for expressing a conclusion in a form that conveys whether,
+based on the procedures performed and evidence obtained, a matter(s)
+has come to the practitioner's attention to cause the practitioner
+to believe the subject matter information is materially misstated.
+The nature, timing, and extent of procedures performed in a limited
+assurance engagement is limited compared with that necessary in a
+reasonable assurance engagement but is planned to obtain a level of
+assurance that is, in the practitioner's professional judgment, meaningful.
+To be meaningful, the level of assurance obtained by the practitioner
+is likely to enhance the intended users' confidence about the subject
+matter information to a degree that is clearly more than inconsequential.
+____
+
+For a limited assurance engagement the auditor collects less evidence
+than for a reasonable assurance engagement but sufficient for a negative
+form of expression of the auditor's conclusion. The practitioner achieves
+this ordinarily by performing different or fewer tests than those
+required for reasonable assurance or using smaller sample sizes for
+the tests performed.
+
+In contrast with a reasonable assurance conclusion, the conclusion
+in a limited assurance engagement is accordingly framed in a negative
+sense: "Based on the procedures performed, nothing came to our attention
+to indicate that the cloud service XYZ does not satisfy the requirements
+of the EUCS at level Basic."
+
+===== Determination activities
+
+In the conformity assessment of a cloud service, the following determination
+activities are essential.
+
+===== Inquiry
+
+Inquiry consists of seeking relevant information or representations
+of knowledgeable persons. Inquiries range from formal written inquiries
+to interviews and informal oral inquiries.
+
+===== Observation
+
+Observation consists of looking at a process or procedure being performed
+by others, for example, the observation of the performance of control
+activities. Observation provides evidence about the performance of
+a process or procedure, but is limited to the point in time at which
+the observation takes place, and by the fact that the act of being
+observed may affect how the process or procedure is performed. Observation
+is an appropriate way to obtain evidence if there is no documentation
+of the operation of a control, like segregation of duties. Observation
+is also useful for physical controls.
+
+===== Inspection
+
+Inspection is defined in <<ISO17000>> as the "examination of an object
+of conformity assessment and determination of its conformity with
+detailed requirements or, on the basis of professional judgement,
+with general requirements".
+
+In the context of EUCS, inspection involves examining records or documents,
+whether internal or external, in paper form, electronic form, or on
+other media, or a physical examination of evidence. Inspection of
+records and documents provides evidence of varying degrees of reliability,
+depending on their nature and source and, in the case of internal
+records and documents, on the implementation of the controls over
+their production. Inspection is often used to determine whether manual
+controls are being performed. Evidence could include written explanations,
+check marks, or other indications of follow-up recorded on documentation.
+
+===== Re-performance of monitoring activities or manual controls
+
+Obtaining documents used in the monitoring activity or manual control
+activity and independently re-performing of the procedures. Comparing
+any exception items identified with those identified by the responsible
+control owner.
+
+===== Re-performance of programmed processing
+
+Input test data, manually calculated expected results, and compared
+actual results of processing to expectations.
+
+[[sec_B.1.2]]
+==== Mapping requirements to controls
+
+It is common practice in examinations that follow established assurance
+standards and criteria catalogues, that CSPs map their internal controls
+(the technical and organisational measures in place to prevent risks
+or to detect and correct undesired events) to the requirements/criteria
+of the standard. The information is typically presented in a statement
+of applicability (e.g. for ISO 27001 in form a table that outlines
+which of the controls in ISO 27001 Annex A are applicable and references
+to further documentation about the applicable controls) or a description
+about the service-related system of internal control (e.g. attestations
+based on AICPA SOC 2). Mappings are typically presented per
+requirement/criterion of the assurance standards with multiple internal
+controls assigned to each requirement/criterion to demonstrate compliance.
+
+In the EUCS scheme, the criteria are outlined in form of Security
+Objectives and related Security Requirements in <<annex_a>>. They
+represent the mandatory baseline per assurance level for which the
+CSP must demonstrate compliance.
+
+CSPs can map their internal controls per applicable Security Control
+Objective and related Security Requirements. Re-using existing descriptions
+can limit additional efforts for the CSP and contribute to the fast
+adoption of the EUCSA. It also allows the CSP to demonstrate compliance
+with multiple assurance standards and criteria catalogues during a
+single examination ("test once, rely often"). However, this requires
+the mapping to be complete, accurate and valid. Further, the nature,
+timing and extent of evaluation procedures applied by the CAB must
+provide the required level of evidence.
+
+[[sec_B.1.3]]
+==== Subservice providers
+
+The cloud services offered to a CSC will in most cases rely on several
+subservices, which may be provided internally at the CSP, externally
+by a different CSP, or externally by a provider that does not provide
+cloud services (e.g., a hosting provider).
+
+In order to complete the conformity assessment of a Cloud service
+by a CSP that uses subservice providers, it is relevant to identify
+the subservice providers and apply the relevant procedures outlined
+below.
+
+==== ASSESSMENT METHODS
+
+The assessment needs to consider all subservices listed in the description
+of the service, internally or externally provided. Internal subservices
+are necessarily in the scope of the assessment, but external subservices
+can be handled using two different methods:
+
+. Include the sub-service provider in the scope (inclusive method);
+. Exclude the sub-service provider from the scope (carve out method).
+
+Both methods are dealing with the services provided by a subservice
+organization, whereby the CSP's description of its service presents
+the nature of the services provided by a subservice organization.
+In both cases, internal and external subservices are treated similarly
+and considered as provided by subservice organizations.
+
+===== Inclusive method
+
+With the inclusive Method the subservice provider's controls to meet
+the applicable Security Objectives and the related Security Requirements
+are included in the CSP's description of its system. The subservice
+providers are part of the scope of the CSP's conformity assessment.
+
+===== Carve-out method
+
+With the carve-out method the subservice organization's relevant control
+objectives and related controls are excluded (carved-out) from the
+CSP's description of its system. The subservice organizations are
+not part of the scope of the CSP's conformity assessment. Instead,
+the CSP's description presents those controls that are designed and
+implemented to monitor the operating, and if applicable the functional,
+effectiveness of the controls at the subservice organisation. The
+monitoring activities shall meet the Security Objectives and the related
+Security Requirements for "Procurement Management (Supply Chain Management)"
+outlined in the scheme.
+
+==== SUBSERVICES IN EUCS
+
+In the context of the EUCS scheme, subservices assessed using the
+inclusive method shall simply be considered as part of the scope of
+the CSP's conformity assessment. The CSP shall be responsible for
+ensuring that all required evidence is available about the subservice
+organization, about the services it provides, and about these services
+are integrated in its own systems in the provision of the cloud service
+to be assessed.
+
+Subservices assessed using the carve-out methods shall be considered
+at all stages of the conformity assessment, and in particular during
+the dependency analysis (see <<sec_B.8>>). During that phase, the
+auditor shall review the assurance documentation available for the
+subservice.
+
+In the rest of this annex and in the following annexes, when subservices
+are mentioned, the intended meaning is "subservices assessed using
+the carve-out method", unless specified otherwise.
+
+[[sec_B.1.4]]
+==== Complementary controls
+
+Information security of a cloud service can only be assured, when
+the involved parties are aware of and follow their individual responsibilities.
+For the designs of its internal controls the CSP assumes that user
+entities (CSCs) and
+
+subservice organizations operate complementary controls that work
+in combination with the CSP's internal controls to achieve certain
+objectives.
+
+In the EUCS scheme, the CSP shall present the Complementary Customer
+Controls (CCCs) and the Complementary Subservice Organization Controls
+(CSOCs) assumed in the design of its internal controls as part of
+the description of the cloud service.
+
+If the CSP uses a subservice organization, the CSP shall obtain relevant
+information about the CCCs that the subservice organization assumed
+in the design of their internal controls. Relevant information can
+be obtained from the subservice organization, e.g. in form of descriptions
+of the cloud service in accordance with this scheme or other assurance
+reports that require this information as well (e.g. ISAE 3402, AICPA
+SOC 2 or BSI C5). For these CCCs the CSP has to ensure that appropriate
+internal controls are in place. During a conformity assessment, the
+CAB has to evaluate whether the controls related to the CCCs are suitably
+designed, implemented and operating effectively.
+
+[[sec_B.1.5]]
+==== Presentation
+
+The assessment of cloud services for all levels of the EUCS is based
+on a meta-approach, which is described here. This meta-approach for
+assessing and determining conformity describes the overall flow and
+requirements of the conformity assessment of cloud services in the
+context of the EUCS scheme.
+
+The meta-approach is the same for all levels, except for the audit
+itself:
+
+* For the assurance levels Substantial and High, the Conformity Assessment
+Body (CAB) shall use an audit approach based on either ISO standards
+or ISAE standards, both complemented with the requirements as defined
+in this meta approach, leading to providing reasonable assurance,
+as defined in <<sec_B.1.1>>. This approach is described in <<annex_c>>.
+
+* For the Basic level, as mentioned in the EU Cybersecurity Act, the
+CAB shall use a simpler audit approach leading to limited assurance,
+as defined in <<sec_B.1.1>>. This approach is described in <<annex_d>>.
+
+The structure of this meta-approach starts with defining a clear objective,
+followed by the development and execution of an audit plan, and ending
+with the analysis of the gathered evidence and the delivery of an
+assurance report.
+
+[[fig3]]
+.The structure of the Meta-Approach
+image::figure3.png[]
+
+The term "audit" is used for all conformity assessment activities
+performed by the audit team and audit team leader (together called
+"the auditor") of the CAB, including the analysis of obtained evidence
+in an assurance report.
+
+To be able to conclude whether all requirements of the EUCS are met,
+considering the carve-outs and the use of sub service organization,
+a separate analysis and evaluation needs to take place. This dependency
+analysis, during which the audit team and audit team leader, or another
+team designated by the CAB (nevertheless called "the auditor" for
+simplification), analyses the assurance documentation available for
+the CSP's subservice providers, and provides the results in the evaluation
+report.
+
+The audit report and the evaluation report together may form the basis
+for awarding a certificate, after review by a team of the CAB independent
+from the auditor, and together with the delivery of a certification
+report.
+
+Following <<ISO17065>>, the CAB who issues a certificate is required
+to perform internally the review and decision activities. However,
+other activities may be subcontracted, and in particular the audit.
+Throughout this documentation, the auditor may therefore be part of
+the CAB or of a subcontractor to the CAB.
+
+[[sec_B.2]]
+=== OBJECTIVE OF THE CONFORMITY ASSESSMENT
+
+[[sec_B.2.1]]
+==== Introduction
+
+The overall objective of the conformity assessment is to determine
+whether or not and to what extent a cloud service delivered by a CSP
+is in conformity with the Security Control Objectives and related
+Security Requirements defined in the EUCS.
+
+To enable the CAB to perform the conformity assessment the CSP shall
+prepare and submit an Application Document, including the description
+of its service that outlines the underlying and supporting processes
+and the accompanying CSP's statement about the conformity of their
+cloud service with the requirements of the EUCS. The CSP shall use
+the template as included in <<annex_f>> to the EUCS.
+
+The object of the conformity assessment performed by the CAB shall
+be the cloud service for which a description is provided, and the
+objective of the conformity assessment is to assess how this cloud
+service is built and operated with meeting the Security Control Objectives
+and related Security Requirements as defined in the EUCS. This objective
+shall be stated in a statement endorsed by the CSP's top management,
+in a form that complies with the requirements defined in <<annex_f>>.
+
+[[sec_B.2.2]]
+==== Basic level
+
+The objective is to provide limited assurance through the execution
+of an audit (evaluation) by an independent auditor that the cloud
+service is designed to meet the Security Control Objectives and related
+Security Requirements as defined in the EUCS that are applicable to
+assurance level Basic.
+
+The auditor shall obtain sufficient and appropriate evidence by executing
+audit procedures as defined in <<sec_D.3>> and <<sec_D.4>> about:
+
+* the information presented in the description as provided together
+with or embedded in the application;
+
+* the suitability of the design of controls to meet the Security Objectives
+and related Security Requirements; and
+
+* the existence and implementation of these controls as of a specified
+date during the initial conformity assessment.
+
+[[sec_B.2.3]]
+==== Substantial Level
+
+The objective is to provide reasonable assurance through the execution
+of an audit (evaluation) by an independent auditor that the cloud
+service is built and operated with procedures and mechanisms to meet
+the Security Control Objectives and related Security Requirements
+as defined in the EUCS for the assurance level Substantial.
+
+The auditor shall obtain sufficient and appropriate evidence by executing
+audit procedures as defined in <<sec_C.3>> and <<sec_C.4>> about:
+
+* the information presented in the description as provided together
+with or embedded in the application (<<sec_C.3.1>>);
+
+* the suitability of the design of controls to meet the Security Control
+Objectives and related Security Requirements (<<sec_C.4.1>>);
+
+* the existence and implementation of these controls as of a specified
+date during the initial conformity assessment (<<sec_C.4.2>>); and
+
+* the operating effectiveness (consistent application) of these controls
+throughout a specified period in subsequent conformity assessments
+(<<sec_C.4.3>>).
+
+[[sec_B.2.4]]
+==== High Level
+
+The objective is to provide reasonable assurance through the execution
+of an audit (evaluation) by an independent auditor that the cloud
+service is built and operated with procedures and mechanisms to meet
+the Security Control Objectives and related Security Requirements
+as defined by the EUCS for the assurance level High.
+
+The auditor shall obtain sufficient and appropriate evidence by executing
+audit procedures
+
+As defined in <<sec_C.3>> and <<sec_C.4>> about:
+
+* the information presented in the description as provided together
+with or embedded in the application (<<sec_C.3.1>>);
+
+* the suitability of the design of controls to meet the Security Control
+Objectives and related Security Requirements (<<sec_C.4.1>>);
+
+* the existence and the implementation of these controls as of a specified
+date during the initial conformity assessment (<<sec_C.4.2>>); and
+
+* the operating effectiveness (consistent application) of these controls
+throughout a specified period in subsequent conformity assessments
+(<<sec_C.4.3>>); and
+
+[[sec_B.3]]
+=== ACCEPTING THE CONFORMITY ASSESSMENT ENGAGEMENT
+
+Before agreeing to accept or continue a conformity assessment engagement
+the CAB shall determine whether the application request is appropriate
+by performing a review of the application.
+
+The CAB shall conduct a review of the information obtained for application
+to assess the applicability of the criteria as set in the EUCS, including
+the decision whether the chosen assurance level is appropriate in
+the circumstances.
+
+Additional information specific to level Basic are provided in <<sec_D.2>>
+and additional information specific to levels Substantial and High
+are provided in <<sec_C.2>>.
+
+[[sec_B.4]]
+=== DEVELOPING THE AUDIT PLAN
+
+The CAB shall plan the engagement so that it will be performed in
+an effective manner, including setting the scope, timing and direction
+of the assessment, and determining the nature, timing and extent of
+planned audit procedures that are required to be carried out in order
+to achieve the objective of the conformity assessment. This activity
+shall result in an audit plan, and including aspects that are specific
+to each assurance level.
+
+In all cases, and for all levels, if the CAB has subcontracted the
+audit, the CAB may at this point require a review of the audit plan,
+which shall then be included in the contractual agreement between
+the CAB and its subcontractor.
+
+Additional information specific to level Basic are provided in <<sec_D.3>>
+and additional information specific to levels Substantial and High
+are provided in <<sec_C.3>>.
+
+[[sec_B.5]]
+=== EXECUTION
+
+[[sec_B.5.1]]
+==== Introduction
+
+In the phase the auditor shall obtain sufficient and appropriate objective
+evidence regarding:
+
+* the suitability of the design of controls, including controls over
+the processes out-sourced to subservice organizations (such as hosting,
+infrastructure, platform, etc.) to meet the Security Control Objectives
+and related Security Requirements as defined by the EUCS;
+
+* the actual existence and implementation of controls to be in accordance
+with their design as of a point in time (specified date); and
+
+* for the Substantial and High assurance levels, the operating effectiveness
+of the implemented controls throughout a period over time (specified
+period);
+
+Additional information specific to level Basic are provided in <<sec_D.4>>
+and additional information specific to levels Substantial and High
+are provided in <<sec_C.4>>. The auditor shall document the procedures
+executed, the evidence gained and conclusions reached using the appropriate
+document (depending on the assurance level).
+
+[[fig4]]
+.The structure of the Meta-approach
+image::figure4.png[]
+
+[[sec_B.6]]
+=== ANALYSIS OF RESULTS
+
+Once the auditor has gathered all required evidence, the auditor shall
+evaluate its sufficiency and appropriateness. This part of the process
+is specific to every assurance level, with the exception of nonconformity
+handling, which is common to all three assurance levels and is described
+below.
+
+Additional information specific to level Basic are provided in <<sec_D.5>>
+and additional information specific to levels Substantial and High
+are provided in <<sec_C.5>>.
+
+[[sec_B.6.1]]
+==== Nonconformity handling
+
+If the audit procedures reveal nonconformities (or deviations) in
+the design, operation or, if required, functionality of the controls,
+the auditor has to determine whether the applicable Security Requirements
+of the EUCS were still met. The auditor should consider the following
+procedures for the determination:
+
+* Notification of the CSP if the nonconformity has been identified
+by the auditor;
+
+* Inquiry regarding their assessment of the cause of the identified
+nonconformity;
+
+* Assessment of the CSP's handling of the identified nonconformity;
+
+* Assessment whether comparable nonconformities have been identified
+by the CSP's monitoring processes and what measures have been taken
+as a result; and
+
+* Qualification of the deviation as minor or major;
+
+These procedures are linked to each other, because the requirements
+for the handling of an identified nonconformity depend on the qualification
+of the nonconformity as minor or major. A major nonconformity is defined
+in <<ISO17021>> as a "nonconformity that affects the capability of
+the management system to achieve the intended results", with a note
+stating that nonconformities could be qualified as major in the following
+circumstances:
+
+* there is a significant doubt that effective process control is in
+place, or that products or services will meet specified requirements;
+
+* a number of minor nonconformities associated with the same requirement
+or issue could demonstrate a systemic failure and thus constitute
+a major nonconformity.
+
+In their analysis of nonconformities, CABs should consider both the
+requirement that is not being fulfilled and the objective to which
+it refers, to gain an understanding of the impact of the nonconformity
+to the achievement of the objective.
+
+For a minor nonconformity, the auditor needs to determine that:
+
+* The CSP has determined the cause of the nonconformity;
+
+* The CSP has defined a list of compensating controls that are in
+place to address the risks arising from the deviation a list of corrective
+actions to be performed in order to address the nonconformity and
+a timeline to implement the corrective actions;
+
+* The compensating controls already in place and the corrective actions
+proposed by the CSP are sufficient to determine that the security
+requirement is met with the expected level of assurance.
+
+The analysis of compensating controls may include the assessment of
+alternative organisational and technical measures of the CSP to meet
+the Security Requirement of the EUCS, which have not been considered
+in the design of this Security Requirement (e.g. use of new technical
+measures that provide at least an equal level of security but that
+are not prescribed in the Security Requirements of the EUCS). Compensating
+controls are also considered a temporary measure, and nonconformities,
+even minor, are expected to be corrected in the following conformity
+assessments. The auditor may therefore define a list of conformity
+assessment activities to be performed in subsequent conformity assessments.
+
+For a major nonconformity, the auditor needs to determine that:
+
+* The CSP has determined the cause of the nonconformity;
+
+* The CSP has defined and implemented a list of corrective actions
+to address the nonconformity.
+
+* The corrective actions implemented by the CSP have adequately addressed
+the nonconformity.
+
+Compensating actions are not allowed for major nonconformities, for
+which corrective actions shall be defined and implemented in order
+to obtain or maintain a certificate. Nevertheless, if the corrective
+actions implemented are sufficient to modify the qualification of
+the nonconformity as a minor nonconformity, then the remaining nonconformity
+can be handled as a minor nonconformity, possibly with compensating
+controls.
+
+The definition of minor and major nonconformities as well as the requirements
+related to their handling will be refined in guidance provided by
+ENISA with the support of the ECCG.
+
+Regardless of the qualification of the nonconformities as minor or
+major, the following information about the CSP's measures to handle
+such nonconformities and optimise its internal controls shall be disclosed
+in the assurance report:
+
+* If the nonconformity was detected by the CSP itself, when and in
+the course of which measures the nonconformity was detected.
+
+* If the nonconformity was already stated in an assurance report of
+a previous audit, an indication should be given of when and by what
+means the nonconformity was detected, together with a separate indication
+that the detection occurred in a previous audit period.
+
+* The measures to be taken to remedy the nonconformity in the future
+and when these measures are likely to be completed or effectively
+implemented.
+
+[[sec_B.7]]
+=== ISSUING THE ASSURANCE REPORT
+
+After evaluating the result of the audit procedures the auditor shall
+form a conclusion and issue an assurance report that satisfies the
+requirements defined in <<annex_f>> for the targeted assurance level.
+Additional information specific to level Basic are provided in <<sec_D.6>>
+and additional information specific to levels Substantial and High
+are provided in <<sec_C.6>>
+
+The conclusion shall include the audit team's recommendation as to
+whether the cloud service satisfies the requirements of the EUCS scheme,
+pending the results of the dependency analysis. The conclusion shall
+be based on the evidence obtained and the audit activities performed.
+
+This assurance report shall be first addressed to the CSP. The CSP
+may contest the content of the assurance report and in particular
+the audit team's recommendation. If the dispute remains unresolved,
+the CSP may file a complaint with the NCCA to request their opinion
+on the matter of the dispute.
+
+[[sec_B.8]]
+=== PERFORMING THE DEPENDENCY ANALYSIS
+
+[[sec_B.8.1]]
+==== Objectives
+
+The objective of the dependency analysis is to validate that the assurance
+documentation (assurance reports, certificates) available for the
+subservices operated by internal or external subservice organisations
+used by the CSP in the operation of its cloud service are adequate.
+
+For every subservice organisation, the basis for this dependency analysis
+is the risk assessment of the provider that has been performed by
+the CSP. As required by EUCS (see <<annex_a>>), the assurance report
+shall contain a rationale explaining how the CSP uses the subservice
+to satisfy the scheme requirements, and for each subservice a pointer
+to an assurance component for the subservice.
+
+The dependency analysis consists in analysing these assurance components
+to determine whether or not the subservice meet the expectations from
+the CSP at the targeted assurance level.
+
+[[sec_B.8.2]]
+==== Assessing the availability of assurance documentation
+
+The first step is to list the assurance documentation available for
+every subservice provider, and to assess the overall relevance of
+each assurance component for the dependency review.
+
+The following elements are essential.
+
+About the assurance component itself:
+
+* Type of assurance component, with all required details (e.g., ISO27001
+certificate, Type 1 or Type 2 for an ISAE report);
+
+* Period covered or period of validity, possibly complemented with
+bridge letters or similar statements;
+
+* Applicable framework (existing standard or private framework);
+
+* Inclusion of a mapping to EUCS in the assurance component;
+
+About the auditor's professional competence and independence:
+
+* Name of the CAB or audit organization, name of the audit lead.
+
+* Evidence of the CAB/audit organization's and the auditor's competence
+(accreditation, personal certification, etc.).
+
+* Evidence of the CAB/audit organization's and the auditor's independence
+(accreditation, etc.).
+
+By analysing this information, the auditor shall determine whether
+the assurance documentation available for a given subservice provider
+is adequate to provide assurance corresponding to the targeted EUCS
+assurance level.
+
+ENISA, with the support of the ECCG, will issue guidance about the
+acceptability of different types of assurance components for the different
+EUCS assurance levels, including potential gaps and attention points.
+
+[[sec_B.8.3]]
+==== Assessing assurance related to individual requirements
+
+The second step consists in verifying that the assurance documentation
+available for the subservice provider is adequate to determine that
+the subservice provider meets the expectations of the CSP relative
+to individual EUCS requirements.
+
+This assessment is performed for every subservice provider, and then
+for every EUCS requirement for which the CSP has declared to rely
+partially or fully on the assurance provided by the subservice provider,
+by formulating an assumption on the subservice's control.
+
+The auditor shall for each such assumption determine whether or not
+the assurance provided in the available assurance documentation is
+adequate. There are several ways to reach a conclusion that the assurance
+is adequate:
+
+* The required information is available with the expected assurance
+level in the assurance documentation.
+
+* The information available in the assurance documentation does not
+cover the full scope of the requirement, but additional controls implemented
+by the subservice provider or compensating controls implemented by
+the CSP allow the auditor to determine that the information is adequate.
+
+* The information available in the assurance documentation does not
+offer the expected level of assurance, but the controls implemented
+by the CSP to assess and monitor the subservice provider allow the
+auditor to determine that the information is adequate.
+
+Finally, if the assurance documentation mentions nonconformities on
+the controls used to meet an assumption, the corrective measures proposed
+and implemented by the subservice provider and reviewed by its auditor
+shall be adequate to guarantee that the assumption is indeed met.
+
+ENISA, with the support of the ECCG, will issue guidance about the
+adequacy of different types of assurance components for the different
+EUCS assurance levels, including acceptable additional and compensating
+controls that may be implemented by the subservice providers and by
+the CSP.
+
+[[sec_B.8.4]]
+==== EUCS-certified subservices
+
+When a subservice has been certified in the EUCS scheme, the processes
+defined above may be simplified:
+
+* The auditor's competence and independence does not need to be assessed;
+
+* The report can be considered as being fully compliant with the rules
+of the EUCS scheme for the assurance level of the report;
+
+* No mapping to the EUCS scheme's requirements is needed.
+
+Finally, if the cloud service and its subservice satisfy the requirements
+for composition, the assessment may be simplified further since the
+information provided by the subservice organization has already been
+assessed.
+
+[[sec_B.9]]
+=== ISSUING THE EVALUATION REPORT
+
+After evaluating the adequacy of the assurance provided to support
+assumptions about subservice providers, the auditor shall form a conclusion,
+combine it with the conclusion from the assurance report, and issue
+an evaluation report.
+
+The conclusion shall include the audit's team recommendation as to
+whether the assurance documentation is adequate or not to support
+the certification of the CSP using these subservice providers. The
+conclusion shall be based on the audit activities and express whether,
+in all material respects,
+
+. the audit documentation provided for every subservice provider is
+adequate to provide assurance corresponding to the targeted EUCS assurance
+level,
+
+. for every assumption formulating by the CSP regarding a contribution
+of a subservice provider to the conformity to an EUCS requirement,
+the audit documentation provided for that subservice provider is adequate
+to determine that the assumption formulated by the CSP is correct,
+with the targeted EUCS assurance level, and
+
+. for every nonconformity identified in assurance documentation regarding
+a control used to determine that an assumption formulated by the CSP
+is correct, appropriate corrective actions have been proposed, implemented
+and validated by an auditor.
+
+The auditor shall then combine this conclusion of the dependency analysis
+with the conclusion from the assurance report, for a conclusion regarding
+the fulfilment of relevant EUCS requirements by the cloud service,
+and make a recommendation regarding the possible certification of
+the cloud service under the conditions outlined in the CSP's application.
+
+The auditor shall issue the evaluation report that satisfies the requirements
+defined in <<annex_f>>.
+
+This dependency report shall be first addressed to the CSP. The CSP
+may contest the content of the assurance report and in particular
+the audit team's recommendation. If the dispute remains unresolved,
+the CSP may file a complaint with the NCCA to request their opinion
+on the matter of the dispute.
+
+The auditor then delivers the evaluation report, comprising at least
+the assurance report and the present evaluation report, and if applicable,
+additional assurance or evaluation reports of sub service providers,
+to the Conformity Assessment Body (CAB) accredited to issue EUCS certificates,
+which will then proceed to a review and certification decision.
+
+[[sec_B.10]]
+=== REVIEW OF THE EVALUATION
+
+Once an assurance report and an evaluation report (and, if required,
+supporting reports) have been delivered by the auditor, the CAB shall
+perform a review of all information and results related to the evaluation,
+based on these reports:
+
+* The review shall not be subcontracted;
+
+* The review shall be carried out by one or more persons who have
+not been involved in the audit phase, whom will be called collectively
+the reviewer;
+
+* The recommendations for a certification decision based on the review
+shall be documented, unless the review and the certification decision
+are completed concurrently by the same person;
+
+* The persons carrying out the review shall not normally overturn
+a negative recommendation of the audit team. If such a situation does
+arise, the CAB shall document and justify the basis for the decision
+to overturn the recommendation.
+
+The review shall include at least the following activities:
+
+* A review of the sufficiency of the information provided in the assurance
+report and supporting documentation with respect to the EUCS requirements
+and the certification scope;
+
+* A review of the nonconformities identified in the assurance report
+and related corrective actions
+
+* A review of the issues identified in the evaluation report's dependency
+analysis; and
+
+* A recommendation for the certification decision, based on a documented
+opinion on whether or not the requirements of the EUCS have been satisfied
+by the CSP and by the auditor.
+
+[[sec_B.10.1]]
+==== Review of the sufficiency of the assurance report
+
+The CAB shall review the assurance report and supporting documentation
+concerning the following aspects:
+
+===== General
+
+The review shall answer the following questions, with proper justifications.
+In case of a negative answer, the review shall provide an analysis
+of the consequences of the negative answer:
+
+* Does the report contain the required parts?
+
+* Does the provided documentation include the required support documentation?
+
+* Is the conformity assessment performed in due time?
+
+===== Security controls and requirements
+
+The review shall answer the following questions, with proper justifications.
+In case of a negative answer, the review shall provide an analysis
+of the consequences of the negative answer:
+
+* If there is a mapping from a set of controls provided by the CSP
+to the security controls and requirements defined in EUCS, is this
+mapping adequate?
+
+* For every control or requirement analysed during the audit, have
+the appropriate activities been performed and documented?
+
+===== Nonconformities
+
+The CAB shall review the assurance report and supporting documentation
+concerning the handling of nonconformities detected during the audit.
+
+The review shall answer the following questions, with proper justifications.
+In case of a negative answer, the review shall provide an analysis
+of the consequences of the negative answer.
+
+* For every major nonconformity identified during the audit, is adequate
+information provided in the assurance report?
+
+* For every minor nonconformity identified during the audit, is adequate
+information provided in the assurance report?
+
+* For every nonconformity identified during the audit, does the reviewer
+accept the analysis provided by the auditor?
+
+[[sec_B.10.2]]
+==== Review of the evaluation report
+
+===== Dependency analysis
+
+The CAB shall review the dependency analysis and supporting documentation
+concerning the adequacy of the assurance documentation available about
+subservice providers.
+
+The review shall answer the following questions, with proper justifications.
+In case of a negative answer, the review shall provide an analysis
+of the consequences of the negative answer:
+
+* For every subservice provider mentioned in the assurance report,
+is there adequate assurance documentation available?
+
+* For every assumption in the assurance report about a subservice
+provider, is the documentation available adequate to determine that
+assumption correct?
+
+===== Recommendation for the certification decision
+
+The CAB shall review the recommendation for the certification decision
+provided in the evaluation report and how it combined the conclusions
+of the audit report with those of the dependency analysis.
+
+The review shall answer the following questions, with proper justifications.
+In case of a negative answer, the review shall provide an analysis
+of the consequences of the negative answer:
+
+* Is the certification decision proposed in the assurance report adequate
+according to the provided documentation?
+
+* In the case of a maintenance conformity assessment, does the proposed
+certification decision include all the information required to maintain
+the certificate, with proper justification?
+
+* If the cloud service depends on subservice providers, is the assurance
+documentation adequate or not to support the certification of the
+CSP using these subservice providers?
+
+[[sec_B.10.3]]
+==== Review reporting
+
+The results of the review shall be documented in a report, which shall
+include all the answers to the question above, together with a justification.
+
+If the conformity assessment results in the issuance or maintenance
+of a certificate, this review report shall be included in the publicly
+available certification or maintenance report.
+
+[[sec_B.11]]
+=== CERTIFICATION DECISION
+
+The CAB shall assign at least one person to make the certification
+decision based on all information related to the evaluation, its review,
+and any other relevant information. The certification decision shall
+be carried out by a person or group of persons that has not been involved
+in the audit activities (but may have been involved in the review
+process).
+
+The certification decision shall not be subcontracted.
+
+The CAB shall notify the CSP of a decision not to grant certification,
+to withdraw a certificate, or to suspend a certificate, and shall
+identify the reasons for the decision. The CSP may contest the CAB's
+decision. If the dispute remains unresolved, the CSP may file a complaint
+with the NCCA to request their opinion on the matter of the dispute.
+
+[[sec_B.12]]
+=== CERTIFICATION
+
+If the certification decision is negative, i.e. if the cloud service
+has been determined not to meet the EUCS scheme's requirements, the
+consequences are as follows:
+
+* In the case of an initial conformity assessment, no further action
+is required, i.e. no certificate shall be issued;
+
+* In the case of a maintenance conformity assessment, the certificate
+shall be suspended by appending the maintenance report as rationale
+for the suspension, and then the process for handling nonconformities
+shall be followed.
+
+If the certification decision is positive, i.e. if the cloud service
+has been determined not to meet the EUCS scheme's requirements, the
+consequences are as follows, depending of the nature of the assessment.
+
+* In the case of an initial assessment, the CAB shall issue a new
+certificate, including the full certification report, and set the
+expiration date three (3) years after the date of issuance, unless
+the CAB has explicitly indicated a shorter validity period for the
+certificate;
+
+* In the case of a periodic assessment, the CAB shall update the existing
+certificate by appending the maintenance report, and if needed by
+updating elements in the certificate that have changed;
+
+* In the case of a renewal assessment, the CAB shall update the existing
+certificate by appending the maintenance report, by setting the expiration
+date of the certificate three (3) years after the date of this update,
+and if needed by updating elements in the certificate that have changed;
+
+* In the case of a restoration assessment, the CAB shall update the
+existing certificate by appending the maintenance report, and if needed
+by updating elements in the certificate that have changed, and shall
+return the certificate's status to "certified";
+
+* In the case of a restoration assessment, the CAB shall update the
+existing certificate by appending the maintenance report, and if needed
+by updating elements in the certificate that have changed;
+
+The reports mentioned in the paragraph above are specified in <<annex_f>>.

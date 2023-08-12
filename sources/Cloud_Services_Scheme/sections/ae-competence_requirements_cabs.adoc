@@ -1,0 +1,24 @@
+
+
+[[annex_e]]
+[appendix]
+== COMPETENCE REQUIREMENTS FOR CABS
+
+[cols="2",options="unnumbered"]
+|===
+| *PURPOSE*
+| This annex describes the competence requirements for CABs for the
+various levels
+
+| *CROSS REFERENCE TO THE CHAPTER(S) WHERE THE ELEMENTS ARE DECLARED
+APPLICABLE*
+| <<sec_7>>
+|===
+
+.Foreword for Reviewers
+____
+The content of this Annex will be developed together with the requirements
+for accreditation for the scheme, whose development will be initiated
+after the external review.
+____
+

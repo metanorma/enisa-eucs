@@ -1,0 +1,1704 @@
+
+[[annex_f]]
+[appendix]
+== SCHEME DOCUMENT CONTENT REQUIREMENTS
+
+[cols="2",options="unnumbered"]
+|===
+| *PURPOSE*
+| This annex describes the applicable requirements on the minimum
+content to be included in the scheme documents
+
+| *CROSS REFERENCE TO THE CHAPTER(S) WHERE THE ELEMENTS ARE DECLARED
+APPLICABLE*
+| Chapter
+|===
+
+.Foreword for Reviewers
+____
+The content of this Annex specifies requirements regarding the content
+of documents to be used in the scheme.
+
+Some of these requirements have been defined very late in the development
+of the draft candidate scheme, and they have not gone through a full
+review by the members ad hoc working group.
+____
+
+[[sec_F.1]]
+=== INTRODUCTION
+
+The objective of this Annex is to define guidelines for the redaction
+of documents. Rather than providing full templates, the Annex lists
+requirements for writing the documents, which typically takes three
+forms:
+
+* Requirements on content that shall be present, without constraints
+on the format;
+
+* Requirements on text that shall be included as is, for a few important
+statements; and
+
+* Requirements on the format and content of tables, to ease comparability
+of results.
+
+These requirements will be refined by specific guidance for every
+assessment type (ISO-based, ISAE-based, or EBCA).
+
+[[sec_F.1.1]]
+==== Conventions used in this annex
+
+Every section below starts with an introduction, followed by the requirements
+on the document, presented in a sequential manner that defines the
+structure of the document.
+
+Within each section, this annex uses with the following convention:
+
+* Requirements are typeset in plain text.
+
+* Guidance is typeset in _italics_.
+
+* Mandatory text is typeset in *bold*.
+
+* Items in a document are referenced by an identifier, which is defined
+within brackets in [smallcap]#<SMALL CAPS>#
+
+The rules for using these requirements are as follows:
+
+* Specified sections shall be present, in the order defined, but other
+sections may be added before, between and after the specified sections;
+
+* Within a section, mandatory text shall be present and the section's
+requirements shall be fulfilled, but additional content may be added;
+
+[[sec_F.1.2]]
+==== List of the documents
+
+Requirements and guidance are provided in this annex for the following
+documents:
+
+* For the application phase
+.. The Application Document, to be filled out by the CSP to initiate
+a conformity assessment
+
+* For the audit preparation phase
+.. The Initial Activities Planning document, to be prepared by the
+CSP at the beginning of the conformity assessment
+.. The Detailed Audit Plan and Execution, to be prepared by the CSP
+before the audit and updated with the results all along the audit.
+
+* For the reporting phase
+.. The Assurance Report, to be prepared by the CAB to report on the
+audit of the cloud service from the CSP.
+.. The Evaluation Report, to be prepared by the CAB to report on the
+assurance provided by the CSP's subservice providers and to conclude
+on the audit by providing a certification recommendation.
+.. The Review Report, to be prepared by the CAB after the internal
+review of the Assurance and Evaluation Reports.
+
+* For the certification phase
+.. The Certification Report, to be prepared by the CAB when the certificate
+is issued
+
+* For the maintenance phase
+.. The Impact Analysis Report, to be prepared by the CAB when a request
+about a potential nonconformity or vulnerability does not lead to
+a conformity assessment.
+.. The Maintenance Report, to be prepared by the CAB after a maintenance
+conformity assessment, with a focus on the updates to the cloud service
+and on the reason that triggered the conformity assessment
+
+These documents do not all have the same usage and availability:
+
+* The Application Document, Assurance Report and Evaluation Report
+are shared between the CSP and the CAB.
+
+* In addition, the CSP shall make the Assurance Report available to
+its customers upon request.
+
+* The Initial Activities Planning, Detailed Audit Plan and Execution,
+and the Review Report are internal documents for the CAB.
+
+* The Certification Report is a public document, to be published together
+with the certificate.
+
+All documents may be made available by the CAB to the NCCA and NAB
+for review or assessment.
+
+Finally, the Assurance Report is only available in a version suitable
+for the Substantial and High assurance levels. A version suitable
+for the Basic assurance level will be provided in a later phase. Requirements
+for the Review Report, for the Impact Analysis Report and for the
+Maintenance Report are not available in the current version.
+
+[[sec_F.2]]
+=== APPLICATION DOCUMENT
+
+==== PRESENTATION
+The paragraph 'Content of the document' in this section defines the
+requirements for the "Application Document".
+
+A CSP shall apply these requirements in its application for certification
+of a cloud service. The document shall include the information a CAB
+needs to start a conformity assessment. The completed template provides
+evidence of a self-assessment process executed by the management of
+the CSP.
+
+[cols="a,a",options="unnumbered,header"]
+|===
+| Mandatory field in the template
+| Clarification
+
+2+| Section 1: *"Identification"* This section identifies the Cloud
+Service for which the evaluation application is submitted.
+| CSP Identity
+| Identity of the CSP requesting the evaluation.
+| CSP Contact
+| Identification and contact details for the lead contact at the CSP
+that will support the evaluation process.
+| Service Name
+| Commercial name of the CSP Cloud Service for which the evaluation
+is requested.
+| Short Description
+| A short description of the functionality of 'Service Name'.
+| Assurance Level
+| The assurance level for which the evaluation is requested. Valid
+values are 'Basic', 'Substantial', or 'High'.
+| Security Profiles
+| The list of security profiles applicable to the cloud service
+| Application Type
+| CSP specified evaluation application type. Valid values are 'initial',
+'periodic', 'renewal' or 'restoration'.
+| Application Period
+| When applicable, the period to be considered by the CAB for the
+assessment of operational effectiveness.
+
+2+| Section 2: "*Claim*" This section is the CSP's management assertion
+the template accurately and fairly describes the Cloud Service and
+the applicable controls from the scheme's framework.
+| Claim
+| This is a written conformity statement by the management of the
+CSP.
+
+2+| Section 3: "*CSP's Description of its service*" This section is
+the CSP's assessment of the Cloud Service's implementation of the
+scheme's requirements and control framework.
+| 3.1: Types of Services
+| The specific functional purposes of the Cloud Service.
+| 3.2: Service Components
+| This is a document label for reference purpose, no text required.
+| - Physical Infrastructure
+| The physical structures of the service, datacentre, server, other
+hardware.
+| - Software
+| The programs and system software that supports programs, that are
+part of the service
+| - People
+| The personnel involved in the governance, operation and use of a
+service
+| - Policies and procedures
+| The policies and automated and manual procedures involved in the
+operation of a service
+| - Data
+| the information used and supported by a service (transaction streams,
+files, databases and tables).
+| 3.3: Service Boundaries
+| The boundaries of the system subject to certification
+| 3.4: Sub Services
+| The sub-services that are material to the operation of the Cloud
+Service
+| 3.6: Information for customers
+| Reference to the scheme's control requirements framework
+| - Supplementary information
+| List of the supplementary information to be made publicly available
+by the CSP
+| - Transparency information
+|
+| - Complementary Customer Controls, CCC
+| List the applicable CCCs
+| 3.7: Other information
+| Additional information the CSP considers relevant to the evaluation
+of adherence to the Scheme framework.
+
+2+| Section 4: "*CSP's description of its security controls*" This
+section is the CSP's description of the implemented controls, and
+of their mapping to the EUCS objectives and requirements.
+| Control objectives
+| The security objectives and CSPs description of controls
+
+|===
+
+
+==== CONTENT OF THE DOCUMENT
+
+[[sec_F.2.1]]
+==== Identification
+
+[smallcap]#<CSP IDENTITY>#::
++
+--
+The CSP identity shall include at least:
+
+* Commercial name of the organization;
+
+* Legal name of the organization;
+
+* Registration number in Chamber of Commerce or equivalent;
+
+* Office and headquarter location; and
+
+* Contact details of the person that is legally representing the organization
+--
+
+When a consortium or joint venture is an applicant, all participating
+parties with legally representing persons shall be clearly indicated,
+including all registration details.
+
+[smallcap]#<CSP CONTACT>#:: The CSP Contact shall be the primary contact
+at the CSP for the CAB. It can be an individual person or a CSP assigned
+group name. It shall include at least the name of the responsible
+department and contact details (phone number and email address).
+
+[smallcap]#<SERVICE NAME>#:: This shall be the name commercially used
+by the CSP to designate the cloud service. The name shall include
+enough information, such as qualifiers, version names or numbers,
+to unambiguously identify the cloud service.
+
+[smallcap]#<SHORT DESCRIPTION>#:: This shall be a description of the
+functionality of the cloud service]
+
+[smallcap]#<ASSURANCE LEVEL>#:: This is the assurance level for which
+the CSP applies for certification; its value shall be one of Basic,
+Substantial or High.
+
+_For the appropriate choice refer to the description of the assurance
+levels._
+
+[smallcap]#<SECURITY PROFILES>#:: This shall be the list of the security
+profiles applicable to the cloud service, including for every security
+profile its full name, reference number, version number and date of
+issuance.
+
+_Security profiles define additional requirements that are specific
+to an industry or vertical application. The reference list of valid
+security profiles is maintained by ENISA._
+
+[smallcap]#<APPLICATION TYPE>#:: This is the type of conformity assessment
+to be performed; its value shall be one of 'initial', 'periodic',
+'renewal' or 'restoration'.
+
+_For Application Types 'periodic', 'renewal' and 'restoration', additional
+information is required in the description of the service._
+
+[smallcap]#<APPLICATION PERIOD>#:: When applicable (levels Substantial
+and High), this shall be the period that the CAB will consider in
+the assessment of operational effectiveness.
+
+_This period depends on the date of the last assessment, and it typically
+will be one year. For initial assessments, there are minimum values
+depending on the assurance level._
+
+[[sec_F.2.2]]
+==== CSP's Management Statement
+
+[smallcap]#<MANAGEMENT STATEMENT>#::
++
+--
+This is the management state of the CSP, which shall be dated and
+signed, and which shall at least point out that:
+
+* the documentation filed for certification is complete;
+
+* this documentation is accurate and up-to-date;
+
+* this documentation meets the requirements for certification in the
+EUCS scheme; and
+
+* this documentation is a true reflection of the processes, procedures
+and systems in place within the organisation in scope of the certification;
+
+* the organisation and its management are committed to comply with
+all their obligations during the conformity assessment and after certification
+during the entire lifecycle of their cloud service's certificate;
+
+* the management of the applying organisation declares to be responsible
+for the abovementioned points;
+
+* the management of the applying organisation declares to fully cooperate
+and be transparent to the extent needed to handle the complaints in
+the procedure for complaints ex Art. 63 of the EUCSA;
+
+* the management of the applying organisation declares that it is
+providing full cooperation in investigative activities of the NCCA
+ex Art. 58(8) of the EUCSA;
+
+* the management of the applying organisation declares that it is
+authorising and approving to cooperate in compliance audits of the
+certification issuing body and applicable peer reviews ex Art. 59
+of the EUCSA, and if applying for assurance level 'high' to peer assessments
+as defined in the EUCS scheme ex Art 54(1)(u).
+--
+
+[[sec_F.2.3]]
+==== CSP's Description of its service
+
+[smallcap]#<SERVICE DESCRIPTION>#:: There is no mandatory content
+for the item <SERVICE DESCRIPTION>. This item is also the identifier
+for the information in the items of this section.
+
+The CSP may include some guidance to help the reader through the rest
+of the section.
+
+[[sec_F.2.3.1]]
+===== The types of services provided
+
+[smallcap]#<TYPES OF SERVICES>#:: The <TYPES OF SERVICES> item shall
+describe the specific functional purposes of the Cloud Service.
+
+_The cloud service (singular) for which the evaluation is requested
+may offer multiple (plural) functional services. For example a cloud
+service 'communications' could have functional types of services such
+as Email, Voice, and Video calling._
+
+[[sec_F.2.3.2]]
+===== The components of the system
+
+[smallcap]#<SERVICE COMPONENTS>#:: There is no mandatory text for
+the CSP to provide for the item <Service Components>. This item is
+the identifier for the information in the items of this paragraph.
+
+[smallcap]#<PHYSICAL INFRASTRUCTURE>#:: This item lists the physical
+components that are relevant to the make up the Cloud Service. The
+CSP shall provide reference to relevant underlying documentation and
+procedures.
+
+_Examples of Physical Infrastructure are datacentres, equipment, and
+telecommunication networks._
+
+[smallcap]#<SOFTWARE>#:: This item lists the relevant software application
+programs and system software underlying the cloud service.
+
+_Examples of Software are operating systems, middleware, and utilities._
+
+[smallcap]#<PEOPLE>#:: This item lists the CSP personnel relevant
+to the governance, operation, and usage of the cloud service.
+
+_Examples of roles mentioned in <PEOPLE> are developers, operators,
+users, and managers._
+
+[smallcap]#<POLICIES AND PROCEDURES>#:: This item lists the policies
+and the automated and manual procedures relevant to the CSP's operation
+of the cloud service.
+
+[smallcap]#<DATA>#:: Where applicable, this item lists the data the
+CSP requires to operate the Cloud Service.
+
+_Examples of Data are transaction streams, files, databases and tables._
+
+[[sec_F.2.3.3]]
+===== The boundaries or aspects of the system covered by the description
+
+[smallcap]#<SERVICE BOUNDARIES>#:: The <Service Boundaries> shall
+describe the boundaries of the system under certification.
+
+_There is no specific mandated format for the description, but it
+should be sufficient for the CAB to understand precisely the scope
+of the conformity assessment to be performed._
+
+[[sec_F.2.3.4]]
+===== Subservices
+
+[smallcap]#<SUB SERVICES>#::
++
+--
+The item <SUB SERVICES> lists all the sub services that are material
+to the operation of the cloud service. For each subservice organization
+the CSP shall provide:
+
+* the role of the subservice
+
+* the sub service organization
+
+* the type and scope of functions and services provided
+
+* the EUCS requirements that apply to that subservice organisation
+
+* the Complementary subservice organization controls (CSOCs) applicable
+to the subservice organization
+
+* assurance the sub service adheres to appropriate controls of the
+Scheme
+
+* assurance on the CSP responsibility over adherence of the subservice
+--
+
+_The assurance may be provided by listing industry certifications
+relevant and valid for the Assurance Level and Application Period
+of certification of the cloud service._
+
+[[sec_F.2.3.5]]
+===== Information for customers
+
+The information in this section is mandatory information to be made
+available to customers.
+
+_The current version only lists the information available, but it
+is likely to be enriched with a mandatory presentation of the information,
+in order to ease the comparison between cloud services._
+
+[smallcap]#<SUPPLEMENTARY INFORMATION>#:: This item shall include
+a list of the supplementary information to be made publicly available
+by the CSP in application of Art. 54(1)(v) of the EUCSA.
+
+_The CSP should include pointers to the various elements to be provided,
+as well as a short rationale explaining why they meet the requirements.
+As required by the EUCSA, this information will be made public on
+ENISA's website, together with the certificate and the information
+about the certified service._
+
+[smallcap]#<TRANSPARENCY INFORMATION>#::
++
+--
+This item shall include comprehensible and transparent information
+on the CSP's:
+
+* Jurisdiction; and
+
+* Locations where the cloud customer's data is processed, stored,
+and backed up, including the CSP's own locations and the locations
+of all other service providers supporting the provision of the service.
+
+The information provided shall be compliant to all the requirements
+of objective DOC-03 that are relevant to the targeted assurance level.
+--
+
+[smallcap]#<COMPLEMENTARY CUSTOMER CONTROLS, CCC>#:: This item shall
+list all relevant Complementary Customer Controls (CCC) contemplated
+in the design of the CSP Cloud Service, and those CCCs that are relevant
+to a Cloud Service user's operation of the Cloud Service in accordance
+with the scheme security requirement.
+
+This item shall include a complete list of the CCCs listed per requirement
+in the Control Objectives.
+
+[[sec_F.2.3.6]]
+===== Maintenance information
+
+[smallcap]#<MAINTENANCE INFORMATION>#::  The section is required for
+application types periodic', 'renewal' and 'restoration'. There is
+no mandatory content for the item <MAINTENANCE INFORMATION>. This
+item is also the identifier for the information in the items of this
+section.
+
+_The CSP may include some guidance to help the reader through the
+rest of the section._
+
+[smallcap]#<CHANGES IN THE CLOUD SERVICE>#:: This item shall list
+all the changes in the definition and operation of the Cloud Service
+and of its supporting organization since the last security assessment
+performed on the Cloud Service.
+
+_The list may reference the controls listed in the following section._
+
+[smallcap]#<IMPACT ANALYSIS>#:: This item shall list all the EUCS
+requirements that may be affected by the changes listed in <CHANGES
+IN THE CLOUD SERVICE>.
+
+_The information provided in this list, together with the description
+in <CHANGES IN THE CLOUD SERVICE>, should allow the CAB to determine
+the list of conformity assessment activities that need to be performed
+regarding these changes._
+
+[smallcap]#<NONCONFORMITIES TO BE ADDRESSED>#::
++
+--
+This item is required for application type 'restoration' only. It
+shall contain a list of the nonconformities that need to be addressed,
+including at least for each nonconformity:
+
+* The requirement on which the nonconformities has been identified;
+
+* The severity of the nonconformity ('minor' or 'major');
+
+* A short description of the nonconformity.
+--
+
+_This is strongly related to the <CHANGES IN THE CLOUD SERVICE> and
+<IMPACT ANALYSIS>, since the requirements listed here should also
+appear in the <IMPACT ANALYSIS> to indicate that the <CHANGES IN THE
+CLOUD SERVICE> have addressed the issues._
+
+[[sec_F.2.3.7]]
+===== Other
+
+[smallcap]#<OTHER INFORMATION>#:: This optional item may be used by
+the CSP to provide other information the CSP considers relevant in
+context of the certification evaluation of its cloud service.
+
+[[sec_F.2.4]]
+==== The security objectives and CSPs description of controls
+
+[smallcap]#<CONTROL OBJECTIVES>#::
++
+--
+The item <CONTROL OBJECTIVES> shall define how the security controls
+defined and implemented by CSP meet the security requirements defined
+in the EUCS scheme. For each security requirement, the information
+shall include:
+
+* If the security requirement is not applicable to the Cloud Service,
+an indication of this non-applicability, together with a rationale.
+
+* Otherwise, a list of the following controls, together with a description:
+** security controls that contribute to meeting of the security requirement;
+** Complementary Sub-service Organization Controls (CSOCs); and
+** Complementary Customer Controls (CCCs)
+--
+
+The content of the <CONTROL OBJECTIVES> shall be organized in a table
+following the template shown below:
+
+[cols="a,a",options="unnumbered,header"]
+|===
+| Security Control Objectives and related Security Requirements of
+the EUCS
+| <CSP>'s Description of Controls, assumed CSOCs and CCCs, or Rationale
+if Security Requirement is not applicable
+
+2+h|Security Control Objective: [...].
+
+| ID -- Title of Security Requirement
+
+*[Description of the Security Requirement]*
+
+|
+*ID -- Title of Control 1 to meet the Security Requirement or Rationale
+if Security Requirement is not applicable*
+
+[Control Description/Rationale]
+
+*ID -- Title of Control 2 to meet the Security Requirement*
+
+[Control Description]
+
+*CSOCs:*
+
+[CSOC Description] / none
+
+*CCCs:*
+
+[CCC Description] / none
+
+|===
+
+[[sec_F.3]]
+=== AUDIT PLANNING
+
+[[sec_F.3.1]]
+==== Initial activities planning
+
+===== PRESENTATION
+
+The paragraph 'Content of the document' in this section defines the
+recommendations for the "Initial activities planning and execution"
+document.
+
+This document is an internal to the CAB. It may be part of the documentation
+provided by the auditor in addition to the evaluation report for the
+review phase. The CAB is free to modify the format, but the elements
+of information are important to
+
+A CAB should apply these recommendations in its description of the
+initial audit activities to be performed as a preparation to the detailed
+audit planning, and in its reporting of these initial activities.
+
+[cols="a,a",options="unnumbered,header"]
+|===
+| Mandatory field in the template | Clarification
+
+2+| Section 1: *"Activities"* This section describes the initial activities
+of the audit. The items described below shall be filled out for every
+initial audit activity relevant for the targeted assurance level.
+
+| Objective | Objective of the activity
+| Information and documentation used | Information used in support
+of the activity
+| Evidence gained | Evidence
+| Conclusion reached | Conclusion for the activity
+| Date | Date of the conclusion
+| Initials | Initials or signature of the auditor
+|===
+
+===== CONTENT OF THE DOCUMENT
+
+[[sec_F.3.1.1]]
+===== Activities
+
+The items listed below are recommended for the description of one
+activity, so they should be repeated for each activity described.
+
+[smallcap]#<OBJECTIVE>#:: The CAB should include the objective of
+the activity, as listed in the assessment requirements.
+
+[smallcap]#<INFORMATION AND DOCUMENTATION USED>#:: The CAB should
+list the documentation on which the activity was based (from the documentation
+provided by the CSP in the application document and in support of
+the application).
+
+[smallcap]#<EVIDENCE GAINED>#:: The CAB should describe the evidence
+gained from the activity.
+
+[smallcap]#<CONCLUSION REACHED>#:: The CAB should describe the conclusion
+reached for the activity.
+
+The conclusions are expected to lead to easier
+
+[smallcap]#<DATE>#:: The CAB should indicate the date when the conclusion
+for the activity was documented.
+
+[smallcap]#<INITIALS>#:: The audit team member who performed the activity
+should initial the document in a way that unambiguously identifies
+the member within the audit team.
+
+[[sec_F.3.2]]
+==== Detailed audit plan and execution
+
+===== PRESENTATION
+
+The paragraph 'Content of the document' in this section defines the
+requirements for the "Detailed audit plan and execution" document
+for any assessment performed at level Substantial or High.
+
+A CAB should apply these requirements in two phases:
+
+* during its description of detailed audit activities;
+
+* during the execution of the audit.
+
+[cols="2",options="unnumbered,header"]
+|===
+| Mandatory field in the template
+| Clarification
+
+2+| Section 1: *"Audit activities"* This section describes the activities
+of the audit. The items described below shall be filled out for every
+security objective relevant for the targeted assurance level.
+
+| EUCS objective | The security objective and reference from EUCS
+| 1.1 Procedures |
+| Procedure re Suitability | Information used in support of the activity
+| - Nature | Nature of the activity
+| - Timing | Timing of the activity
+| - Extent | Extent of the activity
+| Procedure re Existence | Audit activities to be performed
+| - Nature | Nature of the activity
+| - Timing | Timing of the activity
+| - Extent | Extent of the activity
+| Procedure re Operating Effectiveness | Conclusion for the activity
+| - Nature | Nature of the activity
+| - Timing | Timing of the activity
+| - Extent | Extent of the activity, including sampling
+| 1.2 Execution |
+| Sources | Information used and people inquired in support of the
+activity
+| Evidence gained | Evidence
+| Conclusion reached | Conclusion for the activity
+| Date | Date of the conclusion
+| Initials | Initials or signature of the auditor
+|===
+
+===== CONTENT OF THE DOCUMENT
+
+[[sec_F.3.2.1]]
+===== Characteristics of an audit activity
+
+The document consists of descriptions of procedures to be applied
+to audit how the cloud service fulfils the EUCS objectives and requirements.
+Each audit activity should be described with the following parameters:
+
+[smallcap]#<NATURE>#:: The kind of audit activity to be performed,
+together with a description of the activity
+
+[smallcap]#<TIMING>#:: The timing of the activity, either as a point
+of time, or as a period to be covered
+
+[smallcap]#<EXTENT>#:: The extent of the activity, i.e., the number
+of times the activity needs to be performed, including a rationale
+if sampling is used
+
+[[sec_F.3.2.2]]
+===== Procedures
+
+The items listed below are recommended for the description of the
+procedures related to one security objective, so they should be repeated
+for each security objective described.
+
+[smallcap]#<EUCS OBJECTIVE>#:: The CAB should include the objective
+of the activity, as listed in the assessment requirements, including
+the reference from EUCS.
+
+[smallcap]#<PROCEDURE RE SUITABILITY>#:: The procedure to be executed
+for auditing the suitability of the control to fulfil the objective
+and associated requirements, as a list of audit activities, each defined
+by its nature, timing and extent.
+
+[smallcap]#<PROCEDURE RE EXISTENCE>#:: The procedure to be executed
+for auditing the existence of the control to fulfil the objective
+and associated requirements, as a list of audit activities, each defined
+by its nature, timing and extent.
+
+[smallcap]#<PROCEDURE RE OPERATING EFFECTIVENESS>#:: The procedure
+to be executed for auditing the operating effectiveness of the control
+to fulfil the objective and associated requirements, as a list of
+audit activities, each defined by its nature, timing and extent.
+
+[[sec_F.3.2.3]]
+===== Execution
+
+This section describes the execution of the audit activities and the
+results achieved, including a conclusion about the fulfilment of the
+EUCS requirements related to the security objective.
+
+[smallcap]#<SOURCES>#:: Information used and people inquired in support
+of the activities related to the objective.
+
+[smallcap]#<EVIDENCE GAINED>#:: Evidence that has been gained in the
+activities related to the objective.
+
+[smallcap]#<CONCLUSION REACHED>#:: Conclusion reached regarding the
+fulfilment of the objective and related requirements by the cloud
+service.
+
+[smallcap]#<DATE>#:: Date of the conclusion.
+
+[smallcap]#<INITIALS>#:: Initials of the auditor in charge of the
+activities.
+
+[[sec_F.4]]
+=== ASSURANCE AND EVALUATION REPORT
+
+The evaluation phase results in two reports:
+
+* The assurance report resulting from the audit of the CSP;
+
+* The evaluation report that contains the dependency analysis (if
+required), together with the final recommendation from the evaluation;
+
+[[sec_F.4.1]]
+==== Assurance report
+
+===== PRESENTATION
+
+The paragraph 'Content of the document' in this section defines the
+requirements for the "Assurance report" document.
+
+The assurance report is the report from the audit activity, which
+is then completed by the evaluation report. The assurance report shall
+contain a detailed report of the conformity assessment activities
+performed by the CAB toward demonstrating that the assessed cloud
+service meets the requirements of the scheme. The assurance report
+shall in addition include a recommendation regarding the certification
+of the assessed cloud service.
+
+A CAB shall apply these requirements when preparing the report at
+the end of the audit of the cloud service.
+
+[cols="a,a",options="unnumbered,header"]
+|===
+| Mandatory field in the template | Clarification
+
+2+| Section 1: *"Identification"* This section identifies the conformity
+assessment body in charge of the certification, and the cloud service
+being audited.
+
+| 1.1 CAB |
+| CAB identity | Identify of the CAB in charge of the certification
+| CAB contact | Identification and contact details for the lead contact
+at the CAB that will manage the evaluation process
+| Accreditation details | Details about the ability of the CAB to
+perform an audit
+| Lead auditor | Affiliation, contact information and qualification
+of the lead auditor
+| Audit team | Affiliation, contact information and qualification
+of the audit team members
+| 1.3 CSP |
+| CSP identity | Identity of the CSP requesting the evaluation.
+| CSP contact | Identification and contact details for the lead contact
+at the CSP that will support the evaluation process
+| 1.4 Cloud service |
+| Service Name | Commercial name of the CSP Cloud Service for which
+the evaluation is requested
+| Short Description | A short description of the functionality of
+'Service Name'.
+| Assurance Level | The assurance level for which the evaluation is
+requested. Valid values are Basic, Substantial and High
+| Security Profiles | The list of security profiles applicable to
+the cloud service
+| Application Type | CSP specified evaluation application type. Valid
+values are 'initial', 'periodic', 'renewal' or 'restoration'.
+| Application Period | When applicable, the period to be considered
+by the CAB for the assessment of operational effectiveness.
+| Application Number | The registration number assigned to the Application
+document upon receipt by the CAB
+
+2+| Section 2: *"CSP's Claim"* +
+This section is the CSP's management assertion the template accurately
+and fairly describes the Cloud Service and the applicable controls
+from the scheme's framework.
+
+From the Application document
+
+2+| Section 3: *"CSP's Description of its service"*
+
+This section is the CSP's assessment of the Cloud Service's implementation
+of the scheme's requirements and control framework.
+
+| Description | From the application document
+| Self-Assessment | Assessment of the conformity to EUCS requirements
+(Basic assurance level only)
+
+2+| Section 4: *"CAB's Responsibility Assertion"* This section is
+the CAB's management assertion about their responsibility.
+
+| Responsibility | Statement from the CAB
+| Scope | Scope of the audit (including references to the CSP's description
+and to the CAB's activities)
+| Disclaimers | Standard disclaimers about the audit activities
+
+2+| Section 5: *"CAB's Audit Activities and Results"* This section
+describes the CAB's audit activities and results.
+
+| 4,1 Presentation |
+| 4.2 Audit activities and results |
+| Reasonable assurance | Description and results of the audit activities
+(version for the Substantial and High levels)
+| Limited assurance | Description and results of the audit activities
+(version for the Basic level)
+| 4.3 Nonconformities |
+| Requirement reference | Reference of the EUCS security objective
+and requirement for which a nonconformity has been identified
+| Nonconformity | Description of the nonconformity
+| Severity | The severity of the nonconformity, which may be 'minor'
+or 'major'
+| Suitability of mitigation | The analysis of the mitigation proposed
+by the CSP
+
+2+| Section 6: *"CAB's conclusion"* +
+This section describes the conclusion of the CAB's audit regarding
+the suitability of the cloud service for certification
+
+| Conclusion | Conclusion about the fulfillment of EUCS requirements
+by the cloud service
+| Disclaimer | A disclaimer indicating that the conclusion needs to
+be combined with the conclusion of the evaluation report.
+
+|===
+
+===== CONTENT OF THE DOCUMENT
+
+[[sec_F.4.1.1]]
+===== Identification
+
+====== Identification of the CAB
+
+[smallcap]#<CAB IDENTITY>#::
++
+--
+The legal identity of the organisation issuing the report shall be
+provided, including at least:
+
+* Legal name of the organization;
+
+* Registration number in Chamber of Commerce or equivalent; and
+
+* Office and headquarter location;
+--
+
+If the organization operates as a subcontractor for another CAB that
+will issue the certificate, the same information shall be provided
+about that other CAB.
+
+[smallcap]#<CAB CONTACT>#:: The contact details of the responsible
+department and of the person that is legally representing the organization
+for the purpose of that audit shall be provided
+
+[smallcap]#<ACCREDITATION DETAILS>#::
++
+--
+The CAB in charge of the conformity assessment shall include the information
+related to its ability to perform an audit:
+
+* Accreditation number and notification number and contact details
+of issuing body;
+
+* If assurance level High is applicable, and Article 56(6) applies,
+a signed statement of the NCCA authorizing the CAB to perform the
+conformity assessment;
+--
+
+If the organisation issuing the report is a subcontractor of the CAB
+and has obtained a separate accreditation to perform audit work, then
+they shall provide the following information:
+
+* Accreditation number and notification number;
+
+[smallcap]#<LEAD AUDITOR>#:: The affiliation, contact information
+and qualification of the lead auditor shall be provided.
+
+[smallcap]#<AUDIT TEAM>#:: The affiliation, contact information, role
+and qualification of every member of the audit team shall be provided.
+
+====== Identification of the CSP
+
+[smallcap]#<CSP IDENTITY>#:: This item shall include the content of
+the <CSP IDENTITY> item from the Application Document.
+
+[smallcap]#<CSP CONTACT>#:: This item shall include the content of
+the <CSP CONTACT> item from the Application Document.
+
+====== Identification of the cloud service
+
+[smallcap]#<SERVICE NAME>#:: This item shall include the content of
+the <SERVICE NAME> item from the Application Document.
+
+[smallcap]#<SHORT DESCRIPTION>#:: This item shall include the content
+of the <SHORT DESCRIPTION> item from the Application Document.
+
+[smallcap]#<ASSURANCE LEVEL>#:: This item shall include the content
+of the <ASSURANCE LEVEL> item from the Application Document.
+
+[smallcap]#<SECURITY PROFILES>#:: This item shall include the content
+of the <SECURITY PROFILES> item from the Application Document.
+
+[smallcap]#<APPLICATION TYPE>#:: This item shall include the content
+of the <APPLICATION TYPE> item from the Application Document.
+
+[smallcap]#<APPLICATION PERIOD>#:: This item shall include the content
+of the <APPLICATION PERIOD> item from the Application Document.
+
+[smallcap]#<APPLICATION NUMBER>#:: This item shall contain the application
+number issued by the CAB upon reception of the Application Document.
+
+[[sec_F.4.1.2]]
+===== CSP's claim
+
+This section shall contain the CSP's claim from the Application Document.
+
+[[sec_F.4.1.3]]
+===== CSP's description of its service
+
+This section contains the information provided by the CSP about its
+cloud service.
+
+[smallcap]#<DESCRIPTION>#:: The description of the service provided
+by the CSP in the Application Document.
+
+[smallcap]#<SELF-ASSESSMENT>#:: This item is only relevant for assurance
+level Basic.
+
+This item shall include the self-assessment provided by the CSP following
+the template provided by the CAB.
+
+[[sec_F.4.1.4]]
+===== CAB's responsibility assertion
+
+This section is the CAB's assertion of their responsibility and to
+its compliance to the scheme, which shall be dated and signed.
+
+[smallcap]#<RESPONSIBILITY>#::
++
+--
+The CAB in charge of the conformity assessment shall include the information
+related to its responsibility in the audit:
+
+* A declaration of independence and quality control; and
+
+* A declaration of protection of information (confidentiality obligations
+and IP obligations).
+
+If the organisation issuing the report is a subcontractor of the CAB,
+then they shall provide the following information:
+
+* A declaration of independence and quality control; and
+
+* A declaration of protection of information (confidentiality obligations
+and IP obligations).
+--
+
+In all cases, the organisation issuing the report shall also include
+a declaration of evaluation according to the applicable rules, stating
+that the conformity assessment activities described in the report
+were performed in accordance with the requirements of the EU Cybersecurity
+Act, of the EUCS scheme and, if applicable, to authorisation requirements
+defined by the NCCA.
+
+[smallcap]#<SCOPE>#::
++
+--
+Based on the information provided earlier in the document, a short
+statement of what has been evaluated shall be provided:
+
+* Overview of the reviewed documentation,
+
+* List of on-site visits;
+
+* Overview of the testing performed; and
+
+* List of persons interviewed.
+--
+
+_The definition of the scope shall be a short summary, without the
+details provided in the description of the CAB's audit activities._
+
+[smallcap]#<DISCLAIMERS>#::
++
+--
+The assurance report shall include disclaimers that convey the information
+that:
+
+* No certification can lead to a 100% security guarantee, but only
+to a reasonable certainty that the level of security is meeting the
+requirements for the assurance level at the moment of certification
+and during the certification lifecycle;
+
+* Security controls are evaluated to the best of abilities, required
+skills and knowledge of the evaluating parties; and
+
+* There is no guarantee that certification excludes all forms of fraud,
+misleading or circumvention of controls but the EUCS scheme is aiming
+to prevent such fraudulent behaviour as much as possible.
+--
+
+[[sec_F.4.1.5]]
+===== CAB's audit activities and results
+
+====== Presentation
+
+[smallcap]#<PRESENTATION>#:: This item is optional. The CAB may include
+a presentation of the audit activities.
+
+====== Audit activities and results
+
+This section shall contain one of the two subsections listed below,
+depending on the assurance level of the conformity assessment.
+
+[[sec_F.4.1.6]]
+===== Limited assurance
+
+This section only applies to assurance level Basic.
+
+This section is to be defined.
+
+[[sec_F.4.1.7]]
+===== Reasonable assurance
+
+This section only applies to assurance level Substantial and High.
+
+The CAB shall provide the following table, which presents the CAB's
+test procedures and results per control.
+
+[cols="a,a,a",options="unnumbered,header"]
+|===
+| <CSP>'s Description of Controls
+| Applicable EUCS requirements
+| <CAB>'s Audit Activities and Results
+
+| ID -- Title of Control +
+*[Control Description]*
+| Ref. 1 +
+Ref. 2 +
+Ref. 3
+| Inquired the [...] +
+_No nonconformities identified_ +
+Inspected [...] +
+_No nonconformities identified_
+
+| ID -- Title of Control +
+*[Control Description]*
+| Ref. 1 +
+Ref. 2 +
+Ref. 3
+| Inquired the [...] +
+_No nonconformities identified_ +
+Inspected [...] +
+_No nonconformities identified_
+|===
+
+Note that the example provided above indicates "No nonconformities
+identified". In case a nonconformity is identified, it shall be noted,
+with a reference to the nonconformity's description in the following
+section.
+
+====== Nonconformities
+
+This section shall list all the nonconformities identified during
+the audit, including a summary of the analysis of the analysis performed
+by the CAB of the nonconformity and of the mitigation proposed by
+the CSP.
+
+[smallcap]#<REQUIREMENT REFERENCE>#:: This item shall include a reference
+to the objectives and requirements that are not being fulfilled.
+
+[smallcap]#<NONCONFORMITY>#:: This item shall include a description
+of the nonconformity.
+
+In the case of multiple nonconformities related to the same requirement,
+the description shall include enough information to support the analysis
+of the nonconformity's severity.
+
+[smallcap]#<SEVERITY>#:: This item shall include a summary of the
+analysis performed by the CAB to determine the severity of the nonconformity,
+as well as the conclusion (minor or major nonconformity).
+
+[smallcap]#<SUITABILITY OF MITIGATION>#:: This item shall include
+a summary of the analysis performed by the CAB to determine the suitability
+of the mitigation proposed by the CSP.
+
+For a minor nonconformity, a simple analysis of the proposed mitigation
+actions or compensating controls is sufficient. For a major nonconformity,
+the mitigations shall be implemented, and the analysis shall point
+to audit activities that verifies the success of the mitigation.
+
+_Note that the mitigation of a major nonconformity is considered successful
+is it leads to no nonconformity or to a minor nonconformity. In the
+case of a minor nonconformity, it is also listed in the section._
+
+[[sec_F.4.1.8]]
+===== CAB's conclusion
+
+This section is the conclusion about the fulfilment of EUCS requirements
+by the cloud service, to the extent determined by the audit, which
+shall be dated and signed by the lead auditor.
+
+[smallcap]#<CONCLUSION>#:: This is the conclusion of the lead auditor
+regarding the audit.
+
+_The conclusion can only be partial, since it will depend on the dependency
+analysis. More details need to be added._
+
+[smallcap]#<DISCLAIMERS>#:: TO BE DEFINED
+
+_A disclaimer will need to be added to indicate that the fulfilment
+of the EUCS requirements also depend on the dependency analysis, to
+be performed independently._
+
+[[sec_F.4.2]]
+==== Evaluation report
+
+===== PRESENTATION
+
+The paragraph 'Content of the document' in this section defines the
+requirements for the "Evaluation report" document.
+
+A CAB shall apply these requirements when preparing the report at
+the end of the audit of the cloud service.
+
+[cols="a,a",options="unnumbered,header"]
+|===
+| Mandatory field in the template | Clarification
+
+2+| Section 1: *"Identification"* +
+This section identifies the conformity assessment body in charge of
+the certification, the audit team in charge of the assurance report,
+and the cloud service being audited.
+
+Same as for the Assurance Report
+
+2+| Section 2: "*CSP's Claim*" +
+This section is the CSP's management assertion the template accurately
+and fairly describes the Cloud Service and the applicable controls
+from the scheme's framework. +
+From the Application document
+
+2+| Section 3: "*CSP's Description of its service's dependencies*"
++
+This section is the CSP's assessment of the cloud service's dependencies
+towards subservice organizations, together with a list of the available
+assurance documentation for these services.
+
+| Description | From the application document
+| Self-Assessment | Assessment of the conformity to EUCS requirements
+(Basic assurance level only)
+
+2+| Section 4: "*CAB's Responsibility Assertion*" +
+This section is the CAB's management assertion about their responsibility.
++
+Same as for the Assurance Report
+
+2+| Section 5: "*CAB's Dependency Analysis Activities and Results*" +
+This section describes the CAB's dependency analysis activities and
+results.
+
+| 5,1 Presentation | An optional presentation of the activities
+
+| 5.2 Activities and results |
+
+| Reasonable assurance | Description and results of the audit activities
+(version for the Substantial and High levels)
+| - Assurance documentation | Verification of the suitability of the
+nature of documentation available, of the framework used, of the conclusions,
+and other relevant criteria
+| - Documentation origin | Verification of the origin of the documentation
+(CAB, auditor), guarantees about competence and independence
+| - Scoping | Verification of the scope of the documentation with
+respect to the scope expected by the CSP (covering both dimensions:
+functionality and security requirements)
+| - Nonconformities | Analysis of the nonconformities indicated in
+the assurance documentation that may affect the decision
+| - Analysis | Combined analysis of all the results regarding the
+subservice provider
+| Limited assurance | Description and results of the audit activities
+(version for the Basic level)
+| 5.3 Nonconformities |
+| Requirement reference | Reference of the requirement that is not
+being fulfilled (which may also be a CSOC)
+| Nonconformity | Description of the nonconformity
+| Severity | Severity of the nonconformity
+| Suitability of mitigation | Overview of the proposed mitigation
+and of its suitability to address the nonconformity
+
+2+| Section 6: "*CAB's conclusion*" +
+This section describes the conclusion of the CAB's audit regarding
+the suitability of the cloud service for certification
+| Dependency Conclusion | The conclusion of the dependency analysis
+| Recommendation | Combined conclusion of audit and dependency analysis
+and recommendation for the certification decision
+
+|===
+
+===== CONTENT OF THE DOCUMENT
+
+[[sec_F.4.2.1]]
+===== Identification
+
+This section has the same content as the one described in the Assurance
+Report (<<sec_F.4.1.1>>)
+
+[[sec_F.4.2.2]]
+===== CSP's claim
+
+This section shall contain the CSP's claim from the Application Document.
+
+[[sec_F.4.2.3]]
+===== CSP's description of its service's dependencies
+
+[smallcap]#<DESCRIPTION>#:: This item shall contain the content of
+the <SUB SERVICES> item from the Application Document (<<sec_F.2.3.4>>).
+
+[smallcap]#<Self-Assessment>#:: This item is only relevant for assurance
+level Basic.
+
+This item shall include the self-assessment provided by the CSP following
+the template provided by the CAB for assessing the adequacy of the
+assurance documentation available and the sufficiency of the controls
+covered by that assurance documentation.
+
+[[sec_F.4.2.4]]
+===== CAB's responsibility assertion
+
+This section has the same content as the one described in the Assurance
+Report (<<sec_F.4.1.4>>)
+
+[[sec_F.4.2.5]]
+===== CAB's dependency analysis activities and results
+
+====== Presentation
+
+[smallcap]#<PRESENTATION>#:: This item is optional. The CAB may include
+a presentation of the audit activities.
+
+====== Audit activities and results
+
+This section shall contain one of the two subsections listed below,
+depending on the assurance level of the conformity assessment.
+
+*LIMITED ASSURANCE*
+
+This section only applies to assurance level Basic.
+
+This section is to be defined.
+
+*REASONABLE ASSURANCE*
+
+This section only applies to assurance level Substantial and High.
+
+The CAB shall provide the following information, which presents the
+CAB's dependency analysis activities and results.
+
+The items below need to be replicated for every subservice provider.
+
+[smallcap]#<ASSURANCE DOCUMENTATION>#::
++
+--
+This item shall include a description of the nature of the documentation
+followed by an analysis of its suitability. The following elements
+shall be considered:
+
+* Nature of the documentation (ISAE report, certificate, other) and
+type (ISAE report type, certification scheme);
+
+* Period covered, certificate validity;
+
+* Applicable framework and availability/sufficiency of mapping to
+EUCS requirements;
+
+* Sufficiency of the report for understanding the subservice organization's
+controls.
+--
+
+If the assurance documentation is an EUCS certificate, then checks
+are only required of the certificate validity and of the assurance
+level.
+
+_More information about acceptable reports and certificates and specific
+attention points for every type of report will be provided as guidance._
+
+[smallcap]#<Documentation Origin>#::
++
+--
+This item shall include a description of the organization who issued
+the report or certificate, followed by an analysis of its suitability.
+The following elements shall be considered:
+
+* Identity of the issuing organization and, if required of the lead
+auditor;
+
+* Competence of the issuing organization and lead auditor (accreditation,
+personal certification);
+
+* Independence of the issuing organization and lead auditor (accreditation,
+other indication)
+
+If the assurance documentation is an EUCS certificate, then no checks
+are required.
+--
+
+[smallcap]#<SCOPING>#::
++
+--
+This item shall include a description of the scope of the assurance
+documentation, followed by an analysis of its suitability with regard
+to the requirements (EUCS requirements, CSOCs) described by the CSP.
+The following elements shall be considered:
+
+* Systems and locations in scope that are relevant for the CSP;
+
+* Applications and services that are relevant to the CSP;
+
+* Carved-out components and other subservice providers;
+
+* Sufficiency of the scope to cover the requirements of the CSP, including
+CSOCs.
+
+If the assurance documentation is an EUCS certificate, then subservice
+providers do not need to be identified.
+--
+
+[smallcap]#<NONCONFORMITIES>#::
++
+--
+This item shall include a description of the nonconformities identified
+in the assurance documentation, followed by an analysis of their impact.
+The following elements shall be considered:
+
+* Nonconformities or deviations identified in the assurance documentation
+that may affect the CSP;
+
+* Severity or qualification of the nonconformities or deviations;
+
+* Description of proposed mitigation and opinion of the auditor.
+--
+
+[smallcap]#<ANALYSIS>#:: This item shall include an analysis that
+considers together all the activities described above in order to
+reach a conclusion about the suitability and sufficiency of the assurance
+documentation available for the subservice provider.
+
+*Nonconformities*
+
+This section shall list all the nonconformities identified during
+the audit, including a summary of the analysis of the analysis performed
+by the CAB of the nonconformity and of the mitigation proposed by
+the CSP.
+
+[smallcap]#<REQUIREMENT REFERENCE>#:: This item shall include a reference
+to the objectives and requirements that are not being fulfilled.
+
+_This item may refer to an EUCS requirement or to a CSCO defined by
+the CSP._
+
+[smallcap]#<NONCONFORMITY>#:: This item shall include a description
+of the nonconformity.
+
+In the case of multiple nonconformities related to the same requirement,
+the description shall include enough information to support the analysis
+of the nonconformity's severity.
+
+_The nonconformity is not necessarily linked to a nonconformity identified
+in assurance documentation, as it may relate to any part of the dependency
+analysis._
+
+[smallcap]#<SEVERITY>#:: This item shall include a summary of the
+analysis performed by the CAB to determine the severity of the nonconformity,
+as well as the conclusion (minor or major nonconformity).
+
+[smallcap]#<SUITABILITY OF MITIGATION>#:: This item shall include
+a summary of the analysis performed by the CAB to determine the suitability
+of the mitigation proposed by the CSP.
+
+For a minor nonconformity, a simple analysis of the proposed mitigation
+actions or compensating controls is sufficient. For a major nonconformity,
+the mitigations shall be implemented, and the analysis shall point
+to audit activities that verifies the success of the mitigation.
+
+_Note that the mitigation of a major nonconformity is considered successful
+is it leads to no nonconformity or to a minor nonconformity. In the
+case of a minor nonconformity, it is also listed in the section._
+
+[[sec_F.4.2.6]]
+===== CAB's conclusion
+
+This section is the conclusion about the fulfilment of EUCS requirements
+by the cloud service, to the extent determined by the audit, which
+shall be dated and signed by the lead auditor.
+
+[smallcap]#<DEPENDENCY CONCLUSION>#:: This is the conclusion of the
+lead auditor regarding the dependency analysis, considering all subservice
+providers.
+
+[smallcap]#<RECOMMENDATION>#:: This item shall include the final recommendation
+of the auditor, based on the conclusion of the Assurance Report and
+the conclusion of the dependency analysis. The auditor shall determine
+whether or not the cloud service meets the EUCS requirements for the
+targeted assurance level, and shall provide a recommendation regarding
+the certification of the cloud service.
+
+The recommendation shall be dated and signed by the lead auditor.
+
+[[sec_F.5]]
+=== REVIEW REPORT
+
+This is an internal document, generated during the review phase, in
+which the reviewer records the result of its review of the audit.
+
+A template will be provided later for guidance.
+
+[[sec_F.6]]
+=== CERTIFICATE PACKAGE
+
+[[sec_F.6.1]]
+==== Certificate
+
+The template for certificates will be defined later.
+
+[[sec_F.6.2]]
+==== Certification report
+
+===== PRESENTATION
+
+The paragraph 'Content of the document' in this section defines the
+requirements for the "Evaluation report" document.
+
+A CAB shall apply these requirements when preparing the certification
+report that accompanies the certificate.
+
+This document is part of the certificate package, and it is publicly
+available from CAB's and from ENISA's web sites. It contains the information
+made publicly available about the cloud service and about the result
+of the conformity assessment.
+
+_Note that the requirements on this document are likely to be strengthened
+in the future, in order to move as much as possible to a standardized
+format that simplifies the comparison of certified cloud services._
+
+[cols="a,a",options="unnumbered,header"]
+|===
+| Mandatory field in the template | Clarification
+
+2+| Section 1: *"Independent Conformity Assessment Body report"* +
+This section confirms the evaluation work done by the CAB.
+
+| Scope | Description of the scope of the evaluation
+| CSP Management Responsibilities | Description by the CAB of the
+CSP's management responsibilities in the evaluation
+| CAB responsibilities | Description by the CAB of the CAB's responsibilities
+in the evaluation and of the inherent limitations of the evaluation
+| Certification decision | Description by the CAB of the outcome of
+the evaluation, which led to the positive certification decision
+
+2+| Section 2: "*Management's report*" +
+This section is the CSP's management confirmation of its responsibilities
+and assertion of the effectiveness of the implemented controls in
+relation to the EUCS scheme's requirements.
+| CSP Management Statement | A written conformity statement by the
+management of the CSP
+
+2+| Section 3: "*Cloud service scope*" +
+This section is the CSP's assessment of the cloud service's implementation
+of the scheme's requirements.
+| Background | Information on the CSP as an organization
+| Cloud service | The cloud service in scope for the evaluation, including
+the commercial names used for the cloud service.
+| Service components | A list of the main components of the cloud
+service
+
+2+| Section 4: "*Principle Service Commitments and System Requirements*"
++
+Description of the cloud service, the CSP commitments and requirements.
+| Description | General description provided by the SP of its approach
+to cybersecurity assurance and compliance to the scheme
+| a) PhysicalInfrastructure | Description of physical structures at
+the CSP that make up the cloud service.
+| b) People | Description of (types of) personnel at the CSP involved
+in the governance and operation of the cloud service
+| c) Procedures | Description of automated and manual procedures at
+the CSP involved in the governance and operation of the cloud service
+| d) Data | Description of the data involved in the governance, operation,
+and use of the cloud service.
+| e) Confidentiality | Description by the CSP of the measures that
+support confidentiality in relation to the cloud service
+| f) Integrity | Description by the CSP of the measures that support
+integrity in relation to the cloud service
+| g) Availability | Description by the CSP of the measures that support
+availability in relation to the cloud service
+
+2+| Section 5: "*Additional information*" +
+This section includes the information required as to be transparent
+in the part of the EUCS scheme.
+| Supplementary information | The information that has to be made
+available by the Cybersecurity Act's article 55
+| Location and legal information | Information about the location
+of the storage and processing of customer data, and about applicable
+laws.
+
+|===
+
+===== CONTENT OF THE DOCUMENT
+
+[[sec_F.6.2.1]]
+===== Independent Conformity Assessment Report
+
+[smallcap]#<SCOPE>#::
++
+--
+This item shall contain a description of the scope of the evaluation,
+including at least:
+
+* The targeted assurance level
+
+* If applicable, the list of claimed security profiles
+
+* A high-level description of the certified cloud service
+--
+
+[smallcap]#<CSP MANAGEMENT RESPONSIBILITIES>#:: This item shall contain
+a description of the CAB's understanding of the CSP's responsibilities,
+drawn from the CSP management's statement including in the Application
+Document.
+
+[smallcap]#<CAB RESPONSIBILITIES>#:: This item shall contain a description
+of the CAB's own responsibilities, matching the statement provided
+in the other reports, and in particular in the Assurance Report and
+Evaluation Report.
+
+[smallcap]#<CERTIFICATION DECISION>#::
++
+--
+This item shall contain a description of the CAB's certification decision,
+including at least
+
+* A statement about how CAB has verified that the cloud service meets
+the EUCS scheme's requirements
+
+* An overview of the subservices and how they have been considered
+to contribute meeting the EUCS scheme's requirements
+
+* An overview of the nonconformities and how the proposed mitigations
+have been determined appropriate
+--
+
+[[sec_F.6.2.2]]
+===== Management's report
+
+[smallcap]#<CSP MANAGEMENT STATEMENT>#:: This item shall contain a
+CSP management statement drawn from the statement provided in the
+Application Document.
+
+[[sec_F.6.2.3]]
+===== Cloud service scope
+
+[smallcap]#<BACKGROUND>#:: This item shall contain information about
+the CSP as an organization and their commitment to cybersecurity.
+
+[smallcap]#<CLOUD SERVICE>#:: This item shall include an overview
+of the cloud service that is in scope for the certification, including
+the commercial names and the corresponding functions.
+
+[smallcap]#<SERVICE COMPONENTS>#:: This item shall include a description
+of the main components used for the development and operation of the
+cloud service.
+
+[[sec_F.6.2.4]]
+===== Principle service commitments and system requirements
+
+[smallcap]#<DESCRIPTION>#:: This item shall include a general description
+provided by the CSP of its approach to cybersecurity assurance and
+compliance to the requirements of the EUCS scheme.
+
+[smallcap]#<PHYSICAL INFRASTRUCTURE>#:: This item shall include a
+description of the physical structures at the CSP that are used to
+develop, provide and support the cloud service.
+
+[smallcap]#<PEOPLE>#:: The item shall include a description of the
+personnel (categories) and key roles at the CSP who are involved in
+the development, governance and provision of the cloud service.
+
+[smallcap]#<PROCEDURES>#:: This item shall include a description of
+the automated and manual procedures at the CSP that are involved in
+the development, governance and provision of the cloud service.
+
+[smallcap]#<DATA>#:: This item shall include a description of the
+data involved in the governance, operation and use of the cloud service.
+
+[smallcap]#<CONFIDENTIALITY>#:: This item shall include a description
+of the measures implemented by the CSP to support confidentiality
+in relation to the cloud service.
+
+[smallcap]#<INTEGRITY>#:: This item shall include a description of
+the measures implemented by the CSP to support integrity in relation
+to the cloud service.
+
+[smallcap]#<AVAILABILITY>#:: This item shall include a description
+of the measures implemented by the CSP to support availability in
+relation to the cloud service.
+
+[[sec_F.6.2.5]]
+===== Other information
+
+This section is optional.
+
+[smallcap]#<OTHER INFORMATION>#:: If present, this item shall include
+additional information that the CSP considers relevant in context
+of the certification of its cloud service.
+
+_Note that the information provide in this section needs to be accepted
+and reviewed by the CAB, like all information in the report._
+
+[[sec_F.7]]
+=== MAINTENANCE REPORTS
+
+[[sec_F.7.1]]
+==== Impact analysis report
+
+In some cases, the monitoring activities will lead to requests regarding
+potential nonconformities or vulnerabilities that will not lead to
+a conformity assessment. This report would outline the answer from
+the SP and the analysis from the CAB.
+
+[[sec_F.7.2]]
+==== Maintenance report
+
+The need for a maintenance report is still under discussion. A maintenance
+report would be a version of the certification report tailored for
+maintenance assessments. In particular, it would focus on the changes
+since the last report, to make the crucial information more easily
+accessible to scheme users.
