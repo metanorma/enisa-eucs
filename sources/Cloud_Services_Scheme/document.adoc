@@ -1,0 +1,88 @@
+= EUCS -- CLOUD SERVICES SCHEME
+:docnumber: 
+:partnumber: 
+:tc-document-number: 
+:edition: 
+:published-date: 12-2020
+:copyright-year: 2020
+:language: en
+:doctype: international-standard
+:subcommittee-type: SC
+:subcommittee-number: 4
+:secretariat: ANSI
+:keywords: cloud, service scheme
+:imagesdir: images
+:mn-document-class: enisa
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+
+include::sections/01-scheme_cloud_services.adoc[]
+
+include::sections/02-subject_matter_scope.adoc[]
+
+include::sections/03-purpose_scheme.adoc[]
+
+include::sections/04-use_of_standards.adoc[]
+
+include::sections/05-assurance_levels.adoc[]
+
+include::sections/06-self-assessment.adoc[]
+
+include::sections/07-specific_requirements.adoc[]
+
+include::sections/08-evaluation_methods_criteria.adoc[]
+
+include::sections/09-necessary_information.adoc[]
+
+include::sections/10-marks_and_labels.adoc[]
+
+include::sections/11-compliance_monitoring.adoc[]
+
+include::sections/12-certificate_management.adoc[]
+
+include::sections/13-non-compliance.adoc[]
+
+include::sections/14-new_vulnerabilities.adoc[]
+
+include::sections/15-record_retention.adoc[]
+
+include::sections/16-related_schemes.adoc[]
+
+include::sections/17-certificate_format.adoc[]
+
+include::sections/18-availability_information.adoc[]
+
+include::sections/19-certificate_validity.adoc[]
+
+include::sections/20-disclosure_policy.adoc[]
+
+include::sections/21-mutual_recognition.adoc[]
+
+include::sections/22-peer_assessment.adoc[]
+
+include::sections/23-supplementary_information.adoc[]
+
+include::sections/24-additional_topics.adoc[]
+
+include::sections/25-further_recommendations.adoc[]
+
+include::sections/26-references.adoc[]
+
+include::sections/aa-security_objectives.adoc[]
+
+include::sections/ab-meta-approach.adoc[]
+
+include::sections/ac-assessment_substantial_high.adoc[]
+
+include::sections/ad-assessment_basic.adoc[]
+
+include::sections/ae-competence_requirements_cabs.adoc[]
+
+include::sections/af-scheme_document.adoc[]
+
+include::sections/ag-certification_lifecycle.adoc[]
+
+include::sections/ah-peer_assessment.adoc[]
+
+include::sections/ai-terminology.adoc[]
+
